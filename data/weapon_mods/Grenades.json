@@ -1,0 +1,246 @@
+[
+  {
+    "internalName": "Grenade_Rgd5",
+    "name": "RGD-5",
+    "shortName": "RGD-5",
+    "description": "The RGD-5 is a post-Word War II Soviet anti-personnel fragmentation grenade still in service with many armies in the Middle East and the former Soviet bloc. Upon detonation, the RGD-5 releases deadly metal fragments in all directions, inflicting severe damage to personnel and equipment within its blast radius.",
+    "category": "Weapons",
+    "type": "Throwables",
+    "imageName": "T_Icon_Grenade_Rgd5.webp",
+    "properties": {
+      "weight": 0.31,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Grenade",
+      "grenadeType": "Fragmentation",
+      "fuseTimeMin": 3.2,
+      "fuseTimeMax": 4.2,
+      "armTime": 4.2,
+      "fragments": 350,
+      "killRadius": 0,
+      "woundRadius": 3.75,
+      "stunRadiusMin": 0.00089,
+      "stunRadiusMax": 0.00089,
+      "price": 49,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Grenade_M67",
+    "name": "M67",
+    "shortName": "M67",
+    "description": "A fragmentation hand grenade used by the United States military, the M67 is a further development of the M33, which was virtually identical but lacked a safety clip. It is typically known as a \"baseball grenade\" thanks to its spherical body and can be easily thrown. Upon detonation, it releases steel fragments that have an injury radius of over 15 meters.",
+    "category": "Weapons",
+    "type": "Throwables",
+    "imageName": "T_Icon_Grenade_M67.webp",
+    "properties": {
+      "weight": 0.4,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Grenade",
+      "grenadeType": "Fragmentation",
+      "fuseTimeMin": 4,
+      "fuseTimeMax": 5,
+      "armTime": 5,
+      "fragments": 300,
+      "killRadius": 5,
+      "woundRadius": 6.25,
+      "stunRadiusMin": 0.00133,
+      "stunRadiusMax": 0.00133,
+      "price": 61,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Grenade_M26",
+    "name": "M26",
+    "shortName": "M26",
+    "description": "A fragmentation grenade developed by the United States military and used in combat during the Korean War. Nicknamed \"lemon grenade,\" thanks to its shape, the M26 has enhanced fragmentation capabilities thanks to a notched fragmentation coil inside the grenade's body.",
+    "category": "Weapons",
+    "type": "Throwables",
+    "imageName": "T_Icon_Grenade_M26.webp",
+    "properties": {
+      "weight": 0.453,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Grenade",
+      "grenadeType": "Fragmentation",
+      "fuseTimeMin": 4,
+      "fuseTimeMax": 5,
+      "armTime": 5,
+      "fragments": 250,
+      "killRadius": 5,
+      "woundRadius": 6.25,
+      "stunRadiusMin": 0.00181,
+      "stunRadiusMax": 0.00181,
+      "price": 62,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Grenade_F1",
+    "name": "F-1",
+    "shortName": "F-1",
+    "description": "A defensive anti-personel fragmentation grenade developed by Soviets during the Second World War. Nicknamed \"limonka\" due to its shape, this grenade was designed to disperse its fragmets up to 200 meters with effective radius around 30 meters.",
+    "category": "Weapons",
+    "type": "Throwables",
+    "imageName": "T_Icon_Grenade_F1.webp",
+    "properties": {
+      "weight": 0.6,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Grenade",
+      "grenadeType": "Fragmentation",
+      "fuseTimeMin": 3.5,
+      "fuseTimeMax": 4,
+      "armTime": 4,
+      "fragments": 250,
+      "killRadius": 6,
+      "woundRadius": 7.5,
+      "stunRadiusMin": 0.001,
+      "stunRadiusMax": 0.001,
+      "price": 75,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Grenade_M18SmokeGrenade_Green",
+    "name": "M18 Smoke Grenade (Green)",
+    "shortName": "M18",
+    "description": "The M18 smoke grenade is used both as a signaling device or to to obscure unit movements. This type of smoke grenade is in use by US army since 1943, and emits green-colored smoke.",
+    "category": "Weapons",
+    "type": "Throwables",
+    "imageName": "T_Icon_Grenade_M18SmokeGrenade_Green.webp",
+    "properties": {
+      "weight": 0.539,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Grenade",
+      "grenadeType": "Smoke",
+      "fuseTimeMin": 1.2,
+      "fuseTimeMax": 2,
+      "armTime": 2,
+      "fragments": 2,
+      "killRadius": 2,
+      "woundRadius": 2,
+      "stunRadiusMin": 2,
+      "stunRadiusMax": 2,
+      "burningMax": 90,
+      "burningMin": 50,
+      "color": {
+        "B": 60,
+        "G": 127,
+        "R": 45,
+        "A": 255,
+        "Hex": "2D7F3C"
+      },
+      "price": 37,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Grenade_M18SmokeGrenade_Yellow",
+    "name": "M18 Smoke Grenade (Yellow)",
+    "shortName": "M18",
+    "description": "The M18 smoke grenade is used both as a signaling device or to to obscure unit movements. This type of smoke grenade is in use by US army since 1943, and emits yellow-colored smoke.",
+    "category": "Weapons",
+    "type": "Throwables",
+    "imageName": "T_Icon_Grenade_M18SmokeGrenade_Yellow.webp",
+    "properties": {
+      "weight": 0.539,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Grenade",
+      "grenadeType": "Smoke",
+      "fuseTimeMin": 1.2,
+      "fuseTimeMax": 2,
+      "armTime": 2,
+      "fragments": 2,
+      "killRadius": 2,
+      "woundRadius": 2,
+      "stunRadiusMin": 2,
+      "stunRadiusMax": 2,
+      "burningMax": 90,
+      "burningMin": 50,
+      "color": {
+        "B": 39,
+        "G": 228,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFE427"
+      },
+      "price": 37,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Grenade_M18SmokeGrenade_Red",
+    "name": "M18 Smoke Grenade (Red)",
+    "shortName": "M18",
+    "description": "The M18 smoke grenade is used both as a signaling device or to to obscure unit movements. This type of smoke grenade is in use by US army since 1943, and emits red-colored smoke.",
+    "category": "Weapons",
+    "type": "Throwables",
+    "imageName": "T_Icon_Grenade_M18SmokeGrenade_Red.webp",
+    "properties": {
+      "weight": 0.539,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Grenade",
+      "grenadeType": "Smoke",
+      "fuseTimeMin": 1.2,
+      "fuseTimeMax": 2,
+      "armTime": 2,
+      "fragments": 2,
+      "killRadius": 2,
+      "woundRadius": 2,
+      "stunRadiusMin": 2,
+      "stunRadiusMax": 2,
+      "burningMax": 90,
+      "burningMin": 50,
+      "color": {
+        "B": 95,
+        "G": 99,
+        "R": 255,
+        "A": 255,
+        "Hex": "FF635F"
+      },
+      "price": 37,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  }
+]

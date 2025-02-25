@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Bender";
+  font-display: swap;
+  src: url(/fonts/Bender.eot);
+  src: url(/fonts/Bender.eot?#iefix) format("embedded-opentype"), url(/fonts/Bender.woff) format("woff");
+}
+@font-face {
+  font-family: "Bender Bold";
+  src: url(/fonts/BenderBlack.otf);
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Bender";
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #0F1011;
+  color: rgb(225, 225, 225);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.mainheader {
+  text-align: center;
+  font-weight: bold;
+  padding: 25px;
+  color: #28B828;
+}
+
+.container {
+  min-height: calc(100dvh - 160px);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.tableContainer {
+  border-collapse: collapse;
+  font-family: "Bender";
+  max-width: 100dvw;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.tableContainer h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.table::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.table {
+  border-collapse: collapse;
+  font-family: "Bender";
+  max-width: 100dvw;
+  scrollbar-width: none;
+}
+.table thead {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-family: "Bender Bold";
+  position: sticky;
+  top: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.table thead th {
+  padding: 5px 8px;
+  position: sticky;
+  top: 0;
+  background: white;
+}
+.table thead th:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+.table tr,
+.table th {
+  text-align: center;
+}
+.table tbody tr:nth-child(odd) {
+  background-color: rgb(50, 50, 50);
+  color: rgb(225, 225, 225);
+}
+.table tbody tr:nth-child(even) {
+  background-color: rgb(30, 30, 30);
+  color: rgb(225, 225, 225);
+}
+.table tbody td {
+  padding: 8px 8px;
+}
+.table tbody tr {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.table tbody tr:hover {
+  background-color: rgb(15, 15, 15);
+}
+.table tbody tr td .itemIcon {
+  max-width: 75px;
+}
+.table tbody tr td .effects {
+  display: flex;
+  flex-direction: column;
+}
+.table tbody tr td .effects .effect {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.table tbody tr td .effects .effect .effectName {
+  font-weight: bold;
+}
+
+.tableMenu {
+  display: flex;
+  flex-direction: row;
+  background-color: #1E2123;
+  gap: 8px;
+  padding: 10px;
+  flex-wrap: wrap;
+  border-radius: 7px;
+}
+.tableMenu .item {
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  border-radius: 3px;
+}
+.tableMenu .item:hover {
+  background-color: #325E32;
+  color: white;
+  cursor: pointer;
+}
+.tableMenu .active {
+  background-color: #325E32;
+  color: white;
+}
+
+@media only screen and (max-width: 1150px) {
+  .table {
+    overflow: auto;
+  }
+}
+.discordBotCommands {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.discordBotCommands h2 {
+  text-align: center;
+  padding: 15px;
+}
+.discordBotCommands .command {
+  background-color: #1E2123;
+  padding: 15px;
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.discordBotCommands .command .cmdname {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.discordBotInviteLink {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #28B828;
+  padding: 10px 40px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 7px;
+  letter-spacing: 1px;
+}
+.discordBotInviteLink:hover {
+  background-color: #325E32;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

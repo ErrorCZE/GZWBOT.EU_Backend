@@ -1,0 +1,50 @@
+[
+  {
+    "internalName": "Med_IV_BloodBag_Small",
+    "name": "Small Blood Bag",
+    "shortName": "SBlood",
+    "description": "A half-liter bag of universal donor blood. This critical resource serves as a vital tool in emergency medical situations, allowing the operator to quickly administer much-needed blood transfusions without the need for blood type matching.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_IV_BloodBag_Small.webp",
+    "properties": {
+      "weight": 0.5,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Blood",
+      "blood": 500,
+      "uses": 1,
+      "price": 117,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_IV_BloodBag_Large",
+    "name": "Large Blood Bag",
+    "shortName": "LBlood",
+    "description": "A one-liter bag of universal donor blood. This critical resource serves as a vital tool in emergency medical situations, allowing the operator to quickly administer much-needed blood transfusions without the need for blood type matching.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_IV_BloodBag_Large.webp",
+    "properties": {
+      "weight": 1,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Blood",
+      "blood": 500,
+      "uses": 2,
+      "price": 235,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  }
+]

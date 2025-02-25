@@ -1,0 +1,194 @@
+[
+  {
+    "internalName": "Slide_Glock17Slide",
+    "name": "Glock 17 Slide",
+    "shortName": "G17 Slide",
+    "description": "The standard slide designed for Glock 9x19 pistols. It serves as a crucial component of the firearm's upper assembly.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Slide_Glock17Slide.webp",
+    "properties": {
+      "weight": 0.37,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Slide",
+      "reloadTime": 0,
+      "recoilControl": 0,
+      "price": 182,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Slide_Glock17L2dCombatStrippedTyton17",
+    "name": "Tyton Glock 17 Slide",
+    "shortName": "Tyton Slide",
+    "description": "A premium slide specifically crafted for the Glock 17 pistol. It offers enhanced performance while also boasting a visually striking design.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Slide_Glock17L2dCombatStrippedTyton1.webp",
+    "properties": {
+      "weight": 0.29,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Slide",
+      "reloadTime": -6,
+      "recoilControl": -8,
+      "price": 445,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Slide_Glock17N17ReptileEdcSlide",
+    "name": "N17 Reptile EDC Slide",
+    "shortName": "N17 Slide",
+    "description": "The N17 Reptile EDC Slide is a high-performance upgrade for the Glock 17 handgun, designed to improve both its functionality and aesthetics. It features a sleek, reptilian scale-like serration pattern that improves grip and manipulation in various conditions.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Slide_Glock17N17ReptileEdcSlide.webp",
+    "properties": {
+      "weight": 0.37,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Slide",
+      "reloadTime": -20,
+      "recoilControl": 0,
+      "price": 545,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Slide_Glock17SteelCityArsenalP40Warhawk",
+    "name": "P40 Warhawk Slide",
+    "shortName": "P40W Slide",
+    "description": "This slide for the Glock 17 draws inspiration from World War II with its captivating design, featuring authentic nose art from the legendary P40 Warhawk aircraft. It showcases meticulous CNC-machined rivet markings, adding an extra level of detail and character to the slide.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Slide_Glock17SteelCityArsenalP40Warhawk.webp",
+    "properties": {
+      "weight": 0.33,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Slide",
+      "reloadTime": -10,
+      "recoilControl": -4,
+      "price": 454,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Slide_Type33Slide",
+    "name": "TT-33 Slide",
+    "shortName": "T-33 Slide",
+    "description": "The TT-33 Tokarev slide originated in the Soviet Union and is made of steel, embodying the rugged reliability synonymous with Soviet firearm design. The slide features distinct serrations at the rear, designed to enhance grip and manipulation under various conditions. It houses the barrel and recoil spring assembly, orchestrating the seamless cycling of the pistol's action. The TT-33 is renowned for its robust construction and timeless design.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Slide_Type33Slide.webp",
+    "properties": {
+      "weight": 0.21,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Slide",
+      "reloadTime": 0,
+      "recoilControl": 0,
+      "price": 50,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Slide_Type51Slide",
+    "name": "Type 51 Slide",
+    "shortName": "T51 Slide",
+    "description": "The Type 51 Tokarev slide, originating from China, is made of steel, making it durable and resilient. The serrations at the rear offer enhanced grip during manipulation, and the slide itself houses the barrel and recoil spring assembly, facilitating the cycling of the pistol's action. Its robust construction and straightforward design ensure reliable functionality and ease of operation.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Slide_Type51Slide.webp",
+    "properties": {
+      "weight": 0.21,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Slide",
+      "reloadTime": 0,
+      "recoilControl": 0,
+      "price": 50,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Slide_Glock17ZaffiriPrecisionStainlessSteelSlideZps6",
+    "name": "Glock 17 ZPS.6 Slide",
+    "shortName": "ZPS.6 Slide",
+    "description": "The ZPS.6 combines sleek aesthetics with enhanced performance. Constructed from high-quality stainless steel, this precision-engineered slide offers improved durability and reliability.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Slide_Glock17ZaffiriPrecisionStainlessSteelSlideZps6.webp",
+    "properties": {
+      "weight": 0.28,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Slide",
+      "reloadTime": -6,
+      "recoilControl": -4,
+      "price": 272,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Slide_Glock17ZevZ17CitadelStrippedSlide",
+    "name": "Z17 Citadel Slide",
+    "shortName": "Z17 Slide",
+    "description": "The ZEV Z17 is a high-quality aftermarket slide designed for the Glock 17 pistol, offering enhanced performance and customization options.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Slide_Glock17ZevZ17CitadelStrippedSlide.webp",
+    "properties": {
+      "weight": 0.33,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Slide",
+      "reloadTime": -6,
+      "recoilControl": -4,
+      "price": 540,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  }
+]

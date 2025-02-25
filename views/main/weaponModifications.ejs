@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Gray Zone Warfare Bot - Weapon Modifications</title>
+	<link rel="canonical" href="https://gzwbot.eu/weapon-modifications" />
+	<link rel="stylesheet" href="/css/main.css?v=<%= cssVersion %>">
+<script src="/js/main.js"></script>
+	<meta name="description" content="Explore an arsenal of weapon attachments. From optics to suppressors, discover how each attachment affects your weapon. Optimize your loadout by understanding stats like recoil control, manipulation, weight and more.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#28B828">
+	<link rel="icon" href="/images/web/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/images/web/favicon.png" type="image/png">
+	<meta name="keywords" content="gzw, gray, zone, warfare, wiki, info, weapon modifications, weapon, modifications, mods, mod">
+	<meta name="subject" content="Gray Zone Warfare Weapon Modifications">
+	<meta name='coverage' content='Worldwide'>
+	<meta name='distribution' content='Global'>
+	<meta name='rating' content='General'>
+	<meta name='target' content='all'>
+	<meta name="audience" content="all" />
+	<meta name="topic" content="Gray Zone Warfare Weapon Modifications">
+	<meta name="summary" content="Explore an arsenal of weapon attachments. From optics to suppressors, discover how each attachment affects your weapon. Optimize your loadout by understanding stats like recoil control, manipulation, weight and more.">
+	<meta property="og:image" content="https://gzwbot.eu/images/web/gzwlogo.webp">
+	<meta property="og:title" content="Gray Zone Warfare Bot - Weapon Modifications">
+	<meta property="og:description" content="Explore an arsenal of weapon attachments. From optics to suppressors, discover how each attachment affects your weapon. Optimize your loadout by understanding stats like recoil control, manipulation, weight and more.">
+	<meta name="twitter:image" content="https://gzwbot.eu/images/web/gzwlogo.webp">
+	<meta name="twitter:title" content="Gray Zone Warfare Tools - Weapon Modifications">
+	<meta name="twitter:description" content="Explore an arsenal of weapon attachments. From optics to suppressors, discover how each attachment affects your weapon. Optimize your loadout by understanding stats like recoil control, manipulation, weight and more.">
+
+  <script src="/js/sort.js"></script>
+  <script src="/js/tableMenu.js"></script>
+
+</head>
+
+<body>
+  <%- include('./basic/header') -%>
+
+  <div class="container">
+    <h1 class="mainheader">Weapon Modifications</h1>
+    <!--  Magazine, Scope, -->
+    <div class="tableMenu">
+      <div class="item active" onclick="showTable('barrels')" data-item-id="barrels">Barrels</div>
+      <div class="item" onclick="showTable('bufferTubes')" data-item-id="bufferTubes">Buffer Tubes</div>
+      <div class="item" onclick="showTable('colimators')" data-item-id="colimators">Colimators</div>
+      <div class="item" onclick="showTable('foreGrips')" data-item-id="foreGrips">Foregrips</div>
+      <div class="item" onclick="showTable('gasBlocks')" data-item-id="gasBlocks">Gas Blocks</div>
+      <div class="item" onclick="showTable('handguards')" data-item-id="handguards">Handguards</div>
+      <div class="item" onclick="showTable('ironSights')" data-item-id="ironSights">Iron Sights</div>
+      <div class="item" onclick="showTable('muzzleDevices')" data-item-id="muzzleDevices">Muzzle Devices</div>
+      <div class="item" onclick="showTable('mounts')" data-item-id="mounts">Mounts</div>
+      <div class="item" onclick="showTable('pistolGrips')" data-item-id="pistolGrips">Pistol Grips</div>
+      <div class="item" onclick="showTable('suppressors')" data-item-id="suppressors">Suppressors</div>
+      <div class="item" onclick="showTable('upperReceivers')" data-item-id="upperReceivers">Upper Receivers</div>
+      <div class="item" onclick="showTable('slides')" data-item-id="slides">Slides</div>
+      <div class="item" onclick="showTable('stocks')" data-item-id="stocks">Stocks</div>
+      <div class="item" onclick="showTable('chargingHandles')" data-item-id="chargingHandles">Charging Handles</div>
+      <div class="item" onclick="showTable('magazines')" data-item-id="magazines">Magazines</div>
+      <div class="item" onclick="showTable('scopes')" data-item-id="scopes">Scopes</div>
+
+
+
+
+    </div>
+
+    <div class="tableContainer" id="barrelsTable">
+      <h2>Barrels</h2>
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Icon</th>
+            <th scope="col" style="text-align: left;">Name</th>
+            <th scope="col" onclick="sortTable('barrelsTable', 2)">Weight</th>
+            <th scope="col" onclick="sortTable('barrelsTable', 3)">Size</th>
+            <th scope="col" onclick="sortTable('barrelsTable', 4)">Velocity</th>
+            <th scope="col" onclick="sortTable('barrelsTable', 5)">Accuracy (MOA)</th>
+            <th scope="col" onclick="sortTable('barrelsTable', 6)">Threaded</th>
+            <th scope="col" onclick="sortTable('barrelsTable', 7)">Size Extendings</th>
+            <th scope="col" onclick="sortTable('barrelsTable', 8)">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (var i = 0; i < barrels.length; i++) { %>
+          <tr>
+            <td><img class="itemIcon" src="/images/items/<%= barrels[i].imageName || "/notfound.webp"  %>"></td>
+            <td style="text-align: left;"><%= barrels[i].name %></td>
+            <td><%= JSON.stringify(barrels[i].properties.weight) %>kg</td>
+            <td><%= JSON.stringify(barrels[i].properties.size.X) %>x<%= JSON.stringify(barrels[i].properties.size.Y) %></td>
+            <td><%= JSON.stringify(barrels[i].properties.speed) %></td>
+            <td><%= JSON.stringify(barrels[i].properties.moa) %></td>
+            <td><%= barrels[i].properties.canAddMuzzleDevice ? "Yes" : "No" %></td>
+            <td>
+              <% if (barrels[i].properties.sizeExtending) { %>
+              <% Object.keys(barrels[i].properties.sizeExtending).forEach(function(key) { %>
+              <%= key %>: <%= barrels[i].properties.sizeExtending[key] %><br>
+              <% }) %>
+              <% } else { %>
+              N/A
+              <% } %>
+            </td>
+            <td><%= JSON.stringify(barrels[i].properties.price) %></td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="tableContainer" id="bufferTubesTable" style="display: none;">
+      <h2>Buffer Tubes</h2>
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Icon</th>
+            <th scope="col" style="text-align: left;">Name</th>
+            <th scope="col" onclick="sortTable('bufferTubesTable', 2)">Weight</th>
+            <th scope="col" onclick="sortTable('bufferTubesTable', 3)">Size</th>
+            <th scope="col" onclick="sortTable('bufferTubesTable', 4)">Recoil Control</th>
+            <th scope="col" onclick="sortTable('bufferTubesTable', 5)">Size Extendings</th>
+            <th scope="col" onclick="sortTable('bufferTubesTable', 6)">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (var i = 0; i < bufferTubes.length; i++) { %>
+          <tr>
+            <td><img class="itemIcon" src="/images/items/<%= bufferTubes[i].imageName || "/notfound.webp"  %>"></td>
+            <td style="text-align: left;"><%= bufferTubes[i].name %></td>
+            <td><%= JSON.stringify(bufferTubes[i].properties.weight) %>kg</td>
+            <td><%= JSON.stringify(bufferTubes[i].properties.size.X) %>x<%= JSON.stringify(bufferTubes[i].properties.size.Y) %></td>
+            <td><%= JSON.stringify(bufferTubes[i].properties.recoilControl) %></td>
+            <td>
+              <% if (bufferTubes[i].properties.sizeExtending) { %>
+              <% Object.keys(bufferTubes[i].properties.sizeExtending).forEach(function(key) { %>
+              <%= key %>: <%= bufferTubes[i].properties.sizeExtending[key] %><br>
+              <% }) %>
+              <% } else { %>
+              N/A
+              <% } %>
+            </td>
+            <td><%= JSON.stringify(bufferTubes[i].properties.price) %></td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="tableContainer" id="colimatorsTable" style="display: none;">
+      <h2>Colimators</h2>
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Icon</th>
+            <th scope="col" style="text-align: left;">Name</th>
+            <th scope="col" onclick="sortTable('colimatorsTable', 2)">Weight</th>
+            <th scope="col" onclick="sortTable('colimatorsTable', 3)">Size</th>
+            <th scope="col" onclick="sortTable('colimatorsTable', 4)">Reticle Count</th>
+            <th scope="col" onclick="sortTable('colimatorsTable', 5)">Zeroing</th>
+            <th scope="col" onclick="sortTable('colimatorsTable', 6)">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (var i = 0; i < colimators.length; i++) { %>
+          <tr>
+            <td><img class="itemIcon" src="/images/items/<%= colimators[i].imageName || "/notfound.webp"  %>"></td>
+            <td style="text-align: left;"><%= colimators[i].name %></td>
+            <td><%= JSON.stringify(colimators[i].properties.weight) %>kg</td>
+            <td><%= JSON.stringify(colimators[i].properties.size.X) %>x<%= JSON.stringify(colimators[i].properties.size.Y) %></td>
+            <td><%= JSON.stringify(colimators[i].properties.reticleCount) %></td>
+            <td><%= colimators[i].properties.zeroingRanges.join(", ") %></td>
+            <td><%= JSON.stringify(colimators[i].properties.price) %></td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+
+	<div class="tableContainer" id="foreGripsTable" style="display: none;">
+		<h2>Foregrips</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('foreGripsTable', 2)">Weight</th>
+			  <th scope="col" onclick="sortTable('foreGripsTable', 3)">Size</th>
+			  <th scope="col" onclick="sortTable('foreGripsTable', 4)">Recoil Control</th>
+			  <th scope="col" onclick="sortTable('foreGripsTable', 5)">Manipulation</th>
+			  <th scope="col" onclick="sortTable('foreGripsTable', 6)">Arm Stamina</th>
+			  <th scope="col" onclick="sortTable('foreGripsTable', 7)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < foreGrips.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="/images/items/<%= foreGrips[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= foreGrips[i].name %></td>
+			  <td><%= JSON.stringify(foreGrips[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(foreGrips[i].properties.size.X) %>x<%= JSON.stringify(foreGrips[i].properties.size.Y) %></td>
+			  <td><%= JSON.stringify(foreGrips[i].properties.recoilControl) %></td>
+			  <td><%= JSON.stringify(foreGrips[i].properties.manipulation) %></td>
+			  <td><%= JSON.stringify(foreGrips[i].properties.armStamina) %></td>
+			  <td><%= JSON.stringify(foreGrips[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+	  <div class="tableContainer" id="gasBlocksTable" style="display: none;">
+		<h2>Gas Blocks</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('gasBlocksTable', 2)">Weight</th>
+			  <th scope="col" onclick="sortTable('gasBlocksTable', 3)">Size</th>
+			  <th scope="col" onclick="sortTable('gasBlocksTable', 4)">Muzzle Efficiency</th>
+			  <th scope="col" onclick="sortTable('gasBlocksTable', 5)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < gasBlocks.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="/images/items/<%= gasBlocks[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= gasBlocks[i].name %></td>
+			  <td><%= JSON.stringify(gasBlocks[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(gasBlocks[i].properties.size.X) %>x<%= JSON.stringify(gasBlocks[i].properties.size.Y) %></td>
+			  <td><%= JSON.stringify(gasBlocks[i].properties.muzzleEfficiency) %></td>
+			  <td><%= JSON.stringify(gasBlocks[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+	  <div class="tableContainer" id="handguardsTable" style="display: none;">
+		<h2>Handguards</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('handguardsTable', 2)">Weight</th>
+			  <th scope="col" onclick="sortTable('handguardsTable', 3)">Size</th>
+			  <th scope="col" onclick="sortTable('handguardsTable', 4)">Recoil Control</th>
+			  <th scope="col" onclick="sortTable('handguardsTable', 5)">Manipulation</th>
+			  <th scope="col" onclick="sortTable('handguardsTable', 6)">Size Extendings</th>
+			  <th scope="col" onclick="sortTable('handguardsTable', 7)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < handguards.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="/images/items/<%= handguards[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= handguards[i].name %></td>
+			  <td><%= JSON.stringify(handguards[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(handguards[i].properties.size.X) %>x<%= JSON.stringify(handguards[i].properties.size.Y) %></td>
+			  <td><%= JSON.stringify(handguards[i].properties.recoilControl) %></td>
+			  <td><%= JSON.stringify(handguards[i].properties.manipulation) %></td>
+			  <td>
+				<% if (handguards[i].properties.sizeExtending) { %>
+				<% Object.keys(handguards[i].properties.sizeExtending).forEach(function(key) { %>
+				<%= key %>: <%= handguards[i].properties.sizeExtending[key] %><br>
+				<% }) %>
+				<% } else { %>
+				N/A
+				<% } %>
+			  </td>
+			  <td><%= JSON.stringify(handguards[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+	  <div class="tableContainer" id="ironSightsTable" style="display: none;">
+		<h2>Iron Sights</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('ironSightsTable', 2)">Weight</th>
+			  <th scope="col" onclick="sortTable('ironSightsTable', 3)">Size</th>
+			  <th scope="col" onclick="sortTable('ironSightsTable', 4)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < ironSights.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="/images/items/<%= ironSights[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= ironSights[i].name %></td>
+			  <td><%= JSON.stringify(ironSights[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(ironSights[i].properties.size.X) %>x<%= JSON.stringify(ironSights[i].properties.size.Y) %></td>
+			  <td><%= JSON.stringify(ironSights[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+	  <div class="tableContainer" id="muzzleDevicesTable" style="display: none;">
+		<h2>Muzzle Devices</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('muzzleDevicesTable', 2)">Weight</th>
+			  <th scope="col" onclick="sortTable('muzzleDevicesTable', 3)">Size</th>
+			  <th scope="col" onclick="sortTable('muzzleDevicesTable', 4)">Muzzle Efficiency</th>
+			  <th scope="col" onclick="sortTable('muzzleDevicesTable', 5)">Velocity</th>
+			  <th scope="col" onclick="sortTable('muzzleDevicesTable', 6)">Accuracy (MOA)</th>
+			  <th scope="col" onclick="sortTable('muzzleDevicesTable', 7)">Mount</th>
+			  <th scope="col" onclick="sortTable('muzzleDevicesTable', 8)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < muzzleDevices.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="/images/items/<%= muzzleDevices[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= muzzleDevices[i].name %></td>
+			  <td><%= JSON.stringify(muzzleDevices[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(muzzleDevices[i].properties.size.X) %>x<%= JSON.stringify(muzzleDevices[i].properties.size.Y) %></td>
+			  <td><%= JSON.stringify(muzzleDevices[i].properties.muzzleEfficiency) %></td>
+			  <td><%= JSON.stringify(muzzleDevices[i].properties.velocityModifier) %></td>
+			  <td><%= JSON.stringify(muzzleDevices[i].properties.moaModifier) %></td>
+			  <td><%= muzzleDevices[i].properties.canAddMuzzleDevice ? "Yes" : "No" %></td>
+			  <td><%= JSON.stringify(muzzleDevices[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+
+	  <div class="tableContainer" id="mountsTable" style="display: none;">
+		<h2>Mounts</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('mountsTable', 2)">Weight</th>
+			  <th scope="col" onclick="sortTable('mountsTable', 3)">Size</th>
+			  <th scope="col" onclick="sortTable('mountsTable', 4)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < mounts.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="/images/items/<%= mounts[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= mounts[i].name %></td>
+			  <td><%= JSON.stringify(mounts[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(mounts[i].properties.size.X) %>x<%= JSON.stringify(mounts[i].properties.size.Y) %></td>
+			  <td><%= JSON.stringify(mounts[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+	  <div class="tableContainer" id="pistolGripsTable" style="display: none;">
+		<h2>Pistol Grips</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('pistolGripsTable', 2)">Weight</th>
+			  <th scope="col" onclick="sortTable('pistolGripsTable', 3)">Size</th>
+			  <th scope="col" onclick="sortTable('pistolGripsTable', 4)">Recoil Control</th>
+			  <th scope="col" onclick="sortTable('pistolGripsTable', 5)">Size Extendings</th>
+			  <th scope="col" onclick="sortTable('pistolGripsTable', 6)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < pistolGrips.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="https://gzwbot.eu/images/items/<%= pistolGrips[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= pistolGrips[i].name %></td>
+			  <td><%= JSON.stringify(pistolGrips[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(pistolGrips[i].properties.size.X) %>x<%= JSON.stringify(pistolGrips[i].properties.size.Y) %></td>
+			  <td><%= JSON.stringify(pistolGrips[i].properties.recoilControl) %></td>
+			  <td>
+				<% if (pistolGrips[i].properties.sizeExtending) { %>
+				<% Object.keys(pistolGrips[i].properties.sizeExtending).forEach(function(key) { %>
+				<%= key %>: <%= pistolGrips[i].properties.sizeExtending[key] %><br>
+				<% }) %>
+				<% } else { %>
+				N/A
+				<% } %>
+			  </td>
+			  <td><%= JSON.stringify(pistolGrips[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+	  <div class="tableContainer" id="suppressorsTable" style="display: none;">
+		<h2>Suppressors</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('suppressorsTable', 2)">Weight</th>
+			  <th scope="col" onclick="sortTable('suppressorsTable', 3)">Size</th>
+			  <th scope="col" onclick="sortTable('suppressorsTable', 4)">Manipulation</th>
+			  <th scope="col" onclick="sortTable('suppressorsTable', 5)">Muzzle Efficiency</th>
+			  <th scope="col" onclick="sortTable('suppressorsTable', 6)">Accuracy (MOA)</th>
+			  <th scope="col" onclick="sortTable('suppressorsTable', 7)">Loudness</th>
+			  <th scope="col" onclick="sortTable('suppressorsTable', 8)">Size Extendings</th>
+			  <th scope="col" onclick="sortTable('suppressorsTable', 9)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < suppressors.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="https://gzwbot.eu/images/items/<%= suppressors[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= suppressors[i].name %></td>
+			  <td><%= JSON.stringify(suppressors[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(suppressors[i].properties.size.X) %>x<%= JSON.stringify(suppressors[i].properties.size.Y) %></td>
+			  <td><%= JSON.stringify(suppressors[i].properties.manipulation) %></td>
+			  <td><%= JSON.stringify(suppressors[i].properties.muzzleEfficiency) %></td>
+			  <td><%= JSON.stringify(suppressors[i].properties.moaModifier) %></td>
+			  <td><%= JSON.stringify(suppressors[i].properties.loudness) %></td>
+			  <td>
+				<% if (suppressors[i].properties.sizeExtending) { %>
+				<% Object.keys(suppressors[i].properties.sizeExtending).forEach(function(key) { %>
+				<%= key %>: <%= suppressors[i].properties.sizeExtending[key] %><br>
+				<% }) %>
+				<% } else { %>
+				N/A
+				<% } %>
+			  </td>
+			  <td><%= JSON.stringify(suppressors[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+	  <div class="tableContainer" id="upperReceiversTable" style="display: none;">
+		<h2>Upper Receivers</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('upperReceiversTable', 2)">Weight</th>
+			  <th scope="col" onclick="sortTable('upperReceiversTable', 3)">Size</th>
+			  <th scope="col" onclick="sortTable('upperReceiversTable', 6)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < upperReceivers.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="https://gzwbot.eu/images/items/<%= upperReceivers[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= upperReceivers[i].name %></td>
+			  <td><%= JSON.stringify(upperReceivers[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(upperReceivers[i].properties.size.X) %>x<%= JSON.stringify(upperReceivers[i].properties.size.Y) %></td>
+			  <td><%= JSON.stringify(upperReceivers[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+	  <div class="tableContainer" id="slidesTable" style="display: none;">
+		<h2>Slides</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('slidesTable', 2)">Weight</th>
+			  <th scope="col" onclick="sortTable('slidesTable', 3)">Size</th>
+			  <th scope="col" onclick="sortTable('slidesTable', 4)">Recoil Control</th>
+			  <th scope="col" onclick="sortTable('slidesTable', 5)">Reload Time</th>
+			  <th scope="col" onclick="sortTable('slidesTable', 6)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < slides.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="https://gzwbot.eu/images/items/<%= slides[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= slides[i].name %></td>
+			  <td><%= JSON.stringify(slides[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(slides[i].properties.size.X) %>x<%= JSON.stringify(slides[i].properties.size.Y) %></td>
+			  <td><%= JSON.stringify(slides[i].properties.recoilControl) %></td>
+			  <td><%= JSON.stringify(slides[i].properties.reloadTime) %></td>
+			  <td><%= JSON.stringify(slides[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+	  <div class="tableContainer" id="stocksTable" style="display: none;">
+		<h2>Stocks</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('stocksTable', 2)">Weight</th>
+			  <th scope="col" onclick="sortTable('stocksTable', 3)">Size</th>
+			  <th scope="col" onclick="sortTable('stocksTable', 4)">Manipulation</th>
+			  <th scope="col" onclick="sortTable('stocksTable', 5)">Recoil Control</th>
+			  <th scope="col" onclick="sortTable('stocksTable', 6)">Size Extendings</th>
+			  <th scope="col" onclick="sortTable('stocksTable', 7)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < stocks.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="https://gzwbot.eu/images/items/<%= stocks[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= stocks[i].name %></td>
+			  <td><%= JSON.stringify(stocks[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(stocks[i].properties.size.X) %>x<%= JSON.stringify(stocks[i].properties.size.Y) %></td>
+			  <td><%= JSON.stringify(stocks[i].properties.manipulation) %></td>
+			  <td><%= JSON.stringify(stocks[i].properties.recoilControl) %></td>
+			  <td>
+				<% if (stocks[i].properties.sizeExtending) { %>
+				<% Object.keys(stocks[i].properties.sizeExtending).forEach(function(key) { %>
+				<%= key %>: <%= stocks[i].properties.sizeExtending[key] %><br>
+				<% }) %>
+				<% } else { %>
+				N/A
+				<% } %>
+			  </td>
+			  <td><%= JSON.stringify(stocks[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+	  <div class="tableContainer" id="chargingHandlesTable" style="display: none;">
+		<h2>Charging Handles</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('chargingHandlesTable', 2)">Weight</th>
+			  <th scope="col" onclick="sortTable('chargingHandlesTable', 3)">Size</th>
+			  <th scope="col" onclick="sortTable('chargingHandlesTable', 4)">Reload Time</th>
+			  <th scope="col" onclick="sortTable('chargingHandlesTable', 5)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < chargingHandles.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="https://gzwbot.eu/images/items/<%= chargingHandles[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= chargingHandles[i].name %></td>
+			  <td><%= JSON.stringify(chargingHandles[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(chargingHandles[i].properties.size.X) %>x<%= JSON.stringify(chargingHandles[i].properties.size.Y) %></td>
+			  <td><%= JSON.stringify(chargingHandles[i].properties.reloadTime) %></td>
+			  <td><%= JSON.stringify(chargingHandles[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+
+	  <div class="tableContainer" id="magazinesTable" style="display: none;">
+		<h2>Magazines</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('magazinesTable', 2)">Caliber</th>
+			  <th scope="col" onclick="sortTable('magazinesTable', 3)">Weight</th>
+			  <th scope="col" onclick="sortTable('magazinesTable', 4)">Size</th>
+			  <th scope="col" onclick="sortTable('magazinesTable', 5)">Size Extendings</th>
+			  <th scope="col" onclick="sortTable('magazinesTable', 6)">Capacity</th>
+			  <th scope="col" onclick="sortTable('magazinesTable', 7)">Reload Time</th>
+			  <th scope="col" onclick="sortTable('magazinesTable', 8)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < magazines.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="https://gzwbot.eu/images/items/<%= magazines[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= magazines[i].name %></td>
+			  <td><%= magazines[i].properties.caliber %></td>
+			  <td><%= JSON.stringify(magazines[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(magazines[i].properties.size.X) %>x<%= JSON.stringify(magazines[i].properties.size.Y) %></td>
+			  <td>
+				<% if (magazines[i].properties.sizeExtending) { %>
+				<% Object.keys(magazines[i].properties.sizeExtending).forEach(function(key) { %>
+				<%= key %>: <%= magazines[i].properties.sizeExtending[key] %><br>
+				<% }) %>
+				<% } else { %>
+				N/A
+				<% } %>
+			  </td>
+			  <td><%= JSON.stringify(magazines[i].properties.capacity) %></td>
+			  <td><%= JSON.stringify(magazines[i].properties.reloadTime) %></td>
+			  <td><%= JSON.stringify(magazines[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+	  <div class="tableContainer" id="scopesTable" style="display: none;">
+		<h2>Scopes</h2>
+		<table class="table table-striped table-sm">
+		  <thead>
+			<tr>
+			  <th scope="col">Icon</th>
+			  <th scope="col" style="text-align: left;">Name</th>
+			  <th scope="col" onclick="sortTable('scopesTable', 2)">Weight</th>
+			  <th scope="col" onclick="sortTable('scopesTable', 3)">Size</th>
+			  <th scope="col" onclick="sortTable('scopesTable', 4)">Manipulation</th>
+			  <th scope="col" onclick="sortTable('scopesTable', 5)">Lens Diameter</th>
+			  <th scope="col" onclick="sortTable('scopesTable', 6)">Multiple Zooming</th>
+			  <th scope="col" onclick="sortTable('scopesTable', 7)">Zoom Step</th>
+			  <th scope="col" onclick="sortTable('scopesTable', 8)">Zoom Min</th>
+			  <th scope="col" onclick="sortTable('scopesTable', 9)">Zoom Max</th>
+			  <th scope="col" onclick="sortTable('scopesTable', 10)">Zeroing</th>
+			  <th scope="col" onclick="sortTable('scopesTable', 11)">Price</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<% for (var i = 0; i < scopes.length; i++) { %>
+			<tr>
+			  <td><img class="itemIcon" src="https://gzwbot.eu/images/items/<%= scopes[i].imageName || "/notfound.webp"  %>"></td>
+			  <td style="text-align: left;"><%= scopes[i].name %></td>
+			  <td><%= JSON.stringify(scopes[i].properties.weight) %>kg</td>
+			  <td><%= JSON.stringify(scopes[i].properties.size.X) %>x<%= JSON.stringify(scopes[i].properties.size.Y) %></td>
+			  <td><%= JSON.stringify(scopes[i].properties.manipulation) %></td>
+			  <td><%= JSON.stringify(scopes[i].properties.lensDiameter) %></td>
+			  <td><%= scopes[i].properties.allowReticleZooming ? "True" : "False" %></td>
+			  <td><%= JSON.stringify(scopes[i].properties.zoomStep) %></td>
+			  <td><%= JSON.stringify(scopes[i].properties.zoomMin) %></td>
+			  <td><%= JSON.stringify(scopes[i].properties.zoomMax) %></td>
+			  <td><%= scopes[i].properties.zeroingRanges.join(", ") %></td>
+			  <td><%= JSON.stringify(scopes[i].properties.price) %></td>
+			</tr>
+			<% } %>
+		  </tbody>
+		</table>
+	  </div>
+
+
+
+
+
+
+
+  </div>
+
+  <%- include('./basic/footer') -%>
+</body>
+
+</html>

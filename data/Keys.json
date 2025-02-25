@@ -1,0 +1,1640 @@
+[
+  {
+    "internalName": "Key_BanPaHall",
+    "name": "Ban Pa Elder's House Key",
+    "shortName": "BP Elder",
+    "description": "A key to the Elder's House in Ban Pa.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_Whitewater_Villa2",
+    "name": "Whitewater villa 2",
+    "shortName": "WV 2",
+    "description": "Whitewater2",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_PhaLangAtticRestaurant",
+    "name": "Pha Lang Restaurant Storage Key",
+    "shortName": "PL Attic",
+    "description": "A key for the attic storage space of a restaurant in Pha Lang.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_Bunker_CorridorDStorage",
+    "name": "YBL-1 Corridor D Storage Room Key",
+    "shortName": "YBL Strg",
+    "description": "A key to the Corridor D storage room in YBL-1.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_Resort_Office",
+    "name": "Midnight Sapphire Hotel Office Key",
+    "shortName": "MSH Ofc",
+    "description": "A key to one of the offices in the Midnight Sapphire Hotel.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_ShootingRange_HotelArmory",
+    "name": "Hunter's Paradise Improvised Motel Armory Key",
+    "shortName": "HP104",
+    "description": "A key to an improvised armory in the Hunter's Paradise Motel.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_ReceptionStorage",
+    "name": "Fort Narith HQ Reception Storage Key",
+    "shortName": "FN HQRec",
+    "description": "A key to the storage room behind the reception desk at Fort Narith HQ.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_Resort_GolfClubStorage",
+    "name": "Golf Club Storage Key",
+    "shortName": "GCStor",
+    "description": "A key to the Midnight Sapphire Golf Club storage room.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_Resort_VillaGarage",
+    "name": "Villa Elena Garage Key",
+    "shortName": "ElenaGar",
+    "description": "A key to the garage of villa Elena in the Midnight Sapphire Resort.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_Bunker_MaintenanceEntrance",
+    "name": "YBL-1 Maintenance Door Key",
+    "shortName": "YBL Main",
+    "description": "A key to the maintenance entrance to YBL-1.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_SmallAirport_DrugStorageOffice",
+    "name": "Pha Lang Airfield Storage Office Key",
+    "shortName": "PLA Strg",
+    "description": "Key to the office room in the storage building at the Pha Lang Airfield",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_TigerBayHouseByThePond",
+    "name": "UNLRA Dorm Container Key",
+    "shortName": "UNDrm",
+    "description": "A key to one of the UNLRA dorm containers in Tiger bay.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_BlueLagoon_OfficeStorage",
+    "name": "Blue Lagoon Office Storage Key",
+    "shortName": "BL Office",
+    "description": "Key to storage room in Blue Lagoon office.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_TigerBayYachtclubRepairShop",
+    "name": "UNLRA HQ Lab Key",
+    "shortName": "UNLab",
+    "description": "A key for the UNLRA HQ laboratory in Tiger bay.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_HQCommsRoom",
+    "name": "Forth Narith HQ Comms Room Key",
+    "shortName": "Comms",
+    "description": "A key to the comms room in Forth Narith HQ.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_TigerBayUNLRAQuarantine",
+    "name": "UNLRA Quarantine Key",
+    "shortName": "UNQr",
+    "description": "A key for the UNLRA quarantine section in Tiger Bay.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_Ybl1WeaponStorage",
+    "name": "YBL-1 Weapon Storage Key",
+    "shortName": "YBL Wep",
+    "description": "A key to the weapon storage room in YBL-1.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_TigerBay_UnlraMedicalContainer",
+    "name": "UNLRA Medical Container Key",
+    "shortName": "UNMed",
+    "description": "A key to an UNLRA medical shipping container. in Tiger Bay",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_SmallAirport_StorageShed",
+    "name": "Airport Storage Shed Key",
+    "shortName": "PLA Shed",
+    "description": "A key to the storage shed located near the Pha Lang Airfield terminal.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_NamThavenAtticRestaurant",
+    "name": "Nam Thaven Restaurant Storage Key",
+    "shortName": "NT Attic",
+    "description": "A key for the attic storage space of a restaurant in Nam Thaven.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_NakasaColonialHouse",
+    "name": "Turncoat's House Key",
+    "shortName": "TrnHouse",
+    "description": "A key to Turncoat's house nearby Fort Narith.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_TigerBay_MainStreetHideout",
+    "name": "Improvised Bandit Lookout Key",
+    "shortName": "Lookout",
+    "description": "A key to a house used by the bandits to keep eyes on Tiger Bay Central.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_PhaLangDoctorOffice",
+    "name": "Pha Lang Doctor's Office Key",
+    "shortName": "PL Doc",
+    "description": "A key for the local doctor's office in Pha Lang.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_KiuVongsaDoctorOffice",
+    "name": "Kiu Vongsa Doctor's Office Key",
+    "shortName": "KV Doc",
+    "description": "A key for the local doctor's office in Kiu Vongsa.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_ParadiseBungallow3",
+    "name": "Paradise Bungallow 3",
+    "shortName": "PB 3",
+    "description": "Paradise3",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_KiuVongsa_UnlraOffice",
+    "name": "Kiu Vongsa UNLRA Office Key",
+    "shortName": "KV UNLRA",
+    "description": "A key to the UNLRA office in Kiu Vongsa.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_NamThaven_UnlraOffice",
+    "name": "Nam Thaven UNLRA Office Key",
+    "shortName": "NT UNLRA",
+    "description": "A key to the UNLRA office in Nam Thaven.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_PhaLang_LumberyardMaintenanceRoom",
+    "name": "Pha Lang Lumberyard Maintenance Room Key",
+    "shortName": "PL Lumber",
+    "description": "A key to the Pha Lang lumberyard maintenance room.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_KiuVongsa_LumberyardMaintenanceRoom",
+    "name": "Kiu Vongsa Lumberyard Maintenance Room Key",
+    "shortName": "KV Lumber",
+    "description": "A key to the Kiu Vongsa lumberyard maintenance room.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_NamThaven_LumberyardMaintenanceRoom",
+    "name": "Nam Thaven Lumberyard Maintenance Room Key",
+    "shortName": "NT Lumber",
+    "description": "A key to the Nam Thaven lumberyard maintenance room.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_DevKey",
+    "name": "Unknown key",
+    "shortName": "Unknown",
+    "description": "",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_OutskirtsHouseArmory",
+    "name": "Fort Narith Outskirts Improvised Armory Key",
+    "shortName": "FN OArm",
+    "description": "A key to an improvised bandit armory hidden in a house nearby Fort Narith.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_NamThavenMarketplaceOffice",
+    "name": "Nam Thaven Marketplace Office Key",
+    "shortName": "NT MarOfc",
+    "description": "A key for an office in the Nam Thaven marketplace.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_KiuVongsaAtticRestaurant",
+    "name": "Kiu Vongsa Restaurant Storage Key",
+    "shortName": "KV Attic",
+    "description": "A key for the attic storage space of a restaurant in Kiu Vongsa.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_PhaLangMarketplaceOffice",
+    "name": "Pha Lang Marketplace Office Key",
+    "shortName": "PL MarOfc",
+    "description": "A key for an office in the Pha Lang marketplace.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_Resort_VillaFantastica",
+    "name": "Villa Lusia Key",
+    "shortName": "Luisa",
+    "description": "A key to Villa Luisa in the Midnight Sapphire Resort.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_Resort_VillaAnnaJana",
+    "name": "Villa Anna Jana Key",
+    "shortName": "AnnaJana",
+    "description": "A key to villa Anna Jana in the Midnight Sapphire Resort.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_Bunker_Bedroom",
+    "name": "YBL-1 Bedroom Key",
+    "shortName": "YBL Bed",
+    "description": "A key to the first floor bedroom in YBL-1.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_SawmillOffice",
+    "name": "Sawmill Office Key",
+    "shortName": "SM Ofc",
+    "description": "A key for the office building at the Tonmai Hainy Lumber Company.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_Sawmill_OfficeStorageRoom",
+    "name": "Sawmill Office Storage Room Key",
+    "shortName": "SM OStrg",
+    "description": "A key to an office storage room at the Tonmai Hainy Lumber Company.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_Sawmill_StorageShed",
+    "name": "Sawmill Storage Shed Key",
+    "shortName": "SM Strg",
+    "description": "A key to a storage shed at the Tonmai Hainy Lumber Company.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_Barracks_C108",
+    "name": "C108 Key",
+    "shortName": "C108",
+    "description": "A key to the C108 room in Fort Narith barracks.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_Barracks_C101",
+    "name": "C101 Key",
+    "shortName": "C101",
+    "description": "A key to the C101 room in Fort Narith barracks.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_HQStorageRoom",
+    "name": "Fort Narith HQ Storage Room Key",
+    "shortName": "FN HQStrg",
+    "description": "A key to a storage room located in Fort Narith HQ.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_Barracks_A103",
+    "name": "A103 Key",
+    "shortName": "A103",
+    "description": "A key to the A103 room in Fort Narith barracks.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_NamThavenDoctorOffice",
+    "name": "Nam Thaven Doctor's Office Key",
+    "shortName": "NT Doc",
+    "description": "A key for the local doctor's office in Nam Thaven.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_ShootingRangeWeaponStorage",
+    "name": "Hunter’s Paradise Weapon Storage Key",
+    "shortName": "HP Wep",
+    "description": "A key for the weapon storage room in Hunter’s Paradise.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_ShootingRangeMotelRoomLoot",
+    "name": "Hunter’s Paradise Motel Room 101 Key",
+    "shortName": "HP 101",
+    "description": "A key to motel room 101 in Hunter’s Paradise.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_KiuVongsaMarketplaceOffice",
+    "name": "Kiu Vongsa Marketplace Office Key",
+    "shortName": "KV MarOfc",
+    "description": "A key for an office in the Kiu Vongsa marketplace.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_NamThavenMarketplaceStoreroom",
+    "name": "Nam Thaven Marketplace Storeroom Key",
+    "shortName": "NT MarStr",
+    "description": "A key for a storeroom in the Nam Thaven marketplace.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_NamThaven_HotelRoom",
+    "name": "Nam Thaven Motel Room Key",
+    "shortName": "NT Motel",
+    "description": "A key to one of the rooms in the Nam Thaven motel.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_PhaLangMarketplaceStoreroom",
+    "name": "Pha Lang Marketplace Storeroom Key",
+    "shortName": "PL MarStr",
+    "description": "A key for a storeroom in the Pha Lang marketplace.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_KiuVongsaMarketplaceStoreroom",
+    "name": "Kiu Vongsa Marketplace Storeroom Key",
+    "shortName": "KV MarStr",
+    "description": "A key for a storeroom in the Kiu Vongsa marketplace.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_HotelCleaningRoomStorage",
+    "name": "Hotel Supply Closet Key",
+    "shortName": "MS Supply",
+    "description": "A key to a supply closet in the Midnight Sapphire Hotel.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_Ybl1GeneratorRoom",
+    "name": "YBL-1 Generator Room Key",
+    "shortName": "YBL Gen",
+    "description": "A key to the generator room in YBL-1.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_TigerBay_PierStorage",
+    "name": "Pier Storage Key",
+    "shortName": "Pier",
+    "description": "A key to a storage shed located on the pier near the UNLRA camp in Tiger Bay.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_Resort_Villa4",
+    "name": "Villa Katherine Key",
+    "shortName": "Kate",
+    "description": "A key to Villa Katherine in the Midnight Sapphire Resort.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_Ybl1Office2",
+    "name": "YBL-1 Office 02 Key",
+    "shortName": "YBL Ofc2",
+    "description": "A key to office 02 in YBL-1.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_TigerBay_ImprovisedMallArmory",
+    "name": "Tiger Bay Central Armory Key",
+    "shortName": "TBC Arm",
+    "description": "A key to an improvised armory inside Tiger Bay Central.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_AirportHangar03",
+    "name": "Hangar 03 Key",
+    "shortName": "PLA03",
+    "description": "A key to Hangar 03 at the Pha Lang Airfield",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_Ybl1Office1",
+    "name": "YBL-1 Office Key 01",
+    "shortName": "YBL Ofc1",
+    "description": "A key to office 01 in YBL-1.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_TigerBay_UnlraEquipmentContainer",
+    "name": "UNLRA Equipment Container Key",
+    "shortName": "UNCon",
+    "description": "A key to an UNLRA equipment shipping container in Tiger Bay.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_PhaLang_HotelRoom",
+    "name": "Pha Lang Motel Room Key",
+    "shortName": "PL Motel",
+    "description": "A key to one of the rooms in the Pha Lang motel.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_KiuVongsa_HotelRoom",
+    "name": "Kiu Vongsa Motel Room Key",
+    "shortName": "KV Motel",
+    "description": "A key to one of the rooms in the Kiu Vongsa motel.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_BanPaFishingHut",
+    "name": "Ban Pa Fishing Hut Key",
+    "shortName": "BP Hut",
+    "description": "A key to one of the fishing huts in Ban Pa.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_BlueLagoonOldWarehouse",
+    "name": "Blue Lagoon Shack Key",
+    "shortName": "BL Shack",
+    "description": "A key to the back room of an old shack in the Blue Lagoon.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_BlueLagoonRestaurantStorage",
+    "name": "Blue Lagoon Restaurant Storage Key",
+    "shortName": "BL Strg",
+    "description": "A key to a storage room of a restaurant in the Blue Lagoon.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_PhaLang_UnlraOffice",
+    "name": "Pha Lang UNLRA Office Key",
+    "shortName": "PL UNLRA",
+    "description": "A key to the UNLRA office in Pha Lang.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_OutskirtsMotelArmory",
+    "name": "Fort Narith Motel Improvised Armory Key",
+    "shortName": "FN Motel",
+    "description": "A key to a motel in the Fort Narith outskirts.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_GarageOffice",
+    "name": "Fort Narith Garage Office Key",
+    "shortName": "FN GOfc",
+    "description": "A key to the garage office in Fort Narith.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_Barracks_A210",
+    "name": "A210 Key",
+    "shortName": "A210",
+    "description": "A key to the A210 room in Fort Narith barracks.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_ShootingRangeOffice",
+    "name": "Fort Narith Shooting Range Office Key",
+    "shortName": "FN SROfc",
+    "description": "A key to the shooting range office in Fort Narith.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_DumpStorage",
+    "name": "Fort Narith Dumping Ground Storage Shed Key",
+    "shortName": "FN Dump",
+    "description": "A key to a shed located in the dumping ground north of Fort Narith.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_Barracks_A208",
+    "name": "A208 Key",
+    "shortName": "A208",
+    "description": "A key to the A208 room in Fort Narith barracks.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_MilitaryBase_Barracks_A102",
+    "name": "A102 Key",
+    "shortName": "A102",
+    "description": "A key to the A102 room in Fort Narith barracks.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_ParadiseBungallow5",
+    "name": "Paradise Bungallow 5",
+    "shortName": "PB 5",
+    "description": "Paradise5",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Key_BanPaWarehouse",
+    "name": "Ban Pa Warehouse Key",
+    "shortName": "BP Ware",
+    "description": "A key to a warehouse in Ban Pa.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Key_ShootingRangeMotelRoomRevolver",
+    "name": "Hunter’s Paradise Motel Room 102 Key",
+    "shortName": "HP 102",
+    "description": "A key to motel room 102 in Hunter’s Paradise.",
+    "category": "AccessItems",
+    "type": "Keys",
+    "imageName": "",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Key",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  }
+]

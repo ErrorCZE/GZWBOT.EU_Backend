@@ -1,0 +1,239 @@
+@font-face {
+    font-family: "Bender";
+    font-display: swap;
+    src: url(/fonts/Bender.eot);
+    src: url(/fonts/Bender.eot?#iefix) format("embedded-opentype"), url(/fonts/Bender.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Bender Bold";
+    src: url(/fonts/BenderBlack.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Bender";
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #0F1011;
+    color: rgb(225, 225, 225);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.mainheader {
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+    color: #28B828;
+}
+
+
+.container {
+    min-height: calc(100dvh - 160px);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+.tableContainer {
+    border-collapse: collapse;
+    font-family: "Bender";
+    max-width: 100dvw;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    h2 {
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+
+.table::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.table {
+    border-collapse: collapse;
+    font-family: "Bender";
+    max-width: 100dvw;
+    scrollbar-width: none;
+
+    thead {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        font-family: "Bender Bold";
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+
+        th {
+            padding: 5px 8px;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            background: white;
+
+            &:hover {
+                cursor: pointer;
+                color: white;
+                background-color: black;
+            }
+        }
+
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+
+
+    tr,
+    th {
+        text-align: center;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: rgb(50, 50, 50);
+        color: rgb(225, 225, 225);
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: rgb(30, 30, 30);
+        color: rgb(225, 225, 225);
+    }
+
+    tbody td {
+        padding: 8px 8px;
+    }
+
+    tbody tr {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        &:hover {
+            background-color: rgb(15, 15, 15);
+        }
+
+        td {
+            .itemIcon {
+                max-width: 75px;
+            }
+
+            .effects {
+                display: flex;
+                flex-direction: column;
+
+                .effect {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 5px;
+
+                    .effectName {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.tableMenu {
+    display: flex;
+    flex-direction: row;
+    background-color: #1E2123;
+    gap: 8px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border-radius: 7px;
+
+    .item {
+        background-color: white;
+        color: black;
+        padding: 5px 20px;
+        border-radius: 3px;
+
+        &:hover {
+            background-color: #325E32;
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+    .active {
+        background-color: #325E32;
+        color: white;
+    }
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+
+    .table {
+        overflow: auto;
+    }
+}
+
+
+
+
+.discordBotCommands {
+    h2 {
+        text-align: center;
+        padding: 15px;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    .command {
+        background-color: #1E2123;
+        padding: 15px;
+        gap: 15px;
+        display: flex;
+        flex-direction: row;
+
+        .cmdname {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}
+
+.discordBotInviteLink {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #28B828;
+    padding: 10px 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 7px;
+    letter-spacing: 1px;
+
+    &:hover {
+        background-color: #325E32;
+        color: white;
+    }
+
+}

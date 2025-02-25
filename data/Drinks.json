@@ -1,0 +1,452 @@
+[
+  {
+    "internalName": "Prov_Drink_EnergyDrinkCan",
+    "name": "Power Energy Fuel",
+    "shortName": "EDrink",
+    "description": "Revitalize with Power Energy Fuel, a dynamic and invigorating blend crafted to ignite your day with a surge of vitality and focus! Warning: Frequent consumption may cause restlessness, insomnia, paranoia, and heart palpitations.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_EnergyDrinkCan.webp",
+    "properties": {
+      "weight": 0.47,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0.099999994,
+      "hydrationPerSec": 0.5,
+      "price": 4,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Prov_Drink_Gatorade",
+    "name": "NuKlear Energy: Meltdown Mango",
+    "shortName": "EDrink",
+    "description": "Unleash the explosive potential of NuKlear Energy's Meltdown Mango, a cold fusion of vibrant flavor and rejuvenating power that keeps you fully charged and refreshed! NuKlear Energy - It's got electrolytes!",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_Gatorade.webp",
+    "properties": {
+      "weight": 0.34,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0.049999997,
+      "hydrationPerSec": 0.25,
+      "price": 4,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Drink_Water1L",
+    "name": "Aques Water 1 l",
+    "shortName": "Water",
+    "description": "With a crystal-clear appearance, Aques Water invites you to quench your thirst with its pristine taste. Every sip delivers a crisp and clean sensation that rejuvenates your senses, making it a perfect companion for any occasion.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_Water1L.webp",
+    "properties": {
+      "weight": 1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0,
+      "hydrationPerSec": 0.25,
+      "price": 5,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Prov_Drink_Water15L",
+    "name": "Aques Water 1.5 l",
+    "shortName": "Water",
+    "description": "With a crystal-clear appearance, Aques Water invites you to quench your thirst with its pristine taste. Every sip delivers a crisp and clean sensation that rejuvenates your senses, making it a perfect companion for any occasion.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_Water15L.webp",
+    "properties": {
+      "weight": 1.5,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0,
+      "hydrationPerSec": 0.25,
+      "price": 6,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Prov_Drink_LemonSoda",
+    "name": "Touchdown Lemon Soda",
+    "shortName": "Soda",
+    "description": "Embrace the zing of citrus with this invigorating soda, offering a burst of tangy lemon flavor that definitely hits the spot!",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_LemonSoda.webp",
+    "properties": {
+      "weight": 0.33,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0,
+      "hydrationPerSec": 0.19999999,
+      "price": 2,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Drink_LycheeNectar",
+    "name": "Kaipo Lychee Nectar",
+    "shortName": "Nectar",
+    "description": "Kaipo Lychee Nectar brings you the cherished sweetness of lychee, captured in this delightful nectar! It may also be used as a medium-strong adhesive.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_LycheeNectar.webp",
+    "properties": {
+      "weight": 0.4,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0,
+      "hydrationPerSec": 0.25,
+      "price": 3,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Drink_IsotonicDrink",
+    "name": "Infinity Isotonic Drink",
+    "shortName": "IDrink",
+    "description": "To infinity and... even further! This drink offers a balanced blend of electrolytes and refreshing flavors, ensuring endurance and vitality for every moment.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_IsotonicDrink.webp",
+    "properties": {
+      "weight": 0.33,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0.049999997,
+      "hydrationPerSec": 0.29999998,
+      "price": 4,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Drink_IcedCoffee",
+    "name": "Dark Star Iced Coffee",
+    "shortName": "Coffee",
+    "description": "A bold fusion of rich, dark-roasted coffee and icy refreshment. This chilled delight offers a robust coffee experience with a smooth, invigorating finish, perfect for those seeking a cool caffeine boost.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_IcedCoffee.webp",
+    "properties": {
+      "weight": 0.2,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0.049999997,
+      "hydrationPerSec": 0.35,
+      "price": 4,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Drink_ThumsUpCola",
+    "name": "Sunrise Cola",
+    "shortName": "Cola",
+    "description": "Cherish every sunrise in paradise with the bold taste of our premium cola.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_ThumsUpCola.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0,
+      "hydrationPerSec": 0.25,
+      "price": 3,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Drink_LocalWater06L",
+    "name": "Noakon Water 0.6 l",
+    "shortName": "Water",
+    "description": "Pure and crisp, sourced from the pristine depths of our beautiful nature. Refreshing as a mountain spring and clean as our glorious rivers, the Noakon Drinking Water brings you closer to home with every sip. Warning: Not recommended to be consumed by foreigners.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_LocalWater06L.webp",
+    "properties": {
+      "weight": 0.6,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0,
+      "hydrationPerSec": 0.19999999,
+      "price": 2,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Drink_CoconutJuiceDrink",
+    "name": "Coco Jumbo Coconut Juice Drink",
+    "shortName": "CDrink",
+    "description": "This thirst-quenching drink captures the natural sweetness of coconut, offering a refreshing and hydrating experience!",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_CoconutJuiceDrink.webp",
+    "properties": {
+      "weight": 0.24,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0,
+      "hydrationPerSec": 0.19999999,
+      "price": 2,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Drink_LocalIcedTea",
+    "name": "Maknav Iced Tea",
+    "shortName": "IcedTea",
+    "description": "Blending the natural essence of tea leaves with a subtle sweetness, Maknav Iced Tea offers a cooling, flavorful experience that's perfect for a relaxed moment of refreshment.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_LocalIcedTea.webp",
+    "properties": {
+      "weight": 0.95,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0,
+      "hydrationPerSec": 0.29999998,
+      "price": 6,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Drink_LocalWater15L",
+    "name": "Noakon Water 1.5 l",
+    "shortName": "Water",
+    "description": "Pure and crisp, sourced from the pristine depths of our beautiful nature. Refreshing as a mountain spring and clean as our glorious rivers, the Noakon Drinking Water brings you closer to home with every sip. Warning: Not recommended to be consumed by foreigners.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_LocalWater15L.webp",
+    "properties": {
+      "weight": 1.5,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0,
+      "hydrationPerSec": 0.25,
+      "price": 6,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Drink_SodaDrink2L",
+    "name": "Riminda Green Bubbly Bliss",
+    "shortName": "Soda",
+    "description": "A fusion of crisp green notes and sparkling bubbles, Riminda offers a vibrant and refreshing experience that invigorates the senses with every taste!",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_SodaDrink2L.webp",
+    "properties": {
+      "weight": 2,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0,
+      "hydrationPerSec": 0.29999998,
+      "price": 8,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Drink_ColaDrink2L",
+    "name": "Sunrise Cola",
+    "shortName": "Cola",
+    "description": "Cherish every sunrise in paradise with the bold taste of our premium cola.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_ColaDrink2L.webp",
+    "properties": {
+      "weight": 2,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0,
+      "hydrationPerSec": 0.29999998,
+      "price": 8,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Drink_LocalWater2L",
+    "name": "White Orchid Crystal Water 2 l",
+    "shortName": "Water",
+    "description": "Indulge in the pure elegance of this pristine water. Crystalline in clarity and smooth in taste, it embodies a refined essence, offering a refreshing and hydrating experience.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_LocalWater2L.webp",
+    "properties": {
+      "weight": 2,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0,
+      "hydrationPerSec": 0.25,
+      "price": 8,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Drink_GrayFocusedEnergy",
+    "name": "Gray Focused Energy",
+    "shortName": "Gray",
+    "description": "Special edition of the popular dietary supplement, now in a ready-to-drink can! Indulge in the refreshing lemonade flavor and give yourself that extra boost to face whatever comes your way. Blend in to stand out.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_GrayFocusedEnergy.webp",
+    "properties": {
+      "weight": 0.4,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0.14999999,
+      "hydrationPerSec": 0.59999996,
+      "price": 6,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Prov_Drink_LocalWater1L",
+    "name": "Noakon Water 1 l",
+    "shortName": "Water",
+    "description": "Pure and crisp, sourced from the pristine depths of our beautiful nature. Refreshing as a mountain spring and clean as our glorious rivers, the Noakon Drinking Water brings you closer to home with every sip. Warning: Not recommended to be consumed by foreigners.",
+    "category": "Provisions",
+    "type": "Drinks",
+    "imageName": "T_Icon_Prov_Drink_LocalWater1L.webp",
+    "properties": {
+      "weight": 1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Drink",
+      "duration": 1,
+      "energyPerSec": 0,
+      "hydrationPerSec": 0.25,
+      "price": 4,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  }
+]

@@ -1,0 +1,653 @@
+[
+  {
+    "internalName": "QuestItem_SuppliesForPoor",
+    "name": "Box of Supplies",
+    "shortName": "Supplies",
+    "description": "A box full of various items intended to bring relief to the locals.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_UNSupplies.webp",
+    "properties": {
+      "weight": 2,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "QuestItem",
+      "price": 50,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_WeirdBook",
+    "name": "Weird Book",
+    "shortName": "Book",
+    "description": "A book filled with strange drawings and cryptic symbols. Looks that it's bound in human flesh and inked in blood, but it's probably just faux leather and red ink.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_WeirdBook.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 428,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_GoodbyeLetter",
+    "name": "Goodbye Letter",
+    "shortName": "Letter",
+    "description": "This letter contains heartfelt goodbye and an explanation of the man's actions - he offered himself as a human target in order to provide for his family.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_OfficialLetter.webp",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 428,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_IntelFolder",
+    "name": "Intelligence Folder",
+    "shortName": "Intel",
+    "description": "A folder containing info about some sort of arms deal between the local criminal elements and the LAF.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_IntelFolder.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_SecurityFootage",
+    "name": "Security Footage",
+    "shortName": "Footage",
+    "description": "This footage identifies the current inhabitants of YBL-1 as the Lamang Liberation Army.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_SecurityFootage.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_PrisonerFolder",
+    "name": "Prisoner Info Folder",
+    "shortName": "Folder",
+    "description": "This folder contains information on the prisoner. He was processed here and transported to an unknown location.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_PrisonerFolder.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_CameraWiretap",
+    "name": "Camera Wiretap",
+    "shortName": "Wiretap",
+    "description": "A device that can be used to tap into any survaillance stream.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_CameraWiretap.webp",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 150,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_PoisonVial",
+    "name": "Poison Vial",
+    "shortName": "Poison",
+    "description": "Contains a potent water-solluable toxin.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_PoisonVial.webp",
+    "properties": {
+      "weight": 0.02,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 200,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_Codebook",
+    "name": "Army Codebook",
+    "shortName": "Codes",
+    "description": "This book contains information how to obtain decryptying keys.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_Codebook.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 428,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_WrittenOrders",
+    "name": "Evacuation Orders",
+    "shortName": "Orders",
+    "description": "Contains orders to not let the majority of civilians evacuate. The reasoning for that is unknown.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_HandwrittenNotes.webp",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_CommanderDetails",
+    "name": "Commander Details Folder",
+    "shortName": "Folder",
+    "description": "Details about the new commander of Fort Narith. It looks like he was appoointed just a few weeks prior to the Event, and is not from Lamang.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_TurncoatFolder",
+    "name": "Personal Folder",
+    "shortName": "Folder",
+    "description": "A personal folder of Nuon Bintang. Apparently, he used to be Fort Narith's former commander and was subsequently dishonorably discharged for a multitude of very shady deals.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_IntelFolder.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_PatrolSchedule",
+    "name": "Military Patrol Schedule",
+    "shortName": "Schedule",
+    "description": "Contains all the patrol routes and assigned soldiers.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_ArrestOrders",
+    "name": "Arrest Warrant",
+    "shortName": "Warrant",
+    "description": "An arrest warrant for Artisan's former colleague.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_UNSupplies",
+    "name": "UNLRA Medical Supplies",
+    "shortName": "Supplies",
+    "description": "This box contains various medical supplies used to support both the UNLRA and the local populace.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_UNSupplies.webp",
+    "properties": {
+      "weight": 5,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_AttrocityRecording",
+    "name": "Horrific Recordings",
+    "shortName": "Record",
+    "description": "Contains inhumane scenes of torture and death.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_MedicalRecords.webp",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_DetonatorCase",
+    "name": "Detonator Case",
+    "shortName": "DCase",
+    "description": "A case containing prepared detonators to be used with the fertilizer bombs.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_RevolverCase.webp",
+    "properties": {
+      "weight": 5,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_StraussFolder",
+    "name": "Interrogation Orders",
+    "shortName": "Folder",
+    "description": "Contains orders to interogate an unknown PMC-affiliated prisoner. At the end, the folder contains information that the prisoner has escaped, and an order for recapture was given.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_IntelFolder.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_StraussTranscript",
+    "name": "Interrogation Transcript",
+    "shortName": "Transcript",
+    "description": "Details the little bits of information that were possible to be extracted from the stubborn prisoner. Apperently he belongs to a PMC operating from withing Ground Zero.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_ShootingGuestsList",
+    "name": "Guest List",
+    "shortName": "List",
+    "description": "This list contains names of guests and what services they purchased.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_GolfClubs",
+    "name": "Precious Golf Club",
+    "shortName": "GClub",
+    "description": "Extremely valuable golf club. It is truly priceless.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_GolfClubs.webp",
+    "properties": {
+      "weight": 5,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 3
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_MedicDiary",
+    "name": "Doctor's Diary",
+    "shortName": "Diary",
+    "description": "A diary of a local doctor who got left behind during the evacuation. A couple of the last entries mention a \"female PMC medical officer\" who was helping him by stashing supplies outside of the PMC base camp.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_Girl_Diary.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 428,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_CriminalNotes",
+    "name": "Convict's Notepad",
+    "shortName": "Notepad",
+    "description": "A notepad belonging to one of the criminals who got left behind on the island.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_CriminalNotes.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 428,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_BlueLagoonNotes",
+    "name": "List of Names",
+    "shortName": "List",
+    "description": "This note contains names of kindapped people who were being transported to various places. Namely the Midnight Sapphire and Tiger Bay \"processing\".",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_BlueLagoonNotes.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_BoxFullOfPassports",
+    "name": "Box of Passports",
+    "shortName": "Passports",
+    "description": "",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_BoxFullOfPassports.webp",
+    "properties": {
+      "weight": 1.5,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_BiologicalSampleTakingKit",
+    "name": "Sample Collection Kit",
+    "shortName": "Kit",
+    "description": "This kit is used to safely collect various samples. ",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_Questitem_BiologicalSampleTakingKit.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 100,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_DirtyIntel2",
+    "name": "Lost Smartphone",
+    "shortName": "Smartphone",
+    "description": "Contains a lot of questionable materials and is not password protected.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_IntelFolder.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_DirtyIntel3",
+    "name": "Politican's Flashdrive",
+    "shortName": "FlashD",
+    "description": "Whatever is recorded on this flashdrive is certainly illegal in most of the civilized world.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_IntelFolder.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Questitem_FalseIntel",
+    "name": "Fake Intel",
+    "shortName": "Intel",
+    "description": "Intel containing deceptive information to confuse the enemy and benefit the PMC.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_CigarsResort",
+    "name": "Precious Cigars",
+    "shortName": "Cigars",
+    "description": "Very valuable cigars. Maybe no one will notice if you take one for a job well done?",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "T_Icon_QuestItem_GoldResort.webp",
+    "properties": {
+      "weight": 5,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "QuestItem_FlightPlans",
+    "name": "Pilot Logbook",
+    "shortName": "Log",
+    "description": "Contains all the routes undertaken by pilots in recent years.",
+    "category": "Quests",
+    "type": "QuestItems",
+    "imageName": "",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "QuestItem",
+      "price": 1,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  }
+]

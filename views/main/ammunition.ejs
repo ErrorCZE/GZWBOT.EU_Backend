@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gray Zone Warfare Bot - Ammo Chart</title>
+  <link rel="canonical" href="https://gzwbot.eu/ammunition" />
+  <link rel="stylesheet" href="/css/main.css?v=<%= cssVersion %>">
+<script src="/js/main.js"></script>
+  <meta name="description" content="Explore a comprehensive Gray Zone Warfare guide to ammunition types, ballistics, and safety practices with our ammo table. Learn about various calibers, bullet designs, and their applications.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#28B828">
+  <link rel="icon" href="/images/web/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/web/favicon.png" type="image/png">
+  <meta name="keywords" content="gzw, gray, zone, warfare, chart, ammo chart, wiki, ammo, items, medical, tutorial, key, ammunition table, ammo, table, ammo table">
+  <meta name="subject" content="Gray Zone Warfare Ammunition Table">
+  <meta name='coverage' content='Worldwide'>
+  <meta name='distribution' content='Global'>
+  <meta name='rating' content='General'>
+  <meta name='target' content='all'>
+  <meta name="audience" content="all" />
+  <meta name="topic" content="Gray Zone Warfare Ammunition Table">
+  <meta name="summary" content="Explore a comprehensive Gray Zone Warfare guide to ammunition types, ballistics, and safety practices with our ammo table. Learn about various calibers, bullet designs, and their applications.">
+  <meta property="og:image" content="https://gzwbot.eu/images/web/gzwlogo.webp">
+  <meta property="og:title" content="Gray Zone Warfare Bot - Ammunition Table">
+  <meta property="og:description" content="Explore a comprehensive Gray Zone Warfare  guide to ammunition types, ballistics, and safety practices with our ammo table. Learn about various calibers, bullet designs, and their applications.">
+  <meta name="twitter:image" content="https://gzwbot.eu/images/web/gzwlogo.webp">
+  <meta name="twitter:title" content="Gray Zone Warfare Tools - Ammunition Table">
+  <meta name="twitter:description" content="Explore a comprehensive Gray Zone Warfare guide to ammunition types, ballistics, and safety practices with our ammo table. Learn about various calibers, bullet designs, and their applications.">
+
+  <script>
+    function sortTable(columnIndex) {
+      var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+      table = document.getElementById("ammoTable");
+      switching = true;
+      dir = "asc";
+      while (switching) {
+        switching = false;
+        rows = table.getElementsByTagName("tr");
+        for (i = 1; i < (rows.length - 1); i++) {
+          shouldSwitch = false;
+          x = rows[i].getElementsByTagName("td")[columnIndex];
+          y = rows[i + 1].getElementsByTagName("td")[columnIndex];
+          if (dir == "asc") {
+            if (parseFloat(x.innerHTML) > parseFloat(y.innerHTML)) {
+              shouldSwitch = true;
+              break;
+            }
+          } else if (dir == "desc") {
+            if (parseFloat(x.innerHTML) < parseFloat(y.innerHTML)) {
+              shouldSwitch = true;
+              break;
+            }
+          }
+        }
+        if (shouldSwitch) {
+          rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+          switching = true;
+          switchcount++;
+        } else {
+          if (switchcount == 0 && dir == "asc") {
+            dir = "desc";
+            switching = true;
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <%- include('./basic/header') -%>
+
+  <div class="container">
+    <h1 class="mainheader">Ammunition Table</h1>
+
+    <div class="table" id="wrapper">
+      <table id="ammoTable" class="table">
+        <thead>
+          <tr>
+            <th scope="col">Icon</th>
+            <th scope="col" style="text-align: left;">Name</th>
+            <th scope="col" onclick="sortTable(2)">Max Stack</th>
+            <th scope="col" onclick="sortTable(3)">Projectile Weight</th>
+            <th scope="col" onclick="sortTable(4)">Velocity</th>
+            <th scope="col" onclick="sortTable(5)">Kinetic Energy</th>
+            <th scope="col" onclick="sortTable(6)">Ballistics Coefficient</th>
+            <th scope="col" onclick="sortTable(7)">Com Shift</th>
+            <th scope="col" onclick="sortTable(8)">Pressure Limit Jacket</th>
+            <th scope="col" onclick="sortTable(9)">Pressure Limit Core</th>
+            <th scope="col" onclick="sortTable(10)">Shape Max Ratio</th>
+            <th scope="col" onclick="sortTable(11)">MOA</th>
+            <th scope="col" onclick="sortTable(12)">MOA Modifier</th>
+            <th scope="col" onclick="sortTable(13)">Buy</th>
+            <th scope="col" onclick="sortTable(14)">Sell</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (var i = 0; i < ammoStats.length; i++) { %>
+          <tr id="<%= ammoStats[i].properties.caliber %>">
+            <td><img class="itemIcon" src="/images/items/<%= ammoStats[i].imageName || "/notfound.webp"  %>"></td>
+            <td style="text-align: left;"><%= ammoStats[i].name %></td>
+            <td><%= JSON.stringify(ammoStats[i].properties.maxStack) %></td>
+            <td><%= JSON.stringify(ammoStats[i].properties.projectileWeight) %></td>
+            <td><%= JSON.stringify(ammoStats[i].properties.velocity) %></td>
+            <td><%= JSON.stringify(ammoStats[i].properties.kineticEnergy) %></td>
+            <td><%= JSON.stringify(ammoStats[i].properties.ballisticsCoefficient) %></td>
+            <td><%= JSON.stringify(ammoStats[i].properties.comShift) %></td>
+            <td><%= JSON.stringify(ammoStats[i].properties.pressureLimitJacket) %></td>
+            <td><%= JSON.stringify(ammoStats[i].properties.pressureLimitCore) %></td>
+            <td><%= JSON.stringify(ammoStats[i].properties.shapeMaxRatio) %></td>
+            <td><%= JSON.stringify(ammoStats[i].properties.moa) %></td>
+            <td><%= JSON.stringify(ammoStats[i].properties.moaModifier) %></td>
+            <td><%= JSON.stringify(ammoStats[i].properties.price) %></td>
+            <td><%= Math.round(ammoStats[i].properties.price * ammoStats[i].properties.sellRate) %></td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <%- include('./basic/footer') -%>
+</body>
+
+</html>

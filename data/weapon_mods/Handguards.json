@@ -1,0 +1,965 @@
+[
+  {
+    "internalName": "Handguard_AkRomanianDong",
+    "name": "AK Handguard \"Romanian Dong\"",
+    "shortName": "Dong HG",
+    "description": "The AK handguard with reverse dong lower handguard is an authentic Romanian military component prized for its durability and authenticity. It is highly sought after by enthusiasts seeking to enhance or restore their firearms with genuine military surplus parts.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_AkRomanianDong.webp",
+    "properties": {
+      "weight": 0.25,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -2,
+      "recoilControl": 4,
+      "price": 67,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Handguard_AkRomanianShark",
+    "name": "AK Handguard \"Romanian Shark\"",
+    "shortName": "Shark HG",
+    "description": "The Romanian 'shark fin' handguard is a unique component found on certain variants of Romanian AK-pattern rifles. Its sleek and angular profile resembles the dorsal fin of a shark, hence the name. While enhancing the rifle's appearance, the shark fin handguard also upholds functionality and durability. This unique feature is highly coveted by enthusiasts seeking to customize or upgrade their AK rifles with authentic Romanian components.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_AkRomanianShark.webp",
+    "properties": {
+      "weight": 0.245,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -2,
+      "recoilControl": 2,
+      "price": 67,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Handguard_AkPolymerWithPicatinnyRail",
+    "name": "AK Polymer Handguard with Picatinny Rail",
+    "shortName": "AK RIS HG",
+    "description": "The MCS Polymer AK Lightweight Handguard Quad Rail system is designed to increase accessory compatibility for the AK platform. It is constructed from heat-resistant high-density polymer and includes built-in vents for effective heat dissipation. The handguard is durable and features a solid color polymer that prevents chipping. It has 11 slots on the top rail, 10 on the bottom, and single-slot removable side rails, all meeting Weaver/Picatinny specifications.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_AkPolymerWithPicatinnyRail.webp",
+    "properties": {
+      "weight": 0.2,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -4,
+      "recoilControl": 2,
+      "price": 69,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_B10B19Ak",
+    "name": "AK B10M + B19 Handguard",
+    "shortName": "B10M B19",
+    "description": "The B-10M handguard milled rail, made from D16T aluminum alloy, seamlessly replaces the standard handguard on a variety of AK platform carbines. Similarly, the B-19 upper handguard milled rail, also machined from D16T aluminum alloy, is designed to sit atop the gas tube on compatible handguards. This combination forms a Picatinny rail over the gas tube without obstructing the line of sight. Together, these handguards form Picatinny rails that provide versatility for attaching additional equipment to the firearm.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_B10B19Ak.webp",
+    "properties": {
+      "weight": 0.27,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -4,
+      "recoilControl": 6,
+      "price": 129,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Handguard_B30B31SAk",
+    "name": "AK B30 + B31S Handguard",
+    "shortName": "B30 B31S",
+    "description": "The B-30 handguard rail, machined from D16T coated aluminum alloy, seamlessly replaces the standard handguard on a variety of AK platform rifles. Now in its V2.0 generation, the B-31S upper handguard rail is also machined from D16T aluminum alloy and coated in black or desert color. Designed to attach to the B-30 or B-30U rails with eight screws, it forms a 170±5mm Picatinny rail above the upper handguard and barrel of the AK series, preserving the line of sight.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_B30B31SAk.webp",
+    "properties": {
+      "weight": 0.386,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -6,
+      "recoilControl": 6,
+      "price": 136,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Handguard_ColtAr15M4CarbineHandguard",
+    "name": "M4 Carbine Handguard",
+    "shortName": "M4 CAR",
+    "description": "Engineered for durability and reliability, this handguard provides a secure grip and maintains the classic look of the original CAR (Colt Assault Rifle) handguard.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_ColtAr15M4CarbineHandguard.webp",
+    "properties": {
+      "weight": 0.323,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 196,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_DanielDefenseRisII95",
+    "name": "DD RIS II 9.5",
+    "shortName": "RIS II 9.5",
+    "description": "The Daniel Defense RIS II 9.5 handguard is a top-tier accessory designed for the AR-15 platform. With its 9.5-inch length, it strikes a balance between compactness and functionality.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_DanielDefenseRisII95.webp",
+    "properties": {
+      "weight": 0.4,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -6,
+      "recoilControl": 8,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 388,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_DanielDefenseRisII12",
+    "name": "DD RIS II 12",
+    "shortName": "RIS II 12",
+    "description": "The Daniel Defense Rail Interface System (RIS II) was designed at the request of the United States Special Operations Command. With its 12-inch length, it provides ample space for accessory attachment and customization options.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_DanielDefenseRisII12.webp",
+    "properties": {
+      "weight": 0.501,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -8,
+      "recoilControl": 12,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 388,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_DanielDefenseRisII12Fsp",
+    "name": "DD RIS II 12 FSP",
+    "shortName": "RIS II 12 FSP",
+    "description": "The Daniel Defense RIS II 12 FSP handguard is a high-quality accessory specifically designed for the AR-15 platform. Thanks to its integrated front sight post (FSP), it offers a streamlined and versatile solution for all operators.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_DanielDefenseRisII12Fsp.webp",
+    "properties": {
+      "weight": 0.485,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -8,
+      "recoilControl": 12,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 453,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_F1FirearmsX7M13",
+    "name": "X7M-13 Handguard",
+    "shortName": "X7M-13",
+    "description": "The F-1 Firearms X7M-13 Handguard is a premium accessory designed to elevate any AR-15 rifle. With its sleek and lightweight design, this handguard offers enhanced maneuverability without compromising on strength. This 13-inch variant offers an extended gripping surface and increased modularity for attaching accessories.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_F1FirearmsX7M13.webp",
+    "properties": {
+      "weight": 0.379,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -4,
+      "recoilControl": 8,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 391,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_F1FirearmsX7M15",
+    "name": "X7M-15 Handguard",
+    "shortName": "X7M-15",
+    "description": "The F-1 Firearms X7M-15 Handguard is a premium accessory designed to elevate any AR-15 rifle. With its sleek and lightweight design, this handguard offers enhanced maneuverability without compromising on strength. This 15-inch variant used for carbine and rifle-length barrels provides ample space for accessory attachment and customization options.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_F1FirearmsX7M15.webp",
+    "properties": {
+      "weight": 0.413,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -6,
+      "recoilControl": 10,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 391,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_F1FirearmsX7M7",
+    "name": "X7M-7 Handguard",
+    "shortName": "X7M-7",
+    "description": "The F-1 Firearms X7M-7 Handguard is a premium accessory designed to elevate any AR-15 rifle. With its sleek and lightweight design, this handguard offers enhanced maneuverability without compromising on strength.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_F1FirearmsX7M7.webp",
+    "properties": {
+      "weight": 0.295,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -2,
+      "recoilControl": 6,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 335,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_GeisseleMk16135DDC",
+    "name": "Mk16 13.5\" (DDC)",
+    "shortName": "MK16 13.5",
+    "description": "Featuring Geissele's renowned craftsmanship and attention to detail, this handguard provides exceptional durability and a sleek Desert Dirt Color (DDC) finish, ensuring a reliable and stylish upgrade for your firearm.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_GeisseleMk16135DDC.webp",
+    "properties": {
+      "weight": 0.379,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -4,
+      "recoilControl": 8,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 358,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_RemingtonM870HogueOdGreen",
+    "name": "M870 Forend (OD Green)",
+    "shortName": "M870 OD",
+    "description": "This forend is constructed from durable rubber and designed for Remington 870 12 gauge shotguns.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_RemingtonM870HogueOdGreen.webp",
+    "properties": {
+      "weight": 0.254,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 2,
+      "recoilControl": 2,
+      "price": 38,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Handguard_KacM4Ras",
+    "name": "M4 RAS",
+    "shortName": "M4 RAS",
+    "description": "The KAC M4 Rail Adapter System is a handguard for the AR-15 and SR-15 platforms, equipped with a Picatinny rail for various attachments.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_KacM4Ras.webp",
+    "properties": {
+      "weight": 0.252,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -4,
+      "recoilControl": 4,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 348,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_MagpulMoeAk",
+    "name": "AK MOE Handguard",
+    "shortName": "AK MOE",
+    "description": "The Magpul MOE AK Hand Guard is designed to replace the standard handguard retainer on AK pattern rifles that lack a front sling loop. The product has an extended gripping portion, an integrated heat shield, M-LOK mounting capability, and a replacement gas tube cover.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_MagpulMoeAk.webp",
+    "properties": {
+      "weight": 0.221,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 4,
+      "recoilControl": 4,
+      "price": 114,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_RemingtonM870MagpulMoe",
+    "name": "M870 MOE Handguard",
+    "shortName": "M870 MOE",
+    "description": "The MOE handguard is a seamless upgrade for the M870 12ga shotgun. It features extended length and front/rear hand stops to enhance weapon control, and the M-LOK slots make it compatible with a wide range of accessories.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_RemingtonM870MagpulMoe.webp",
+    "properties": {
+      "weight": 0.179,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 6,
+      "recoilControl": 4,
+      "price": 64,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_MagpulMoeMLokAr15Carabine",
+    "name": "AR-15 MOE M-LOK Carbine Handguard",
+    "shortName": "Moe MLOK",
+    "description": "The Magpul MOE M-LOK Handguard is a high-quality, lightweight drop-in handguard with modular features for your AR-15. It installs quickly and easily with a Mil-Spec delta ring and a round cap, and has M-LOK slots at the 2, 6, and 10 o'clock positions. Its durable polymer construction is much more comfortable to grip than any hard plastic or aluminum due to its enhanced heat resistance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_MagpulMoeMLokAr15Carabine.webp",
+    "properties": {
+      "weight": 0.184,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 205,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_MossbergMagpulMoe",
+    "name": "M590 MOE Forend",
+    "shortName": "M590 MOE",
+    "description": "The MOE M-LOK Forend is designed as a simple replacement for Mossberg 590/590A1 12ga shotguns. It has an elongated design and front/rear hand stops to improve weapon control and maneuverability. The Forend is equipped with M-LOK slots, making it compatible with a wide range of M-LOK accessories.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_MossbergMagpulMoe.webp",
+    "properties": {
+      "weight": 0.171,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 6,
+      "recoilControl": 4,
+      "price": 47,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_M700ModX",
+    "name": "M700 MOD*X Handguard",
+    "shortName": "MOD*X HG",
+    "description": "The MODX Handguard is a versatile accessory designed for military, law enforcement, and hunting applications. It is specifically tailored to complement the Remington Model 700, providing a lightweight and ergonomic solution.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_M700ModX.webp",
+    "properties": {
+      "weight": 0.369,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 8,
+      "recoilControl": 12,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 209,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_MossbergForearm",
+    "name": "M590 Forend",
+    "shortName": "M590 FA",
+    "description": "This durable synthetic forearm is designed for 12 gauge shotguns, providing reliable performance and a lightweight feel.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_MossbergForearm.webp",
+    "properties": {
+      "weight": 0.212,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 19,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_MossbergTriRail",
+    "name": "M590 Tri-Rail Forend",
+    "shortName": "M590 TriRail",
+    "description": "The Shotgun Forearm, Tri-Rail, Synthetic, 12 Gauge is a durable and versatile accessory for 12 gauge shotguns. It is constructed from synthetic materials and features a tri-rail design, which provides ample space for mounting various accessories such as lights, lasers, or vertical grips.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_MossbergTriRail.webp",
+    "properties": {
+      "weight": 0.223,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 28,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Handguard_Ak74Polymer",
+    "name": "AK-74 Polymer Handguard",
+    "shortName": "AK Poly HG",
+    "description": "The Russian AK-74 Polymer Handguard was designed as a direct handguard replacement for the standard AK-74 rifle. It is made of durable polymer, which provides better heat resistance and longevity. The handguard has an extended gripping surface and an integrated heat shield, which enhances the handling and performance of the AK-74.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_Ak74Polymer.webp",
+    "properties": {
+      "weight": 0.25,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 6,
+      "recoilControl": 4,
+      "price": 112,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_RemingtonM870Walnut",
+    "name": "M870 Walnut Forend",
+    "shortName": "M870 Walnut",
+    "description": "The Remington M870 Walnut 12ga Forend handguard is a high-quality accessory that adds both durability and aesthetic appeal to the shotgun. It is designed for easy installation and a secure fit, enhancing the grip and control of the shotgun for comfortable and precise handling.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_RemingtonM870Walnut.webp",
+    "properties": {
+      "weight": 0.31,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 26,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_RemingtonM870StrikeIndustriesVoa",
+    "name": "M870 VOA Handguard",
+    "shortName": "M870 VOA",
+    "description": "Constructed from robust and lightweight 6061 aluminum, this handguard is tailor-made for Remington Model 870 shotguns in 12 gauge.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_RemingtonM870StrikeIndustriesVoa.webp",
+    "properties": {
+      "weight": 0.289,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 6,
+      "recoilControl": 6,
+      "price": 77,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four"
+    }
+  },
+  {
+    "internalName": "Handguard_Ak74Wooden",
+    "name": "AK-74 Wooden Handguard",
+    "shortName": "AK74 Wood",
+    "description": "A wooden handguard for AK-74.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_Ak74Wooden.webp",
+    "properties": {
+      "weight": 0.221,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 46,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_AkmWooden",
+    "name": "AKM Wooden Handguard",
+    "shortName": "AKM Wood",
+    "description": "A wooden handguard for the AKM.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_AkmWooden.webp",
+    "properties": {
+      "weight": 0.221,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 46,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_NorincoCQA1Handguard",
+    "name": "CQ A1 Carbine Handguard",
+    "shortName": "CQ A1 CAR",
+    "description": "The Norinco CQ A1 Carbine Handguard is a critical component tailored for the Chinese version of the AR-15 rifle. Although it shares the basic purpose of handguards in Western versions, it may be perceived as lower quality due to potential differences in materials, design precision, and overall craftsmanship.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_NorincoCQA1Handguard.webp",
+    "properties": {
+      "weight": 0.323,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 0,
+      "recoilControl": -2,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 130,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Handguard_DanielDefenseRisII95MilSpec",
+    "name": "DD RIS II 9.5 (MilSpec)",
+    "shortName": "RIS II 9.5 FDE",
+    "description": "The Daniel Defense RIS II 9.5 handguard is a top-tier accessory designed for the AR-15 platform. With its 9.5-inch length, it strikes a balance between compactness and functionality.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_DanielDefenseRisII95MilSpec.webp",
+    "properties": {
+      "weight": 0.4,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -6,
+      "recoilControl": 8,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 388,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_DanielDefenseRisII12MilSpec",
+    "name": "DD RIS II 12 (MilSpec)",
+    "shortName": "RIS II 12 FDE",
+    "description": "The Daniel Defense Rail Interface System (RIS II) was designed at the request of the United States Special Operations Command. With its 12-inch length, it provides ample space for accessory attachment and customization options.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_DanielDefenseRisII12MilSpec.webp",
+    "properties": {
+      "weight": 0.501,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -8,
+      "recoilControl": 12,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 388,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_F1FirearmsX7M13GRAY",
+    "name": "X7M-13 Handguard (Gray)",
+    "shortName": "X7M-13",
+    "description": "The F-1 Firearms X7M-13 Handguard is a premium accessory designed to elevate any AR-15 rifle. With its sleek and lightweight design, this handguard offers enhanced maneuverability without compromising on strength. This 13-inch variant offers an extended gripping surface and increased modularity for attaching accessories.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_F1FirearmsX7M13GRAY.webp",
+    "properties": {
+      "weight": 0.379,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -4,
+      "recoilControl": 8,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 391,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Handguard_F1FirearmsX7M15GRAY",
+    "name": "X7M-15 Handguard (Gray)",
+    "shortName": "X7M-15",
+    "description": "The F-1 Firearms X7M-15 Handguard is a premium accessory designed to elevate any AR-15 rifle. With its sleek and lightweight design, this handguard offers enhanced maneuverability without compromising on strength. This 15-inch variant used for carbine and rifle-length barrels provides ample space for accessory attachment and customization options.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_F1FirearmsX7M15GRAY.webp",
+    "properties": {
+      "weight": 0.413,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -6,
+      "recoilControl": 10,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 391,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Handguard_F1FirearmsX7M7GRAY",
+    "name": "X7M-7 Handguard (Gray)",
+    "shortName": "X7M-7",
+    "description": "The F-1 Firearms X7M-7 Handguard is a premium accessory designed to elevate any AR-15 rifle. With its sleek and lightweight design, this handguard offers enhanced maneuverability without compromising on strength.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_F1FirearmsX7M7.webp",
+    "properties": {
+      "weight": 0.295,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -2,
+      "recoilControl": 6,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 335,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Handguard_GeisseleMk16135",
+    "name": "Mk16 13.5\"",
+    "shortName": "MK16 13.5",
+    "description": "Featuring Geissele's renowned craftsmanship and attention to detail, this handguard provides exceptional durability and a sleek Desert Dirt Color (DDC) finish, ensuring a reliable and stylish upgrade for your firearm.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_GeisseleMk16135.webp",
+    "properties": {
+      "weight": 0.379,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": -4,
+      "recoilControl": 8,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 358,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_MagpulMoeAkFDE",
+    "name": "AK MOE Handguard (FDE)",
+    "shortName": "AK MOE",
+    "description": "The Magpul MOE AK Hand Guard is designed to replace the standard handguard retainer on AK pattern rifles that lack a front sling loop. The product has an extended gripping portion, an integrated heat shield, M-LOK mounting capability, and a replacement gas tube cover.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_MagpulMoeAkFDE.webp",
+    "properties": {
+      "weight": 0.221,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 4,
+      "recoilControl": 4,
+      "price": 114,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Handguard_RemingtonM870MagpulMoeFDE",
+    "name": "M870 MOE Handguard (FDE)",
+    "shortName": "M870 MOE",
+    "description": "The MOE handguard is a seamless upgrade for the M870 12ga shotgun. It features extended length and front/rear hand stops to enhance weapon control, and the M-LOK slots make it compatible with a wide range of accessories.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_RemingtonM870MagpulMoeFDE.webp",
+    "properties": {
+      "weight": 0.179,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 6,
+      "recoilControl": 4,
+      "price": 64,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handguard_MagpulMoeMLokAr15CarabineFDE",
+    "name": "AR-15 MOE M-LOK Carbine Handguard (FDE)",
+    "shortName": "Moe MLOK",
+    "description": "The Magpul MOE M-LOK Handguard is a high-quality, lightweight drop-in handguard with modular features for your AR-15. It installs quickly and easily with a Mil-Spec delta ring and a round cap, and has M-LOK slots at the 2, 6, and 10 o'clock positions. Its durable polymer construction is much more comfortable to grip than any hard plastic or aluminum due to its enhanced heat resistance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_MagpulMoeMLokAr15CarabineFDE.webp",
+    "properties": {
+      "weight": 0.184,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 205,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Handguard_MagpulMoeMLokAr15CarabineOlive",
+    "name": "AR-15 MOE M-LOK Carbine Handguard (Olive)",
+    "shortName": "Moe MLOK",
+    "description": "The Magpul MOE M-LOK Handguard is a high-quality, lightweight drop-in handguard with modular features for your AR-15. It installs quickly and easily with a Mil-Spec delta ring and a round cap, and has M-LOK slots at the 2, 6, and 10 o'clock positions. Its durable polymer construction is much more comfortable to grip than any hard plastic or aluminum due to its enhanced heat resistance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handguard_MagpulMoeMLokAr15CarabineOlive.webp",
+    "properties": {
+      "weight": 0.184,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Handguard",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 205,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "internalName": "Med_Stim_Ritalin",
+    "name": "Methylphenidate",
+    "shortName": "Methyl",
+    "description": "Commonly prescribed to treat attention deficit hyperactivity disorder (ADHD) and narcolepsy, it increases the levels of certain neurotransmitters in the brain, leading to improved focus, attention, and impulse control.\n\nIncreases stamina regeneration rate at the cost of faster hydration drain. Lasts 5 minutes.",
+    "category": "MedicalItems",
+    "type": "Stimulators",
+    "imageName": "T_Icon_Med_Stim_Ritalin.webp",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stimulator",
+      "uses": 2,
+      "effects": [
+        {
+          "effect": "Arm Stamina",
+          "delay": 0,
+          "duration": 300,
+          "instantAdd": 0,
+          "gradualAdd": 0.015,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Body Stamina",
+          "delay": 0,
+          "duration": 300,
+          "instantAdd": 0,
+          "gradualAdd": 0.03,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Hydration",
+          "delay": 0,
+          "duration": 300,
+          "instantAdd": 0,
+          "gradualAdd": 0,
+          "gradualRemove": 0.000165
+        }
+      ],
+      "price": 0,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Med_Stim_Strychnine",
+    "name": "Strychnine",
+    "shortName": "Strych",
+    "description": "A highly toxic alkaloid compound derived from the seeds of the Strychnos nux-vomica tree. Historically, it has been used as a pesticide and in small doses as a stimulant and performance enhancer due to its convulsant effects.     \n\nBlocks body stamina drain at the cost of fully drained arm stamina, increased intoxication, energy drain, and pain. Lasts 1 minute.",
+    "category": "MedicalItems",
+    "type": "Stimulators",
+    "imageName": "T_Icon_Med_Stim_Strychnine.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stimulator",
+      "uses": 1,
+      "effects": [
+        {
+          "effect": "Arm Stamina",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 0,
+          "gradualAdd": 0,
+          "gradualRemove": 1
+        },
+        {
+          "effect": "Body Stamina",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 1,
+          "gradualAdd": 0,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Intoxication",
+          "delay": 0,
+          "duration": 1,
+          "instantAdd": 0,
+          "gradualAdd": 0,
+          "gradualRemove": 0.2
+        },
+        {
+          "effect": "Pain",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 0.2,
+          "gradualAdd": 0.2,
+          "gradualRemove": 0.2
+        },
+        {
+          "effect": "Energy",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 0,
+          "gradualAdd": 0,
+          "gradualRemove": 0.00004
+        }
+      ],
+      "price": 0,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Med_Stim_Fenethylline",
+    "name": "Fenethylline",
+    "shortName": "Fenethyl",
+    "description": "Initially developed as a medication to treat attention deficit hyperactivity disorder (ADHD) and narcolepsy. However, its stimulant properties led to concerns about misuse and addiction potential.\n\nIncreases stamina regeneration at the cost of increased intoxication and hydration drain. Lasts 3 minutes.",
+    "category": "MedicalItems",
+    "type": "Stimulators",
+    "imageName": "T_Icon_Med_Stim_Fenethylline.webp",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stimulator",
+      "uses": 4,
+      "effects": [
+        {
+          "effect": "Arm Stamina",
+          "delay": 0,
+          "duration": 180,
+          "instantAdd": 0,
+          "gradualAdd": 0.015,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Body Stamina",
+          "delay": 0,
+          "duration": 180,
+          "instantAdd": 0,
+          "gradualAdd": 0.0075,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Intoxication",
+          "delay": 0,
+          "duration": 1,
+          "instantAdd": 0,
+          "gradualAdd": 0,
+          "gradualRemove": 0.1
+        },
+        {
+          "effect": "Hydration",
+          "delay": 0,
+          "duration": 180,
+          "instantAdd": 0,
+          "gradualAdd": 0,
+          "gradualRemove": 0.00011
+        }
+      ],
+      "price": 0,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Med_Stim_Epo",
+    "name": "EPO",
+    "shortName": "EPO",
+    "description": "The primary function of erythropoietin (EPO) is to stimulate the production of red blood cells in the bone marrow. It plays a crucial role in maintaining oxygen delivery to tissues and organs, contributing to overall health and vitality.\n\nIncreases blood regeneration at the cost of increased intoxication, hydration drain, and energy drain. Lasts 3 minutes.",
+    "category": "MedicalItems",
+    "type": "Stimulators",
+    "imageName": "T_Icon_Med_Stim_Epo.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stimulator",
+      "uses": 1,
+      "effects": [
+        {
+          "effect": "Blood",
+          "delay": 0,
+          "duration": 180,
+          "instantAdd": 0,
+          "gradualAdd": 1.83,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Intoxication",
+          "delay": 0,
+          "duration": 1,
+          "instantAdd": 0,
+          "gradualAdd": 0,
+          "gradualRemove": 0.15
+        },
+        {
+          "effect": "Energy",
+          "delay": 0,
+          "duration": 180,
+          "instantAdd": 0,
+          "gradualAdd": 0,
+          "gradualRemove": 0.0004
+        },
+        {
+          "effect": "Hydration",
+          "delay": 0,
+          "duration": 180,
+          "instantAdd": 0,
+          "gradualAdd": 0,
+          "gradualRemove": 0.00055
+        }
+      ],
+      "price": 0,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Med_Stim_BoneHealingSubstance",
+    "name": "ORI-12",
+    "shortName": "ORI-12",
+    "description": "This compound leverages advanced bioengineering to accelerate the natural healing process of damaged bones. The bioactive growth factors within ORI-12 are carefully selected to mimic the signals released during bone healing. These growth factors stimulate nearby bone-forming cells, encouraging them to increase their activity and generate new bone tissue.\n\nRegenerates up to 50 % of all bones at the cost of increased intoxication and pain. Lasts 1 minute.",
+    "category": "MedicalItems",
+    "type": "Stimulators",
+    "imageName": "T_Icon_Med_Stim_BoneHealingSubstance.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stimulator",
+      "uses": 1,
+      "effects": [
+        {
+          "effect": "Left Lower Arm Fracture Fix",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 10,
+          "gradualAdd": 0,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Right Lower Arm Fracture Fix",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 10,
+          "gradualAdd": 0,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Left Upper Arm Fracture Fix",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 10,
+          "gradualAdd": 0,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Right Upper Arm Fracture Fix",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 10,
+          "gradualAdd": 0,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Left Lower Leg Fracture Fix",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 10,
+          "gradualAdd": 0,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Right Lower Leg Fracture Fix",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 10,
+          "gradualAdd": 0,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Left Upper Leg Fracture Fix",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 10,
+          "gradualAdd": 0,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Right Upper Leg Fracture Fix",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 10,
+          "gradualAdd": 0,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Intoxication",
+          "delay": 0,
+          "duration": 1,
+          "instantAdd": 0,
+          "gradualAdd": 0,
+          "gradualRemove": 0.15
+        },
+        {
+          "effect": "Pain",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 0.2,
+          "gradualAdd": 0.2,
+          "gradualRemove": 0.2
+        }
+      ],
+      "price": 0,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Med_Stim_OrganHealingSubstance",
+    "name": "HpR 3-S",
+    "shortName": "HpR 3-S",
+    "description": "This substance is designed to trigger and accelerate the regrowth of impaired tissues within vital organs, offering the potential to restore function and vitality. The nanomolecules of HpR 3-S possess the ability to identify specific signals emitted by injured cells, allowing them to differentiate between healthy and damaged tissue. Once attached to damaged cells, the nanomolecules release bioactive compounds that stimulate the activation of dormant stem cells within the affected organ. These stem cells undergo a transformation into specialized cells that rapidly replicate and replace the damaged tissue. \n\nRegenerates up to 50 % of injured organs at the cost of increased intoxication and pain. Lasts 1 minute.",
+    "category": "MedicalItems",
+    "type": "Stimulators",
+    "imageName": "T_Icon_Med_Stim_OrganHealingSubstance.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stimulator",
+      "uses": 1,
+      "effects": [
+        {
+          "effect": "Brain Health",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 1.7,
+          "gradualAdd": 0,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Heart Health",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 1.7,
+          "gradualAdd": 0,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Lungs Health",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 16.7,
+          "gradualAdd": 0,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Liver Health",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 5,
+          "gradualAdd": 0,
+          "gradualRemove": 0
+        },
+        {
+          "effect": "Intoxication",
+          "delay": 0,
+          "duration": 1,
+          "instantAdd": 0,
+          "gradualAdd": 0,
+          "gradualRemove": 0.15
+        },
+        {
+          "effect": "Pain",
+          "delay": 0,
+          "duration": 60,
+          "instantAdd": 0.2,
+          "gradualAdd": 0.2,
+          "gradualRemove": 0.2
+        }
+      ],
+      "price": 0,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  }
+]

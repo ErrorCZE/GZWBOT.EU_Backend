@@ -1,0 +1,1456 @@
+[
+  {
+    "internalName": "Mag_AkPolymer_10Rnd_545x39",
+    "name": "AK 5.45x39mm 10-Round Polymer Magazine",
+    "shortName": "AK 5.45",
+    "description": "The Molot Vepr OEM 5.45x39mm 10-Round Polymer Magazine is a durable and reliable magazine designed for use with Vepr rifles chambered in 5.45x39mm. It is constructed from high-quality polymer and offers a lightweight yet robust solution for shooters who value reliable feeding and smooth operation.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_AkPolymer_10Rnd_545x39.webp",
+    "properties": {
+      "weight": 0.068,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "5.45x39mm",
+      "capacity": 10,
+      "reloadTime": 0,
+      "price": 26,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Mag_AkSteel_10Rnd_762x39",
+    "name": "AK 7.62x39mm 10-Round Steel Magazine",
+    "shortName": "AK 7.62",
+    "description": "The AK-47 7.62x39 10-round Steel Magazine is a cost-effective and high-quality option made of durable stainless steel, featuring a precision-engineered locking lug and a corrosion-resistant finish.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_SksOriginal_10Rnd_762x39.webp",
+    "properties": {
+      "weight": 0.08,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "7.62x39mm",
+      "capacity": 10,
+      "reloadTime": 0,
+      "price": 28,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Mag_MosinArchangel_10Rnd_762x54",
+    "name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine",
+    "shortName": "Mosin",
+    "description": "This is a durable and lightweight black polymer magazine designed specifically for use with the Archangel AA9130 stock. It has a capacity of 10 rounds and is detachable, allowing for efficient and reliable feeding of 7.62x54R ammunition in Mosin-Nagant rifles equipped with the AA9130 stock.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_MosinArchangel_10Rnd_762x54.webp",
+    "properties": {
+      "weight": 0.227,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "7.62x54mmR",
+      "capacity": 10,
+      "reloadTime": 0,
+      "price": 52,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_Ar15AtiSchmeisserS60_60Rnd_556x45",
+    "name": "AR-15 5.56x45mm 60-Round S60 Magazine",
+    "shortName": "AR15",
+    "description": "The S60 AZI Schmeisser magazine by Magpul has a stunning ammo capacity of 60 rounds, making it useful for full-auto and long combat. It can be chambered with 5.56x45mm or .300 ACC Blackout rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45.webp",
+    "properties": {
+      "weight": 0.263,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.56x45mm",
+      "capacity": 60,
+      "reloadTime": 16,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 112,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mag_DdAr15_32Rnd_556x45",
+    "name": "AR-15 5.56x45mm 32-Round DD Magazine",
+    "shortName": "AR15",
+    "description": "The DD Magazine is constructed with the same high quality and strict standards as Daniel Defense firearms. It offers 32-round capacity for both 5.56x45mm and .300 ACC Blackout rounds, all within the familiar size of industry-standard 30-round magazines.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Mag_DdAr15_32Rnd_556x45.webp",
+    "properties": {
+      "weight": 0.11,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.56x45mm",
+      "capacity": 32,
+      "reloadTime": -6,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 77,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_Glock17_17Rnd_9x19mm",
+    "name": "Glock 17 9x19mm 17-Round Magazine",
+    "shortName": "G17",
+    "description": "A polymer magazine designed for the Glock 17 pistol. It has a capacity of 17 rounds and is chambered for 9x19mm ammunition.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Glock17_17Rnd_9x19mm.webp",
+    "properties": {
+      "weight": 0.048,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "9x19mm",
+      "capacity": 17,
+      "reloadTime": 0,
+      "price": 44,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::One",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mag_IzhmashStampedAkMagazine_30Rnd_762x39",
+    "name": "AK 7.62x39mm 30-Round Stamped Magazine",
+    "shortName": "AK 7.62",
+    "description": "A standard 30-round steel magazine for the 7.62x39 AK and other compatible firearms.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_IzhmashStampedAkMagazine_30Rnd_762x39.webp",
+    "properties": {
+      "weight": 0.37,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "7.62x39mm",
+      "capacity": 30,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 58,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mag_IzhmashBakeliteAk74_30Rnd_545x39",
+    "name": "AK 5.45×39mm 30-Round Bakelite Magazine",
+    "shortName": "AK 5.45",
+    "description": "A Russian 5.45x39mm bakelite magazine with a capacity of 30 rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_IzhmashBakeliteAk74_30Rnd_545x39.webp",
+    "properties": {
+      "weight": 0.22,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.45x39mm",
+      "capacity": 30,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 54,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mag_IzhmashBakeliteAk47_30Rnd_762x39",
+    "name": "AK 7.62x39mm 30-Round Bakelite Magazine",
+    "shortName": "AK 7.62",
+    "description": "This 30-round AK-47 magazine is made of durable bakelite and designed for 7.62x39mm rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_IzhmashBakeliteAk47_30Rnd_762x39.webp",
+    "properties": {
+      "weight": 0.24,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "7.62x39mm",
+      "capacity": 30,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 75,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mag_IzhmashBlackAk74_30Rnd_545x39",
+    "name": "AK 5.45×39mm 30-Round Black Magazine",
+    "shortName": "AK 5.45",
+    "description": "This Izhmash-branded Super Black (True Black) 30-Round AK-74 magazine is compatible with standard AK-74 or RPK-74 rifles that accept 5.45x39mm double-stack magazines.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_IzhmashBlackAk74_30Rnd_545x39.webp",
+    "properties": {
+      "weight": 0.22,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.45x39mm",
+      "capacity": 30,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 54,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mag_M870_10Rnd_12Gaug",
+    "name": "M870 12ga 10-Round Magazine",
+    "shortName": "M870",
+    "description": "This tactical magazine extension tube for 12 gauge shotguns is highly durable. It increases the magazine's capacity to hold up to 10 rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_M870_10Rnd_12Gaug.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "12GA",
+      "capacity": 10,
+      "reloadTime": 0,
+      "sizeExtending": {
+        "Left": 3
+      },
+      "price": 138,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Mag_M870_4Rnd_12Gaug",
+    "name": "M870 12ga 4-Round Cap",
+    "shortName": "M870",
+    "description": "The Remington 870 Magazine Cap for 12 gauge shotguns is a factory OEM part made from black-finished steel. It is designed for Remington Model 870 12 gauge shotguns and features inner detent ridges for secure attachment to a detented magazine tube.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_M870_4Rnd_12Gaug.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "12GA",
+      "capacity": 4,
+      "reloadTime": 0,
+      "price": 47,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_M870_6Rnd_12Gaug",
+    "name": "M870 12ga 6-Round Magazine",
+    "shortName": "M870",
+    "description": "This magazine extension tube for 12 gauge shotguns is known for its durability. It increases the magazine's capacity to hold 6 rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_M870_6Rnd_12Gaug.webp",
+    "properties": {
+      "weight": 0.25,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "12GA",
+      "capacity": 6,
+      "reloadTime": 0,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 112,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mag_MosinInternalMagazine_5Rnd_762x54",
+    "name": "Mosin-Nagant 7.62x54R 5-Round Internal Magazine",
+    "shortName": "Mosin",
+    "description": "The Mosin-Nagant rifle features a lightweight, 5-round internal magazine located beneath the receiver. This magazine is designed to hold up to five cartridges and allows for the manual loading of rounds into the chamber. It can be loaded from the top and is also compatible with stripper clips for faster reloading.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_MosinInternalMagazine_5Rnd_762x54.webp",
+    "properties": {
+      "weight": 0.2,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "7.62x54mmR",
+      "capacity": 5,
+      "reloadTime": 0,
+      "price": 22,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_MossbergMag_6Rnd_12Gaug",
+    "name": "M590 12ga 6-Round Cap",
+    "shortName": "M590",
+    "description": "The Mossberg shotgun magazine cap serves as a secure cover for the magazine tube.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_MossbergMag_6Rnd_12Gaug.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "12GA",
+      "capacity": 6,
+      "reloadTime": 0,
+      "price": 52,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_MossbergNordicMagazineExt_10Rnd_12Gaug",
+    "name": "M590 12ga 10-Round Magazine",
+    "shortName": "M590",
+    "description": "The Nordic Magazine Extension is designed for Mossberg shotguns and has a capacity of 10 rounds. It allows users to carry more rounds for their firearm.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_MossbergNordicMagazineExt_10Rnd_12Gaug.webp",
+    "properties": {
+      "weight": 0.44,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "12GA",
+      "capacity": 10,
+      "reloadTime": 0,
+      "sizeExtending": {
+        "Left": 3
+      },
+      "price": 149,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mag_MossbergNordicMagazineExt_7Rnd_12Gaug",
+    "name": "M590 12ga 7-Round Magazine",
+    "shortName": "M590",
+    "description": "The Nordic Magazine Extension is designed for Mossberg shotguns and has a capacity of 7 rounds. It allows users to carry more rounds for their firearm.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_MossbergNordicMagazineExt_7Rnd_12Gaug.webp",
+    "properties": {
+      "weight": 0.34,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "12GA",
+      "capacity": 7,
+      "reloadTime": 0,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 76,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mag_MossbergNordicMagazineExt_8Rnd_12Gaug",
+    "name": "M590 12ga 8-Round Magazine",
+    "shortName": "M590",
+    "description": "The Nordic Magazine Extension is designed for Mossberg shotguns and has a capacity of 8 rounds. It allows users to carry more rounds for their firearm.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_MossbergNordicMagazineExt_8Rnd_12Gaug.webp",
+    "properties": {
+      "weight": 0.4,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "12GA",
+      "capacity": 8,
+      "reloadTime": 0,
+      "sizeExtending": {
+        "Left": 3
+      },
+      "price": 124,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Mag_Pmag20ArM4_20Rnd_556x45",
+    "name": "AR-15 5.56x45mm 20-Round PMAG Magazine",
+    "shortName": "AR15",
+    "description": "A 20-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 ACC Blackout rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Pmag20ArM4_20Rnd_556x45.webp",
+    "properties": {
+      "weight": 0.113,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "5.56x45mm",
+      "capacity": 20,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 35,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_Pmag30ArM4_30Rnd_556x45",
+    "name": "AR-15 5.56x45mm 30-Round PMAG Magazine",
+    "shortName": "AR15",
+    "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 ACC Blackout rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Pmag30ArM4_30Rnd_556x45.webp",
+    "properties": {
+      "weight": 0.141,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.56x45mm",
+      "capacity": 30,
+      "reloadTime": -6,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 53,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_PmagAk74_30Rnd_545x39",
+    "name": "AK 5.45x39mm 30-Round PMAG Magazine",
+    "shortName": "AK 5.45",
+    "description": "The PMAG 30 AK74 MOE is a lightweight and reliable 30-round polymer magazine designed for Kalashnikov-pattern rifles chambered in 5.45x39mm, including the AK-74, MPi-AK-74N, PA md. 86, and similar models. It features a detachable floorplate, consistent curve geometry, stainless steel spring, and a low-friction follower, providing cost-effective performance as expected from a MOE PMAG.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_PmagAk74_30Rnd_545x39.webp",
+    "properties": {
+      "weight": 0.17,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.45x39mm",
+      "capacity": 30,
+      "reloadTime": -6,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 70,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_PmagAkm_30Rnd_762x39",
+    "name": "AK 7.62x39mm 30-Round PMAG Magazine",
+    "shortName": "AK 7.62",
+    "description": "The PMAG 30 AK/AKM MOE is a lightweight and reliable 30-round polymer magazine designed for 7.62x39mm Kalashnikov-pattern rifles, such as the AK-47, AKM, AKS, SIG556R, and similar models. It features a detachable floorplate, consistent curve design, stainless steel spring, and a high-reliability, low-friction follower. The magazine is cost-effective and delivers the reliable performance associated with MOE PMAGs.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_PmagAkm_30Rnd_762x39.webp",
+    "properties": {
+      "weight": 0.2,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "7.62x39mm",
+      "capacity": 30,
+      "reloadTime": -6,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 76,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_SksArchangel_35Rnd_762x39",
+    "name": "SKS 7.62x39mm 35-Round Archangel Magazine",
+    "shortName": "SKS",
+    "description": "The ProMag Archangel LVX 7.62x39mm 35-round magazine is built for reliable performance in tactical situations. Crafted from durable polymer, it offers resistance to corrosion and long-lasting use. With a chrome silicon wire spring and polymer follower, this magazine maintains consistent alignment for smooth operation in various conditions.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_SksArchangel_35Rnd_762x39.webp",
+    "properties": {
+      "weight": 0.362,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "7.62x39mm",
+      "capacity": 35,
+      "reloadTime": 6,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 112,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_PromagGlock17_27Rnd_9x19mm",
+    "name": "Glock 17 9x19mm 27-Round Magazine",
+    "shortName": "G17",
+    "description": "The PMAG 27 GL9 is a 27-round magazine for GLOCK 9mm handguns. It is made entirely of polymer, ensuring reliable and durable performance even with extensive use. The magazine is compliant with the specified overall length for a 170MM competition magazine, providing increased capacity without the need for costly extensions.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_PromagGlock17_27Rnd_9x19mm.webp",
+    "properties": {
+      "weight": 0.056,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "9x19mm",
+      "capacity": 27,
+      "reloadTime": 10,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 93,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_Remington700Aics_10Rnd_762x51",
+    "name": "M700 7.62x51mm 10-Round Magazine",
+    "shortName": "M700",
+    "description": "The Single Stack Accuracy International Magazine is both durable and corrosion-resistant. It is constructed from steel and features special coatings, while the removable springs and followers make cleaning simple. It can hold ten rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Remington700Aics_10Rnd_762x51.webp",
+    "properties": {
+      "weight": 0.25,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "7.62x51mm",
+      "capacity": 10,
+      "reloadTime": 6,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 82,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Mag_Remington700Aics_5Rnd_762x51",
+    "name": "M700 7.62x51mm 5-Round Magazine",
+    "shortName": "M700",
+    "description": "The Single Stack Accuracy International Magazine is both durable and corrosion-resistant. It is constructed from steel and features special coatings, while the removable springs and followers make cleaning simple. It can hold five rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Remington700Aics_5Rnd_762x51.webp",
+    "properties": {
+      "weight": 0.17,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "7.62x51mm",
+      "capacity": 5,
+      "reloadTime": 0,
+      "price": 65,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Mag_Remington700Pmag_10Rnd_762x51",
+    "name": "M700 7.62x51mm 10-Round PMAG AC Magazine",
+    "shortName": "M700",
+    "description": "The PMAG 10 7.62 AC is a durable polymer magazine that holds ten rounds and is designed for .308 Winchester cartridges. It is compatible with short-action AICS-spec bottom metal, including the Bolt Action Magazine Well for the Hunter 700 Stock. The magazine features a paint-pen dot matrix for easy identification and a flared base plate for enhanced control and quick retrieval.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Remington700Pmag_10Rnd_762x51.webp",
+    "properties": {
+      "weight": 0.124,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "7.62x51mm",
+      "capacity": 10,
+      "reloadTime": 4,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 71,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_Remington700Pmag_5Rnd_762x51",
+    "name": "M700 7.62x51mm 5-Round PMAG AC Magazine",
+    "shortName": "M700",
+    "description": "The PMAG 5 7.62 AC is a durable polymer magazine that holds five rounds and is specifically designed for .308 Winchester cartridges. It is compatible with short-action AICS-spec bottom metal, including the Bolt Action Magazine Well for the Hunter 700 Stock. The magazine features a paint-pen dot matrix for easy identification and a flared base plate for enhanced control and quick retrieval.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Remington700Pmag_5Rnd_762x51.webp",
+    "properties": {
+      "weight": 0.088,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "7.62x51mm",
+      "capacity": 5,
+      "reloadTime": -2,
+      "price": 41,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_SksOriginal_10Rnd_762x39",
+    "name": "SKS 7.62x39mm 10-Round Internal Magazine",
+    "shortName": "SKS",
+    "description": "The standard SKS internal magazine is a reliable, fixed magazine system that is an integral part of the rifle's design. Built into the firearm, it securely holds 10 rounds of ammunition and provides a consistent and dependable feed for the semi-automatic action.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_SksOriginal_10Rnd_762x39.webp",
+    "properties": {
+      "weight": 0.185,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "7.62x39mm",
+      "capacity": 10,
+      "reloadTime": 0,
+      "price": 41,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mag_StanagMag_30Rnd_556x45",
+    "name": "AR-15 5.56x45mm 30-Round STANAG Magazine",
+    "shortName": "AR15",
+    "description": "A 30-round STANAG magazine designed for 5.56x45mm NATO/.223 Remington, compatible with AR-style firearms. It is produced in the United States by C Products Defense and features an enhanced design that incorporates a two-part Stainless Steel body. The body undergoes robotic welding to ensure precise control over critical-to-function dimensions, which in turn ensures a proper fit in the magazine well.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_StanagMag_30Rnd_556x45.webp",
+    "properties": {
+      "weight": 0.32,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.56x45mm",
+      "capacity": 30,
+      "reloadTime": -4,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 67,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Mag_StanagMag_20Rnd_556x45",
+    "name": "AR-15 5.56x45mm 20-Round STANAG Magazine",
+    "shortName": "AR15",
+    "description": "A 20-round STANAG magazine designed for use with compatible firearms. It can be chambered with either 5.56x45mm or .300 ACC Blackout rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_StanagMag_20Rnd_556x45.webp",
+    "properties": {
+      "weight": 0.068,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "5.56x45mm",
+      "capacity": 20,
+      "reloadTime": 0,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 42,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Mag_Type51_8Rnd_762x25",
+    "name": "Type 51 7.62x25mm 8-Round Magazine",
+    "shortName": "T51",
+    "description": "A metal box magazine designed for firearms chambered in 7.62x25mm Tokarev. It is known for its durability and typically holds eight rounds, ensuring reliable feeding of ammunition into the firearm.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Type51_8Rnd_762x25.webp",
+    "properties": {
+      "weight": 0.09,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "7.62x25mm",
+      "capacity": 8,
+      "reloadTime": 0,
+      "price": 24,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::One",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mag_Vz61_10Rnd_765",
+    "name": "Vz. 61 7.65 Browning 10-Round Magazine",
+    "shortName": "Vz61",
+    "description": "The 10-round magazine designed for the Vz. 61 Skorpion submachine gun, chambered in 7.65mm Browning, offers dependable ammunition feeding in a compact format. Crafted from durable materials, it ensures seamless operation and compatibility with the firearm. This magazine is particularly suitable for compact and discreet use.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Vz61_10Rnd_765.webp",
+    "properties": {
+      "weight": 0.08,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "7.65mm Browning",
+      "capacity": 10,
+      "reloadTime": 0,
+      "price": 22,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::One",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mag_Vz61_20Rnd_765",
+    "name": "Vz. 61 7.65 Browning 20-Round Magazine",
+    "shortName": "Vz61",
+    "description": "The Vz. 61 20-round magazine, chambered in 7.65mm Browning, provides increased ammunition capacity without sacrificing reliability or maneuverability. Constructed from durable materials, it guarantees consistent feeding and peak performance for the Skorpion submachine gun. This magazine is well-suited for sustained engagements and scenarios requiring increased firepower, all within a compact and manageable design.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Vz61_20Rnd_765.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "7.65mm Browning",
+      "capacity": 20,
+      "reloadTime": -10,
+      "price": 38,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mag_SksArchangelLVLX_20Rnd_762x39",
+    "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine",
+    "shortName": "SKS",
+    "description": "Constructed from a blend of carbon fiber and glass-reinforced black polymer, this magazine is designed for durability. Its body is made with high-strength materials and features a patented steel lever release for quick, one-handed magazine changes. The textured finish provides improved grip and control during use.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_SksArchangelLVLX_20Rnd_762x39.webp",
+    "properties": {
+      "weight": 0.295,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "7.62x39mm",
+      "capacity": 20,
+      "reloadTime": 0,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 95,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mag_Pmag30ArM4FDE_30Rnd_556x45",
+    "name": "AR-15 5.56x45mm 30-Round PMAG Magazine (FDE)",
+    "shortName": "AR15",
+    "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 ACC Blackout rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Pmag30ArM4FDE_30Rnd_556x45.webp",
+    "properties": {
+      "weight": 0.141,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.56x45mm",
+      "capacity": 30,
+      "reloadTime": -6,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 53,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Mag_IzhmashStampedAkMagazine_30Rnd_762x39_L3",
+    "name": "AK 7.62x39mm 30-Round Stamped Magazine",
+    "shortName": "AK 7.62",
+    "description": "A standard 30-round steel magazine for the 7.62x39 AK and other compatible firearms.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_IzhmashStampedAkMagazine_30Rnd_762x39.webp",
+    "properties": {
+      "weight": 0.37,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "7.62x39mm",
+      "capacity": 30,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 58,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Mag_IzhmashBakeliteAk74_30Rnd_545x39_L3",
+    "name": "AK 5.45×39mm 30-Round Bakelite Magazine",
+    "shortName": "AK 5.45",
+    "description": "A Russian 5.45x39mm bakelite magazine with a capacity of 30 rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_IzhmashBakeliteAk74_30Rnd_545x39.webp",
+    "properties": {
+      "weight": 0.22,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.45x39mm",
+      "capacity": 30,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 54,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Mag_IzhmashBlackAk74_30Rnd_545x39_L3",
+    "name": "AK 5.45×39mm 30-Round Black Magazine",
+    "shortName": "AK 5.45",
+    "description": "This Izhmash-branded Super Black (True Black) 30-Round AK-74 magazine is compatible with standard AK-74 or RPK-74 rifles that accept 5.45x39mm double-stack magazines.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_IzhmashBlackAk74_30Rnd_545x39.webp",
+    "properties": {
+      "weight": 0.22,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.45x39mm",
+      "capacity": 30,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 54,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Mag_StanagMag_30Rnd_556x45_L3",
+    "name": "AR-15 5.56x45mm 30-Round STANAG Magazine",
+    "shortName": "AR15",
+    "description": "A 30-round STANAG magazine designed for 5.56x45mm NATO/.223 Remington, compatible with AR-style firearms. It is produced in the United States by C Products Defense and features an enhanced design that incorporates a two-part Stainless Steel body. The body undergoes robotic welding to ensure precise control over critical-to-function dimensions, which in turn ensures a proper fit in the magazine well.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_StanagMag_30Rnd_556x45.webp",
+    "properties": {
+      "weight": 0.32,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.56x45mm",
+      "capacity": 30,
+      "reloadTime": -4,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 67,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Mag_IzhmashStampedAkMagazine_30Rnd_762x39_L2",
+    "name": "AK 7.62x39mm 30-Round Stamped Magazine",
+    "shortName": "AK 7.62",
+    "description": "A standard 30-round steel magazine for the 7.62x39 AK and other compatible firearms.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_IzhmashStampedAkMagazine_30Rnd_762x39.webp",
+    "properties": {
+      "weight": 0.37,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "7.62x39mm",
+      "capacity": 30,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 58,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Mag_IzhmashBakeliteAk74_30Rnd_545x39_L2",
+    "name": "AK 5.45×39mm 30-Round Bakelite Magazine",
+    "shortName": "AK 5.45",
+    "description": "A Russian 5.45x39mm bakelite magazine with a capacity of 30 rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_IzhmashBakeliteAk74_30Rnd_545x39.webp",
+    "properties": {
+      "weight": 0.22,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.45x39mm",
+      "capacity": 30,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 54,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Mag_IzhmashBakeliteAk47_30Rnd_762x39_L2",
+    "name": "AK 7.62x39mm 30-Round Bakelite Magazine",
+    "shortName": "AK 7.62",
+    "description": "This 30-round AK-47 magazine is made of durable bakelite and designed for 7.62x39mm rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_IzhmashBakeliteAk47_30Rnd_762x39.webp",
+    "properties": {
+      "weight": 0.24,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "7.62x39mm",
+      "capacity": 30,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 75,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Mag_IzhmashBlackAk74_30Rnd_545x39_L2",
+    "name": "AK 5.45×39mm 30-Round Black Magazine",
+    "shortName": "AK 5.45",
+    "description": "This Izhmash-branded Super Black (True Black) 30-Round AK-74 magazine is compatible with standard AK-74 or RPK-74 rifles that accept 5.45x39mm double-stack magazines.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_IzhmashBlackAk74_30Rnd_545x39.webp",
+    "properties": {
+      "weight": 0.22,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.45x39mm",
+      "capacity": 30,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 54,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Mag_IzhmashBlackAk74_30Rnd_545x39_L4",
+    "name": "AK 5.45×39mm 30-Round Black Magazine",
+    "shortName": "AK 5.45",
+    "description": "This Izhmash-branded Super Black (True Black) 30-Round AK-74 magazine is compatible with standard AK-74 or RPK-74 rifles that accept 5.45x39mm double-stack magazines.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_IzhmashBlackAk74_30Rnd_545x39.webp",
+    "properties": {
+      "weight": 0.22,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.45x39mm",
+      "capacity": 30,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 54,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Four"
+    }
+  },
+  {
+    "internalName": "Mag_M870_6Rnd_12Gaug_L3",
+    "name": "M870 12ga 6-Round Magazine",
+    "shortName": "M870",
+    "description": "This magazine extension tube for 12 gauge shotguns is known for its durability. It increases the magazine's capacity to hold 6 rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_M870_6Rnd_12Gaug.webp",
+    "properties": {
+      "weight": 0.25,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "12GA",
+      "capacity": 6,
+      "reloadTime": 0,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 112,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Mag_MossbergNordicMagazineExt_7Rnd_12Gaug_L2",
+    "name": "M590 12ga 7-Round Magazine",
+    "shortName": "M590",
+    "description": "The Nordic Magazine Extension is designed for Mossberg shotguns and has a capacity of 7 rounds. It allows users to carry more rounds for their firearm.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_MossbergNordicMagazineExt_7Rnd_12Gaug.webp",
+    "properties": {
+      "weight": 0.34,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "12GA",
+      "capacity": 7,
+      "reloadTime": 0,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 76,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Mag_MossbergNordicMagazineExt_8Rnd_12Gaug_L3",
+    "name": "M590 12ga 8-Round Magazine",
+    "shortName": "M590",
+    "description": "The Nordic Magazine Extension is designed for Mossberg shotguns and has a capacity of 8 rounds. It allows users to carry more rounds for their firearm.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_MossbergNordicMagazineExt_8Rnd_12Gaug.webp",
+    "properties": {
+      "weight": 0.4,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "12GA",
+      "capacity": 8,
+      "reloadTime": 0,
+      "sizeExtending": {
+        "Left": 3
+      },
+      "price": 124,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Mag_Pmag20ArM4_20Rnd_556x45_L4",
+    "name": "AR-15 5.56x45mm 20-Round PMAG Magazine",
+    "shortName": "AR15",
+    "description": "A 20-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 ACC Blackout rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Pmag20ArM4_20Rnd_556x45.webp",
+    "properties": {
+      "weight": 0.113,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "5.56x45mm",
+      "capacity": 20,
+      "reloadTime": -2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 35,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Four"
+    }
+  },
+  {
+    "internalName": "Mag_Pmag30ArM4FDE_30Rnd_556x45_L2",
+    "name": "AR-15 5.56x45mm 30-Round PMAG Magazine (FDE)",
+    "shortName": "AR15",
+    "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 ACC Blackout rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Pmag30ArM4FDE_30Rnd_556x45.webp",
+    "properties": {
+      "weight": 0.141,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.56x45mm",
+      "capacity": 30,
+      "reloadTime": -6,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 53,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Mag_Remington700Pmag_10Rnd_762x51_L3",
+    "name": "M700 7.62x51mm 10-Round PMAG AC Magazine",
+    "shortName": "M700",
+    "description": "The PMAG 10 7.62 AC is a durable polymer magazine that holds ten rounds and is designed for .308 Winchester cartridges. It is compatible with short-action AICS-spec bottom metal, including the Bolt Action Magazine Well for the Hunter 700 Stock. The magazine features a paint-pen dot matrix for easy identification and a flared base plate for enhanced control and quick retrieval.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Remington700Pmag_10Rnd_762x51.webp",
+    "properties": {
+      "weight": 0.124,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Magazine",
+      "caliber": "7.62x51mm",
+      "capacity": 10,
+      "reloadTime": 4,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 71,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Mag_StanagMag_30Rnd_556x45_L2",
+    "name": "AR-15 5.56x45mm 30-Round STANAG Magazine",
+    "shortName": "AR15",
+    "description": "A 30-round STANAG magazine designed for 5.56x45mm NATO/.223 Remington, compatible with AR-style firearms. It is produced in the United States by C Products Defense and features an enhanced design that incorporates a two-part Stainless Steel body. The body undergoes robotic welding to ensure precise control over critical-to-function dimensions, which in turn ensures a proper fit in the magazine well.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_StanagMag_30Rnd_556x45.webp",
+    "properties": {
+      "weight": 0.32,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.56x45mm",
+      "capacity": 30,
+      "reloadTime": -4,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 67,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Mag_Ar15AtiSchmeisserS60_60Rnd_556x45_L4",
+    "name": "AR-15 5.56x45mm 60-Round S60 Magazine",
+    "shortName": "AR15",
+    "description": "The S60 AZI Schmeisser magazine by Magpul has a stunning ammo capacity of 60 rounds, making it useful for full-auto and long combat. It can be chambered with 5.56x45mm or .300 ACC Blackout rounds.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45.webp",
+    "properties": {
+      "weight": 0.263,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.56x45mm",
+      "capacity": 60,
+      "reloadTime": 16,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 115,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Four"
+    }
+  },
+  {
+    "internalName": "Mag_DdAr15_32Rnd_556x45_L4",
+    "name": "AR-15 5.56x45mm 32-Round DD Magazine",
+    "shortName": "AR15",
+    "description": "The DD Magazine is constructed with the same high quality and strict standards as Daniel Defense firearms. It offers 32-round capacity for both 5.56x45mm and .300 ACC Blackout rounds, all within the familiar size of industry-standard 30-round magazines.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Mag_Mag_DdAr15_32Rnd_556x45.webp",
+    "properties": {
+      "weight": 0.11,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Magazine",
+      "caliber": "5.56x45mm",
+      "capacity": 32,
+      "reloadTime": -6,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 79,
+      "sellRate": 0.25,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "internalName": "Rig_UniversalChestBag",
+    "name": "Universal Chest Bag",
+    "shortName": "Chest Bag",
+    "description": "Lightweight nylon chest bag with two side pouches.",
+    "category": "Gear",
+    "type": "TacticalRigs",
+    "imageName": "T_Icon_Rig_UniversalChestBag.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 3
+      },
+      "type": "TacticalRig",
+      "innerSize": {
+        "X": 4,
+        "Y": 1
+      },
+      "price": 49,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Rig_BikerChestRig",
+    "name": "Biker Chest Rig",
+    "shortName": "Biker",
+    "description": "A chest rig designed for bikers to have all their necessities close by.",
+    "category": "Gear",
+    "type": "TacticalRigs",
+    "imageName": "T_Icon_Rig_BikerChestRig.webp",
+    "properties": {
+      "weight": 0.35,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 3
+      },
+      "type": "TacticalRig",
+      "innerSize": {
+        "X": 2,
+        "Y": 2
+      },
+      "price": 47,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Rig_Type56Ak",
+    "name": "Type 56 AK",
+    "shortName": "Type 56",
+    "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
+    "category": "Gear",
+    "type": "TacticalRigs",
+    "imageName": "T_Icon_Rig_Type56Ak.webp",
+    "properties": {
+      "weight": 0.52,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "TacticalRig",
+      "innerSize": {
+        "X": 3,
+        "Y": 2
+      },
+      "price": 76,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 7
+    }
+  },
+  {
+    "internalName": "Rig_Alice",
+    "name": "ALICE",
+    "shortName": "ALICE",
+    "description": "The ALICE (All-Purpose Lightweight Individual Carrying Equipment) chest rig is a classic and reliable tactical gear known for its simplicity and effectiveness. Originally developed by the United States military, it has become a popular choice among outdoor enthusiasts and those seeking a lightweight and versatile load-carrying system.",
+    "category": "Gear",
+    "type": "TacticalRigs",
+    "imageName": "T_Icon_Rig_Alice.webp",
+    "properties": {
+      "weight": 0.5,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 4
+      },
+      "type": "TacticalRig",
+      "innerSize": {
+        "X": 4,
+        "Y": 2
+      },
+      "price": 95,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Rig_MiniRigATacs",
+    "name": "Training Mini Rig",
+    "shortName": "TMR",
+    "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
+    "category": "Gear",
+    "type": "TacticalRigs",
+    "imageName": "T_Icon_Rig_MiniRigATacs.webp",
+    "properties": {
+      "weight": 0.622,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "TacticalRig",
+      "innerSize": {
+        "X": 3,
+        "Y": 3
+      },
+      "price": 117,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 5
+    }
+  },
+  {
+    "internalName": "Rig_ReconChestRig",
+    "name": "Recon Chest Rig",
+    "shortName": "Recon",
+    "description": "The Recon Chest Rig is a highly functional tactical gear with built-in kangaroo-style magazine pouches, offering quick and seamless access to up to six AR and pistol magazines. Its design facilitates faster reloads and keeps essential ammunition readily available during intense operations.",
+    "category": "Gear",
+    "type": "TacticalRigs",
+    "imageName": "T_Icon_Rig_ReconChestRig.webp",
+    "properties": {
+      "weight": 0.82,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 3
+      },
+      "type": "TacticalRig",
+      "innerSize": {
+        "X": 4,
+        "Y": 3
+      },
+      "price": 142,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Rig_Tactec",
+    "name": "TacTec Chest Rig",
+    "shortName": "TacTec",
+    "description": "The TacTec Chest Rig is a high-performance tactical load-carrying system that provides a sturdy and reliable foundation for any operator's tactical kit. With its durable construction and practical design, it provides a reliable platform for organizing and accessing essential gear during operations.",
+    "category": "Gear",
+    "type": "TacticalRigs",
+    "imageName": "T_Icon_Rig_Tactec.webp",
+    "properties": {
+      "weight": 0.5,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 4
+      },
+      "type": "TacticalRig",
+      "innerSize": {
+        "X": 5,
+        "Y": 2
+      },
+      "price": 122,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Rig_6sh104",
+    "name": "6Sh104",
+    "shortName": "6Sh104",
+    "description": "A practical and balanced load-carrying system for military and tactical use. Commonly used by the Russian Armed Forces, this rig features enough pouches for four magazines and one grenade, as well as two additional utility pouches and a combat backpack.",
+    "category": "Gear",
+    "type": "TacticalRigs",
+    "imageName": "T_Icon_Rig_6sh104.webp",
+    "properties": {
+      "weight": 1.5,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 4
+      },
+      "type": "TacticalRig",
+      "innerSize": {
+        "X": 4,
+        "Y": 4
+      },
+      "price": 200,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Rig_SmallRig",
+    "name": "Small Rig",
+    "shortName": "SRig",
+    "description": "A basic, compact rig designed for minimalistic gear carrying. It's a simple and unassuming accessory, offering limited storage capacity for essential items in a streamlined manner.",
+    "category": "Gear",
+    "type": "TacticalRigs",
+    "imageName": "T_Icon_Rig_SmallRig.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 3
+      },
+      "type": "TacticalRig",
+      "innerSize": {
+        "X": 2,
+        "Y": 2
+      },
+      "price": 49,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 4
+    }
+  },
+  {
+    "internalName": "Rig_ImprovizedRig",
+    "name": "Improvized Rig",
+    "shortName": "IRig",
+    "description": "A rough, makeshift rig assembled from available materials. It's a basic, hastily crafted solution for carrying gear, lacking finesse but serving its purpose in a pinch.",
+    "category": "Gear",
+    "type": "TacticalRigs",
+    "imageName": "T_Icon_Rig_ImprovizedRig.webp",
+    "properties": {
+      "weight": 0.2,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "TacticalRig",
+      "innerSize": {
+        "X": 1,
+        "Y": 2
+      },
+      "price": 24,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 4
+    }
+  }
+]

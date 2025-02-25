@@ -1,0 +1,461 @@
+[
+  {
+    "internalName": "Helmet_MichTc2000_Black",
+    "name": "MICH TC-2000 (Black)",
+    "shortName": "TC-2000",
+    "description": "A modern combat helmet offering advanced ballistic protection and fragmentation defense. The modular rail system allows for easy integration of accessories, while adjustable padding ensures a secure fit.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_MichTc2000_Black.webp",
+    "properties": {
+      "weight": 1.25,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 10000,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "IIIA",
+      "material": "Aramid",
+      "price": 603,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Helmet_FastMt_Tan",
+    "name": "FAST MT (Tan)",
+    "shortName": "FAST MT",
+    "description": "The FAST (Future Assault Shell Technology) MT is a high-performance tactical ballistic helmet manufactured by Ops-Core. Engineered with state-of-the-art materials, it provides exceptional protection and enhanced peripheral vision, promoting situational awareness in dynamic environments.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_FastMt_Tan.webp",
+    "properties": {
+      "weight": 0.693,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 11600,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "IIIA+",
+      "material": "Aramid",
+      "price": 664,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Helmet_Exfil_CoyoteBrown",
+    "name": "EXFIL (Coyote Brown)",
+    "shortName": "EXFIL",
+    "description": "The EXFIL Ballistic is an advanced and versatile helmet engineered for superior protection and performance in high-risk environments. It features a hybrid composite shell and guarantees an optimal fit.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_Exfil_CoyoteBrown.webp",
+    "properties": {
+      "weight": 1.18,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 13500,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "IIIA",
+      "material": "UHMWPE",
+      "price": 661,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Helmet_FastMt_Multicam",
+    "name": "FAST MT (Multicam)",
+    "shortName": "FAST MT",
+    "description": "The FAST (Future Assault Shell Technology) MT is a high-performance tactical ballistic helmet manufactured by Ops-Core. Engineered with state-of-the-art materials, it provides exceptional protection and enhanced peripheral vision, promoting situational awareness in dynamic environments.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_FastMt_Multicam.webp",
+    "properties": {
+      "weight": 0.693,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 11600,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "IIIA+",
+      "material": "Aramid",
+      "price": 664,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Helmet_MichTc2002_Tan",
+    "name": "MICH TC-2002 (Tan)",
+    "shortName": "TC-2002",
+    "description": "An advanced version of the MICH TC-2000 combat helmet, offering upgraded ballistic protection and features. It retains the streamlined and lightweight characteristics of its predecessor, reducing strain and fatigue during extended missions.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_MichTc2002_Tan.webp",
+    "properties": {
+      "weight": 1.23,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 10000,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "IIIA",
+      "material": "Aramid",
+      "price": 619,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Helmet_MichTc2002_Green",
+    "name": "MICH TC-2002 (Green)",
+    "shortName": "TC-2002",
+    "description": "An advanced version of the MICH TC-2000 combat helmet, offering upgraded ballistic protection and features. It retains the streamlined and lightweight characteristics of its predecessor, reducing strain and fatigue during extended missions.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_MichTc2002_Green.webp",
+    "properties": {
+      "weight": 1.23,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 10000,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "IIIA",
+      "material": "Aramid",
+      "price": 619,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Helmet_Amp1TpMc_RangerGreen",
+    "name": "AMP-1 TP MC (Ranger Green)",
+    "shortName": "AMP-1 TP MC",
+    "description": "The AMP-1 TP MC (Mid Cut) is a state-of-the-art, modular and comfortable ballistic helmet with next-to-zero bullet penetration. It is fully customizable and allows for various attachments while offering total head protection during close-quarter combat operations.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_Amp1TpMc_RangerGreen.webp",
+    "properties": {
+      "weight": 1.63,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 11600,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "IIIA+",
+      "material": "Aramid",
+      "price": 917,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Helmet_Exfil_Multicam",
+    "name": "EXFIL (Multicam)",
+    "shortName": "EXFIL",
+    "description": "The EXFIL Ballistic is an advanced and versatile helmet engineered for superior protection and performance in high-risk environments. It features a hybrid composite shell and guarantees an optimal fit.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_Exfil_Multicam.webp",
+    "properties": {
+      "weight": 1.18,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 13500,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "IIIA",
+      "material": "UHMWPE",
+      "price": 661,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Helmet_Amp1TpLc_UN",
+    "name": "AMP-1 TP LC (UNLRA)",
+    "shortName": "AMP-1 TP LC",
+    "description": "The AMP-1 TP LC (Low Cut) is a state-of-the-art, modular and comfortable ballistic helmet with next-to-zero bullet penetration. It is fully customizable and allows for various attachments while offering total head protection during close-quarter combat operations.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_Amp1TpLc_UN.webp",
+    "properties": {
+      "weight": 1.69,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 11600,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "IIIA+",
+      "material": "Aramid",
+      "price": 917,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Helmet_SSh60",
+    "name": "SSh-60",
+    "shortName": "SSh-60",
+    "description": "A steel Soviet-era helmet that was widely used by various branches of the Soviet military and later by the Russian armed forces. While it has been largely phased out in favor of more modern helmet designs, it remains an iconic representation of Cold War-era military gear.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_SSh60.webp",
+    "properties": {
+      "weight": 1.23,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 3000,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "I",
+      "material": "Steel",
+      "price": 133,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Helmet_Lshz1_Multicam",
+    "name": "LShZ 1+ (Multicam)",
+    "shortName": "LShZ",
+    "description": "A copy of the Ops-Core FAST helmet, the LshZ 1+ has a flatter shell and was designed to mount Russian night vision and communication devices. It offers enhanced peripheral vision and comfort, while providing comprehensive coverage for vital areas.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_Lshz1_Multicam.webp",
+    "properties": {
+      "weight": 1.1,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 5600,
+      "minimumDamageJoules": 2,
+      "plates": [],
+      "class": "IIA+",
+      "material": "Aramid",
+      "price": 437,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 7
+    }
+  },
+  {
+    "internalName": "Helmet_Lshz1_Black",
+    "name": "LShZ 1+",
+    "shortName": "LShZ",
+    "description": "A copy of the Ops-Core FAST helmet, the LshZ 1+ has a flatter shell and was designed to mount Russian night vision and communication devices. It offers enhanced peripheral vision and comfort, while providing comprehensive coverage for vital areas.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_Lshz1_Black.webp",
+    "properties": {
+      "weight": 1.1,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 5600,
+      "minimumDamageJoules": 2,
+      "plates": [],
+      "class": "IIA+",
+      "material": "Aramid",
+      "price": 399,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Helmet_SSh68n",
+    "name": "SSh-68N",
+    "shortName": "SSh-68N",
+    "description": "The SSh-68N is a battle-tested steel helmet, offering reliable protection against ballistic threats and shrapnel. Although newer helmet models have emerged, the SSh-68N remains in service due to its proven durability and affordability, making it an essential piece of equipment for troops in many regions around the world.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_SSh68n.webp",
+    "properties": {
+      "weight": 2,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 3000,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "I",
+      "material": "Steel",
+      "price": 196,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 7
+    }
+  },
+  {
+    "internalName": "Helmet_6b47Ratnik",
+    "name": "6B47 Ratnik",
+    "shortName": "6B47",
+    "description": "An advanced ballistic helmet and a key component of the Ratnik modern infantry combat system. With its innovative design and materials, it provides superior protection against ballistic threats and impact. Designed to accommodate various attachments, the 6B47 allows the integration of night vision goggles, communication devices, and other accessories, enhancing situational awareness and combat effectiveness.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_6b47Ratnik.webp",
+    "properties": {
+      "weight": 1.2,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 4800,
+      "minimumDamageJoules": 2,
+      "plates": [],
+      "class": "IIA",
+      "material": "Aramid",
+      "price": 332,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 7
+    }
+  },
+  {
+    "internalName": "Helmet_MichTc2000_UN",
+    "name": "MICH TC-2000 (UNLRA)",
+    "shortName": "TC-2000",
+    "description": "A modern combat helmet offering advanced ballistic protection and fragmentation defense. The modular rail system allows for easy integration of accessories, while adjustable padding ensures a secure fit.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_MichTc2000_UN.webp",
+    "properties": {
+      "weight": 1.45,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 10000,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "IIIA",
+      "material": "Aramid",
+      "price": 598,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Helmet_MichTc2000_Green",
+    "name": "MICH TC-2000 (Green)",
+    "shortName": "TC-2000",
+    "description": "A modern combat helmet offering advanced ballistic protection and fragmentation defense. The modular rail system allows for easy integration of accessories, while adjustable padding ensures a secure fit.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_MichTc2000_Green.webp",
+    "properties": {
+      "weight": 1.25,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 10000,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "IIIA",
+      "material": "Aramid",
+      "price": 603,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Helmet_Amp1TpLc_RangerGreen",
+    "name": "AMP-1 TP LC (Ranger Green)",
+    "shortName": "AMP-1 TP LC",
+    "description": "The AMP-1 TP LC (Low Cut) is a state-of-the-art, modular and comfortable ballistic helmet with next-to-zero bullet penetration. It is fully customizable and allows for various attachments while offering total head protection during close-quarter combat operations.",
+    "category": "Gear",
+    "type": "Helmets",
+    "imageName": "T_Icon_Helmet_Amp1TpLc_RangerGreen.webp",
+    "properties": {
+      "weight": 1.69,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Helmet",
+      "overallJoules": 11600,
+      "minimumDamageJoules": 10,
+      "plates": [],
+      "class": "IIIA+",
+      "material": "Aramid",
+      "price": 917,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 6
+    }
+  }
+]

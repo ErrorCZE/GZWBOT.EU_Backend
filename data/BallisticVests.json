@@ -1,0 +1,235 @@
+[
+  {
+    "internalName": "Vest_Commander_Navy",
+    "name": "Commander (Navy)",
+    "shortName": "Commander",
+    "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
+    "category": "Gear",
+    "type": "BallisticVests",
+    "imageName": "T_Icon_Vest_Commander_Navy.webp",
+    "properties": {
+      "weight": 4,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "BallisticVest",
+      "overallJoules": 13500,
+      "minimumDamageJoules": 10,
+      "plates": [
+        "Front",
+        "Back"
+      ],
+      "class": "IIIA",
+      "material": "UHMWPE",
+      "price": 306,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 5
+    }
+  },
+  {
+    "internalName": "Vest_Commander_Black",
+    "name": "Commander (Black)",
+    "shortName": "Commander",
+    "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
+    "category": "Gear",
+    "type": "BallisticVests",
+    "imageName": "T_Icon_Vest_Commander_Black.webp",
+    "properties": {
+      "weight": 4,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "BallisticVest",
+      "overallJoules": 13500,
+      "minimumDamageJoules": 10,
+      "plates": [
+        "Front",
+        "Back"
+      ],
+      "class": "IIIA",
+      "material": "UHMWPE",
+      "price": 306,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Vest_CovertTacticalBodyArmour_Un",
+    "name": "Covert Tactical Body Armour (UN)",
+    "shortName": "Covert",
+    "description": "Extremely popular with international security organizations and law enforcement, the Covert Tactical Body Armour provides level IIIA ballistic protection according to the NIJ (National Institute of Justice) standard, safeguarding against most handgun threats. This particular UN version doesn't feature any additional ballistic plates.",
+    "category": "Gear",
+    "type": "BallisticVests",
+    "imageName": "T_Icon_Vest_CovertTacticalBodyArmour_Un.webp",
+    "properties": {
+      "weight": 3.25,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "BallisticVest",
+      "overallJoules": 13500,
+      "minimumDamageJoules": 10,
+      "plates": [
+        "Front",
+        "Back"
+      ],
+      "class": "IIIA",
+      "material": "UHMWPE",
+      "price": 338,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Vest_Vip_Black",
+    "name": "CZ VIP (Black)",
+    "shortName": "VIP",
+    "description": "Offers discreet ballistic protection for everyday use. Favored especially by bodyguards and security personnel.",
+    "category": "Gear",
+    "type": "BallisticVests",
+    "imageName": "T_Icon_Vest_Vip_Black.webp",
+    "properties": {
+      "weight": 7.31,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "BallisticVest",
+      "overallJoules": 22500,
+      "plates": [
+        "Front"
+      ],
+      "class": "III",
+      "material": "Steel",
+      "price": 405,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Vest_CovertTacticalBodyArmour_Press",
+    "name": "Covert Tactical Body Armour (Press)",
+    "shortName": "Covert",
+    "description": "Extremely popular with international security organizations and law enforcement, the Covert Tactical Body Armour provides level IIIA ballistic protection according to the NIJ (National Institute of Justice) standard, safeguarding against most handgun threats.",
+    "category": "Gear",
+    "type": "BallisticVests",
+    "imageName": "T_Icon_Vest_CovertTacticalBodyArmour_Press.webp",
+    "properties": {
+      "weight": 10.41,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "BallisticVest",
+      "overallJoules": 22500,
+      "plates": [
+        "Front",
+        "Back"
+      ],
+      "class": "III",
+      "material": "Steel",
+      "price": 509,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Vest_CovertTacticalBodyArmour_Police",
+    "name": "Covert Tactical Body Armour (Police)",
+    "shortName": "Covert",
+    "description": "Extremely popular with international security organizations and law enforcement, the Covert Tactical Body Armour provides level IIIA ballistic protection according to the NIJ (National Institute of Justice) standard, safeguarding against most handgun threats.",
+    "category": "Gear",
+    "type": "BallisticVests",
+    "imageName": "T_Icon_Vest_CovertTacticalBodyArmour_Police.webp",
+    "properties": {
+      "weight": 5.77,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "BallisticVest",
+      "overallJoules": 20250,
+      "minimumDamageJoules": 30,
+      "plates": [
+        "Front",
+        "Back"
+      ],
+      "class": "III",
+      "material": "UHMWPE",
+      "price": 540,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Vest_6b231_Flora",
+    "name": "6B23-1 (Flora)",
+    "shortName": "6B23-1",
+    "description": "This ballistic vest is a part of the 6B23 series, designed to provide reliable protection for soldiers in various combat situations. It features an iconic \"Flora\" camouflage pattern, which is used by the Russian Armed Forces.",
+    "category": "Gear",
+    "type": "BallisticVests",
+    "imageName": "T_Icon_Vest_6b231_Flora.webp",
+    "properties": {
+      "weight": 7.9,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 4
+      },
+      "type": "BallisticVest",
+      "overallJoules": 23400,
+      "plates": [
+        "Front"
+      ],
+      "class": "III+",
+      "material": "Steel",
+      "price": 435,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 7
+    }
+  },
+  {
+    "internalName": "Vest_6b231_Digital",
+    "name": "6B23-1 (Digital)",
+    "shortName": "6B23-1",
+    "description": "This ballistic vest is a part of the 6B23 series, designed to provide reliable protection for soldiers in various combat situations. It features a digital camouflage pattern which helps the wearer to stay hidden thanks to its pixellated patterns.",
+    "category": "Gear",
+    "type": "BallisticVests",
+    "imageName": "T_Icon_Vest_6b231_Digital.webp",
+    "properties": {
+      "weight": 7.9,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 4
+      },
+      "type": "BallisticVest",
+      "overallJoules": 23400,
+      "plates": [
+        "Front"
+      ],
+      "class": "III+",
+      "material": "Steel",
+      "price": 435,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 6
+    }
+  }
+]

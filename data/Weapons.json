@@ -1,0 +1,518 @@
+[
+  {
+    "internalName": "Firearm_Ak74M",
+    "name": "AK-74M",
+    "shortName": "AK-74M",
+    "description": "The AK-74M, officially in service since 1991, is a modernized version of the AK-74. It is chambered in 5.45x39mm and is popular with military forces and armed groups worldwide. The 'M' designation indicates modern features, including a reinforced polymer folding stock for enhanced portability and maneuverability. The AK-74M can also include a side rail for attachments, enabling users to integrate different optics or accessories to meet mission requirements.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_Ak74M.webp",
+    "properties": {
+      "weight": 0.6,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single",
+        "Automatic"
+      ],
+      "fireRate": 650,
+      "muzzleSpeed": 880,
+      "accuracy": 3.2,
+      "moa": 3.2,
+      "caliber": "5.45x39mm",
+      "price": 376,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_Ak74N",
+    "name": "AK-74N",
+    "shortName": "AK-74N",
+    "description": "The AK-74N is a modified variant of the AK-74 rifle, designed with a side rail for attaching night vision scopes, indicated by the 'N' in its name. It is chambered in 5.45x39mm, offering improved accuracy and versatility, especially in low-light conditions. The side rail enables easy integration of night vision optics, allowing users to operate effectively during nighttime operations.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_Ak74N.webp",
+    "properties": {
+      "weight": 0.6,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single",
+        "Automatic"
+      ],
+      "fireRate": 650,
+      "muzzleSpeed": 880,
+      "accuracy": 3.2,
+      "moa": 3.2,
+      "caliber": "5.45x39mm",
+      "price": 225,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_Akm",
+    "name": "AKM",
+    "shortName": "AKM",
+    "description": "The AKM (Avtomat Kalashnikova Modernizirovanniy) was designed in 1959 as a successor to the renowned AK-47. It represents a significant advancement in the evolution of the AK series of rifles, as it was specifically engineered to streamline manufacturing processes, making it more cost-effective and easier to produce on a large scale. The AKM, chambered in 7.62x39mm, became the standard rifle for the Soviet Army and was widely adopted by most member states of the Warsaw Pact, ensuring its presence across Eastern Europe and beyond. It was exported and produced in many other countries, making it ubiquitous worldwide.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_Akm.webp",
+    "properties": {
+      "weight": 0.6,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single",
+        "Automatic"
+      ],
+      "fireRate": 600,
+      "muzzleSpeed": 715,
+      "accuracy": 3.5,
+      "moa": 3.5,
+      "caliber": "7.62x39mm",
+      "price": 80,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_Akmn",
+    "name": "AKMN",
+    "shortName": "AKMN",
+    "description": "The AKMN is a variant of the AKM that comes equipped with a side rail for use with night vision scopes, as denoted by the 'N' in its name. This model is a popular choice among military forces and armed groups worldwide due to its improved accuracy and versatility.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_Akmn.webp",
+    "properties": {
+      "weight": 0.6,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single",
+        "Automatic"
+      ],
+      "fireRate": 600,
+      "muzzleSpeed": 715,
+      "accuracy": 3.5,
+      "moa": 3.5,
+      "caliber": "7.62x39mm",
+      "price": 121,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_Akmsn",
+    "name": "AKMSN",
+    "shortName": "AKMSN",
+    "description": "The AKMSN is a customized version of the AKMS automatic rifle. It has a dovetail mount for the NSP family of night vision scopes, making it adaptable for low-light conditions and improving visibility during nighttime operations. The foldable stock adds to its practicality and ease of transportation.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_Akmsn.webp",
+    "properties": {
+      "weight": 0.6,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single",
+        "Automatic"
+      ],
+      "fireRate": 600,
+      "muzzleSpeed": 715,
+      "accuracy": 3.5,
+      "moa": 3.5,
+      "caliber": "7.62x39mm",
+      "price": 197,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_ColtM4A1",
+    "name": "M4A1",
+    "shortName": "M4A1",
+    "description": "The M4A1, in service since 1994, is a fully automatic variant of the M4 carbine widely utilized by U.S. special operations forces. This highly regarded rifle offers exceptional performance and reliability, with a selective fire system that allows operators to switch between semi-automatic and fully automatic modes. Its compact size, collapsible stock, and compatibility with various accessories make it ideal for close-quarters combat and versatile for various mission requirements.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_ColtM4A1.webp",
+    "properties": {
+      "weight": 0.65,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single",
+        "Automatic"
+      ],
+      "fireRate": 800,
+      "muzzleSpeed": 922,
+      "accuracy": 2.7,
+      "moa": 0,
+      "caliber": "5.56x45mm",
+      "price": 163,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_DdMk18",
+    "name": "MK18",
+    "shortName": "MK18",
+    "description": "The MK18 is a high-quality AR-15 build approach developed by Daniel Defense. It is considered one of the best-quality AR-15 builds on the market due to its precise construction and tight tolerances, which make it very reliable and well-performing. The MK18 is also fielded by US Rangers.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_DdMk18.webp",
+    "properties": {
+      "weight": 0.7,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single",
+        "Automatic"
+      ],
+      "fireRate": 800,
+      "muzzleSpeed": 922,
+      "accuracy": 2.1,
+      "moa": 0,
+      "caliber": "5.56x45mm",
+      "price": 271,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_Glock17",
+    "name": "Glock 17",
+    "shortName": "Glock 17",
+    "description": "The Glock 17 is a renowned semi-automatic pistol chambered in 9x19mm Parabellum, designed and manufactured by Glock GmbH. It has gained widespread recognition for its exceptional reliability, durability, and ease of use. With a standard magazine capacity of 17 rounds, the Glock 17 offers ample firepower. Its lightweight polymer frame, combined with a steel slide, ensures resilience and comfortable handling. Trusted by professionals and civilians alike, the Glock 17 is a popular choice for self-defense, law enforcement, and sport shooting due to its robust construction and impressive performance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_Glock17.webp",
+    "properties": {
+      "weight": 0.231,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single"
+      ],
+      "fireRate": 600,
+      "muzzleSpeed": 375,
+      "accuracy": 9.85,
+      "moa": 0,
+      "caliber": "9x19mm",
+      "price": 91,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_M700",
+    "name": "M700",
+    "shortName": "M700",
+    "description": "The Remington M700 is an accurate and reliable bolt-action rifle widely used by hunters, law enforcement agencies, and military snipers around the world. With a reputation for precision, the M700 is available in various calibers and configurations to suit different shooting applications, from long-range target shooting to big game hunting.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_M700.webp",
+    "properties": {
+      "weight": 0.8,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single"
+      ],
+      "fireRate": 30,
+      "muzzleSpeed": 850,
+      "accuracy": 0.68,
+      "moa": 0,
+      "caliber": "7.62x51mm",
+      "price": 503,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_MosinNagantSniper",
+    "name": "Mosin-Nagant (Sniper)",
+    "shortName": "Mosin (S)",
+    "description": "The sniper variant of the Mosin-Nagant Model 1891/30, employed by Soviet snipers during World War II, underwent several modifications for precision shooting. Notably, the rifle featured a modified bolt design to prevent interference with the telescopic sight and two holes in the upper receiver for mounting the sight securely. Despite these alterations, the sniper variant retained the same basic operating mechanism and chambering as the standard infantry rifle. With an extended effective range and enhanced accuracy, it played a vital role in Soviet sniping operations during the war.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_MosinNagantSniper.webp",
+    "properties": {
+      "weight": 0.9,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single"
+      ],
+      "fireRate": 20,
+      "muzzleSpeed": 865,
+      "accuracy": 1.2,
+      "moa": 0,
+      "caliber": "7.62x54mmR",
+      "price": 150,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_Mossberg590",
+    "name": "Mossberg 590",
+    "shortName": "Mos 590",
+    "description": "The Mossberg 590 is a pump-action shotgun celebrated for its ruggedness and reliability. It features a 3-inch chamber and is available in various barrel lengths, typically ranging from 18.5 to 20 inches, catering to different preferences and applications. Designed primarily for defensive and tactical purposes, the Mossberg 590 is equipped with a sturdy receiver and a tang-mounted safety, ensuring quick and intuitive operation, particularly in high-pressure situations. Its dual extractors and twin action bars contribute to smooth cycling and dependable performance, even in harsh conditions.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_Mossberg590.webp",
+    "properties": {
+      "weight": 1.1,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single"
+      ],
+      "fireRate": 300,
+      "muzzleSpeed": 340,
+      "accuracy": 15.95,
+      "moa": 0,
+      "caliber": "12GA",
+      "price": 63,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_NornicoCQA1",
+    "name": "CQ A1",
+    "shortName": "CQ A1",
+    "description": "The Norinco CQ A1 is a Chinese replica of the American M4A1 rifle. This semi-automatic version is widely available in the civilian market due to its competitive pricing. Although it may have some surface finish shortcomings, this rifle is typically built with Mil-Spec tolerances.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_NornicoCQA1.webp",
+    "properties": {
+      "weight": 0.6,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single"
+      ],
+      "fireRate": 800,
+      "muzzleSpeed": 922,
+      "accuracy": 3.7,
+      "moa": 3.7,
+      "caliber": "5.56x45mm",
+      "price": 108,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_RemingtonM870",
+    "name": "M870",
+    "shortName": "M870",
+    "description": "The Remington Model 870 is a classic pump-action shotgun known for its reliability, versatility, and widespread use in various applications such as hunting, sport shooting, and law enforcement. It features a robust and durable design, with a variety of configurations available to suit different preferences and needs. The Model 870 is celebrated for its smooth cycling action, solid construction, and proven performance, making it a popular choice among firearm enthusiasts worldwide.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_RemingtonM870.webp",
+    "properties": {
+      "weight": 1.1,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single"
+      ],
+      "fireRate": 300,
+      "muzzleSpeed": 340,
+      "accuracy": 2,
+      "moa": 0,
+      "caliber": "12GA",
+      "price": 62,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_SkorpionVz61",
+    "name": "Vz. 61 Skorpion",
+    "shortName": "Vz61",
+    "description": "The Škorpion vz. 61, also known as the Vz. 61 Skorpion, is a prime example of a compact Czechoslovak submachine gun known for its reliability and versatility. Introduced in the 1960s, it quickly found its place among security forces and military units due to its compact size and firepower. Manufactured by Česká zbrojovka Uherský Brod between 1963 and 1979 under the official designation Samopal vzor 61, the Škorpion vz. 61 features a distinctive design with a folding stock and forward folding grip, making it exceptionally maneuverable in close-quarters combat situations. Chambered in the .32 ACP (7.65mm Browning) caliber, the Škorpion vz. 61 has a cyclic rate of fire of approximately 850 rounds per minute, providing a potent combination of firepower and controllability. Its compact size and lightweight construction make it suitable for various roles, including personal defense, special operations, and as a backup weapon for vehicle crews and pilots.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_SkorpionVz61.webp",
+    "properties": {
+      "weight": 0.9,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single",
+        "Automatic"
+      ],
+      "fireRate": 800,
+      "muzzleSpeed": 320,
+      "accuracy": 9.3,
+      "moa": 9.3,
+      "caliber": "7.65mm Browning",
+      "price": 119,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Firearm_Sks",
+    "name": "SKS",
+    "shortName": "SKS",
+    "description": "The SKS, originating in the Soviet Union, gained global prominence through widespread export and production. Notable for its fixed magazine and foldable bayonet, it lacked select-fire capability and had limited magazine capacity, leading to its replacement by the AK-47 in the Soviet Armed Forces during the 1950s. Despite this, the SKS continued to serve in various Soviet units for years. Soviet production occurred from 1949 to 1958 at the Tula Arsenal and from 1953 to 1954 at the Izhevsk Arsenal, resulting in approximately 2.7 million units. Additionally, millions more were produced under license in China and other Eastern Bloc countries during the Cold War. Its adaptability for guerrilla warfare made it popular among insurgent forces worldwide. Since 1988, the SKS has been widely available in the civilian market in North America, maintaining popularity for hunting and sporting activities.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_Sks.webp",
+    "properties": {
+      "weight": 2.63,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single"
+      ],
+      "fireRate": 600,
+      "muzzleSpeed": 735,
+      "accuracy": 2.5,
+      "moa": 3.2,
+      "caliber": "7.62x39mm",
+      "price": 110,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_Type51",
+    "name": "Type 51",
+    "shortName": "Type 51",
+    "description": "The Type 51 Tokarev is based on a steel-framed construction, which ensures durability and longevity. It uses a single-stack magazine that can hold eight rounds of 7.62x25mm Tokarev ammunition. The pistol operates on a simple blowback mechanism, which is known for its reliability and ease of maintenance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_Type51.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single"
+      ],
+      "fireRate": 600,
+      "muzzleSpeed": 499,
+      "accuracy": 13.25,
+      "moa": 13.25,
+      "caliber": "7.62x25mm",
+      "price": 88,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Firearm_Glock17Olive",
+    "name": "Glock 17 (Olive)",
+    "shortName": "Glock 17",
+    "description": "The Glock 17 is a renowned semi-automatic pistol chambered in 9x19mm Parabellum, designed and manufactured by Glock GmbH. It has gained widespread recognition for its exceptional reliability, durability, and ease of use. With a standard magazine capacity of 17 rounds, the Glock 17 offers ample firepower. Its lightweight polymer frame, combined with a steel slide, ensures resilience and comfortable handling. Trusted by professionals and civilians alike, the Glock 17 is a popular choice for self-defense, law enforcement, and sport shooting due to its robust construction and impressive performance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Firearm_Glock17Olive.webp",
+    "properties": {
+      "weight": 0.231,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "WeaponBody",
+      "fireMode": [
+        "Single"
+      ],
+      "fireRate": 600,
+      "muzzleSpeed": 375,
+      "accuracy": 9.85,
+      "moa": 0,
+      "caliber": "9x19mm",
+      "price": 91,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  }
+]

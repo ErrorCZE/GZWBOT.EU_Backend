@@ -1,0 +1,152 @@
+[
+  {
+    "internalName": "Med_Pills_PotassiumIodine",
+    "name": "Potassium Iodide",
+    "shortName": "KI",
+    "description": "Potassium iodide (abbreviated as KI) is a chemical compound that serves as a protective measure against radioactive iodine exposure, a byproduct of nuclear accidents or incidents. When taken orally, potassium iodide floods the thyroid gland with stable iodine, effectively blocking the absorption of radioactive iodine isotopes.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Pills_PotassiumIodine.webp",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Painkiller",
+      "duration": 60,
+      "radiationRemovedPerSec": 0.066668,
+      "uses": 3,
+      "price": 24,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Pills_Ibalin",
+    "name": "Ibalin",
+    "shortName": "Ibalin",
+    "description": "Civilian-grade painkillers for treating pain, fever, and inflammation. Since they dilute blood, they are not recommended to be used by armed forces.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Pills_Ibalin.webp",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Painkiller",
+      "duration": 300,
+      "efficiency": 0.33,
+      "uses": 4,
+      "price": 5,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Med_Pills_Meloxicam",
+    "name": "Meloxicam",
+    "shortName": "Melox",
+    "description": "A nonsteroidal anti-inflammatory drug that is prescribed to manage pain and inflammation.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Pills_Meloxicam.webp",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Painkiller",
+      "duration": 600,
+      "efficiency": 0.33,
+      "uses": 4,
+      "price": 7,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Pills_Paracetamol",
+    "name": "Paracetamol",
+    "shortName": "Paracet",
+    "description": "A widely used over-the-counter medication known for its pain-relieving and fever-reducing properties. It is commonly employed to alleviate mild to moderate pain and discomfort, as well as to lower fever.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Pills_Paracetamol.webp",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Painkiller",
+      "duration": 600,
+      "efficiency": 0.66,
+      "uses": 4,
+      "price": 12,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Pills_ActivatedCharcoal",
+    "name": "Activated Charcoal",
+    "shortName": "Charcoal",
+    "description": "A porous substance that undergoes a special activation process to enhance its adsorption properties. Known for its ability to trap and absorb toxins, chemicals, and gases in the digestive system, it is often used to address cases of poisoning or drug overdose.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Pills_ActivatedCharcoal.webp",
+    "properties": {
+      "weight": 0.06,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Painkiller",
+      "duration": 10,
+      "intoxicationRemovedPerSec": 0.01,
+      "uses": 5,
+      "price": 7,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Pills_Moxifloxacin",
+    "name": "Moxifloxacin",
+    "shortName": "Moxiflox",
+    "description": "A prescription antibiotic used to treat a range of bacterial infections by inhibiting the growth of bacteria and preventing their reproduction.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Pills_Moxifloxacin.webp",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Painkiller",
+      "duration": 25,
+      "intoxicationRemovedPerSec": 0.01,
+      "uses": 4,
+      "price": 14,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  }
+]

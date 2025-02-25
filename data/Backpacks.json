@@ -1,0 +1,326 @@
+[
+  {
+    "internalName": "Backpack_Delta",
+    "name": "Delta Backpack",
+    "shortName": "Delta",
+    "description": "The Delta Backpack boasts a substantial 65-liter capacity, making it a spacious and reliable choice for various operational demands. Despite its size, the backpack prioritizes comfort with adjustable padded straps with soft foam lining and elastic pads for added support, ensuring ergonomic wear during extended missions or outdoor activities.",
+    "category": "Gear",
+    "type": "Backpacks",
+    "imageName": "T_Icon_Backpack_Delta.webp",
+    "properties": {
+      "weight": 2.63,
+      "maxStack": 1,
+      "size": {
+        "X": 6,
+        "Y": 6
+      },
+      "type": "Backpack",
+      "weaponSlot": true,
+      "innerSize": {
+        "X": 6,
+        "Y": 6
+      },
+      "price": 514,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 7
+    }
+  },
+  {
+    "internalName": "Backpack_DrawstringBackpack",
+    "name": "Drawstring Backpack",
+    "shortName": "Drawstring",
+    "description": "A lightweight and functional bag featuring a simple drawstring closure. Good as a last resort, but it won't fit much.",
+    "category": "Gear",
+    "type": "Backpacks",
+    "imageName": "T_Icon_Backpack_DrawstringBackpack.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Backpack",
+      "weaponSlot": false,
+      "innerSize": {
+        "X": 2,
+        "Y": 2
+      },
+      "price": 43,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Backpack_Gunfighter14",
+    "name": "Gunfigter 14",
+    "shortName": "Gunfighter",
+    "description": "A tactical and compact backpack designed for users who require a balance between storage capacity and mobility. It offers a versatile option for carrying essential gear during short missions, outdoor activities, or everyday use.",
+    "category": "Gear",
+    "type": "Backpacks",
+    "imageName": "T_Icon_Backpack_Gunfighter14.webp",
+    "properties": {
+      "weight": 0.9,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "Backpack",
+      "weaponSlot": true,
+      "innerSize": {
+        "X": 3,
+        "Y": 3
+      },
+      "price": 136,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Backpack_SmallTouristBackpack",
+    "name": "Small Tourist Backpack",
+    "shortName": "STourist",
+    "description": "A small basic backpack designed for light outdoor activities. With a modest capacity, it offers a convenient option for carrying essentials during short trips or hikes.",
+    "category": "Gear",
+    "type": "Backpacks",
+    "imageName": "T_Icon_Backpack_SmallTouristBackpack.webp",
+    "properties": {
+      "weight": 0.072,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 3
+      },
+      "type": "Backpack",
+      "weaponSlot": false,
+      "innerSize": {
+        "X": 2,
+        "Y": 3
+      },
+      "price": 65,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Backpack_SportBackpack",
+    "name": "Sport Backpack",
+    "shortName": "Sport",
+    "description": "A functional backpack designed for daily use. With a basic design, it offers a convenient option for carrying personal belongings during everyday activities.",
+    "category": "Gear",
+    "type": "Backpacks",
+    "imageName": "T_Icon_Backpack_SportBackpack.webp",
+    "properties": {
+      "weight": 0.49,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "Backpack",
+      "weaponSlot": false,
+      "innerSize": {
+        "X": 3,
+        "Y": 3
+      },
+      "price": 97,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Backpack_MoabJamBall",
+    "name": "JDEN Jam Ball",
+    "shortName": "JDEN",
+    "description": "Popular among outdoor enthusiasts, the JDEN Jam Ball backpack strikes a balance between functionality and portability. Its compact design and durability make it a reliable choice for those seeking a versatile bag that can adapt to various situations and provide essential storage capacity.",
+    "category": "Gear",
+    "type": "Backpacks",
+    "imageName": "T_Icon_Backpack_MoabJamBall.webp",
+    "properties": {
+      "weight": 0.9,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 4
+      },
+      "type": "Backpack",
+      "weaponSlot": false,
+      "innerSize": {
+        "X": 3,
+        "Y": 4
+      },
+      "price": 129,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Backpack_AssaultBackpack",
+    "name": "Assault Backpack",
+    "shortName": "Assault",
+    "description": "Constructed from durable materials, the Assault Backpack provides ample storage space for items such as ammunition, communication devices, tactical gear, and personal accessories. Its design is focused on efficiency and reliability in demanding environments.",
+    "category": "Gear",
+    "type": "Backpacks",
+    "imageName": "T_Icon_Backpack_AssaultBackpack.webp",
+    "properties": {
+      "weight": 1.25,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 4
+      },
+      "type": "Backpack",
+      "weaponSlot": true,
+      "innerSize": {
+        "X": 3,
+        "Y": 4
+      },
+      "price": 178,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Backpack_ScorpionOcpConvoyPack",
+    "name": "Scorpion OCP Convoy Pack",
+    "shortName": "Scorpion",
+    "description": "A military-style backpack designed for tactical and operational use. It offers a rugged and efficient solution for carrying gear and equipment during missions, field operations, and deployments while also featuring compatibility with hydration systems and MOLLE webbing for the attachment of additional pouches.",
+    "category": "Gear",
+    "type": "Backpacks",
+    "imageName": "T_Icon_Backpack_ScorpionOcpConvoyPack.webp",
+    "properties": {
+      "weight": 1.36,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 4
+      },
+      "type": "Backpack",
+      "weaponSlot": true,
+      "innerSize": {
+        "X": 4,
+        "Y": 4
+      },
+      "price": 227,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Backpack_Amp12",
+    "name": "AMP12",
+    "shortName": "AMP12",
+    "description": "Designed to minimize discomfort while providing exceptional and reliable functionality, this backpack features an innovative Hexgrid load-bearing system and spacious compartments essential for field operatives and professionals.",
+    "category": "Gear",
+    "type": "Backpacks",
+    "imageName": "T_Icon_Backpack_Amp12.webp",
+    "properties": {
+      "weight": 1.32,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 5
+      },
+      "type": "Backpack",
+      "weaponSlot": true,
+      "innerSize": {
+        "X": 4,
+        "Y": 5
+      },
+      "price": 290,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Backpack_PatrolBackpack",
+    "name": "Patrol Backpack",
+    "shortName": "Patrol",
+    "description": "A part of the Ratnik infantry combat system used by Russian special forces and military personnel, this backpack is designed to offer a substantial carrying capacity, allowing users to transport a range of mission-specific gear and equipment.",
+    "category": "Gear",
+    "type": "Backpacks",
+    "imageName": "T_Icon_Backpack_PatrolBackpack.webp",
+    "properties": {
+      "weight": 1.1,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 5
+      },
+      "type": "Backpack",
+      "weaponSlot": true,
+      "innerSize": {
+        "X": 4,
+        "Y": 5
+      },
+      "price": 284,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Backpack_Lamer28",
+    "name": "Falang 28",
+    "shortName": "Falang",
+    "description": "A large civillian backpack for individuals seeking substantial storage capacity for their daily needs. It offers a reliable solution for carrying personal belongings, essentials, and even larger items during various activities.",
+    "category": "Gear",
+    "type": "Backpacks",
+    "imageName": "T_Icon_Backpack_Lamer28.webp",
+    "properties": {
+      "weight": 1.3,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 5
+      },
+      "type": "Backpack",
+      "weaponSlot": false,
+      "innerSize": {
+        "X": 4,
+        "Y": 5
+      },
+      "price": 215,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Backpack_Rush7220",
+    "name": "Rush 72 2.0",
+    "shortName": "Rush",
+    "description": "A robust and highly versatile tactical pack built for extended missions and outdoor adventures. With a spacious 55-liter capacity, multiple compartments, and MOLLE webbing, it offers ample storage and customizable organization.",
+    "category": "Gear",
+    "type": "Backpacks",
+    "imageName": "T_Icon_Backpack_Rush7220.webp",
+    "properties": {
+      "weight": 2.4,
+      "maxStack": 1,
+      "size": {
+        "X": 5,
+        "Y": 6
+      },
+      "type": "Backpack",
+      "weaponSlot": true,
+      "innerSize": {
+        "X": 5,
+        "Y": 6
+      },
+      "price": 424,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  }
+]

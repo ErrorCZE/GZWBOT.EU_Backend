@@ -1,0 +1,452 @@
+[
+  {
+    "internalName": "Prov_Food_FitCrispBalancedBar",
+    "name": "Energy Bar Nuts and Fruits",
+    "shortName": "EBar",
+    "description": "Expertly designed to provide a balanced boost, this bar is an ideal on-the-go snack that delivers both flavor and sustenance.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_FitCrispBalancedBar.webp",
+    "properties": {
+      "weight": 0.04,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.14999999,
+      "hydrationPerSec": 0,
+      "price": 7,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Prov_Food_MRE",
+    "name": "Combat Ration Pack",
+    "shortName": "CRP",
+    "description": "The Combat Ration Pack is a comprehensive field ration designed to provide sustenance and nutrition in demanding environments. It contains a main course, side dish, dessert, crackers, spread, beverage mix, flameless ration heater, and other accessories, all packaged in a durable and portable format. Hope you get the Chili Mac!",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_MRE.webp",
+    "properties": {
+      "weight": 0.6,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.75,
+      "hydrationPerSec": 0,
+      "price": 23,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Prov_Food_ThaiMRE",
+    "name": "Spicy Thai Combat Meal",
+    "shortName": "CMeal",
+    "description": "A specialized field ration crafted to meet the dietary and nutritional requirements of military personnel in active service. Designed by culinary experts, each Combat Meal includes a balanced assortment of dishes, condiments, and beverages, all encapsulated in a durable and portable package.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_ThaiMRE.webp",
+    "properties": {
+      "weight": 0.8,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 1,
+      "hydrationPerSec": -0.099999994,
+      "price": 28,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Food_SilkenTofu",
+    "name": "Organic Tofu",
+    "shortName": "Tofu",
+    "description": "Made from the purest organic soybeans, this tofu offers a velvety texture, perfect for a wide range of culinary creations.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_SilkenTofu.webp",
+    "properties": {
+      "weight": 0.2,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.19999999,
+      "hydrationPerSec": -0.099999994,
+      "price": 7,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Food_PickledBambooShoots",
+    "name": "Bamboo Shoots",
+    "shortName": "Bamboo",
+    "description": "Don't be a sad panda, and discover the subtle, earthy goodness of these tender bamboo strips.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_PickledBambooShoots.webp",
+    "properties": {
+      "weight": 0.6,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.29999998,
+      "hydrationPerSec": -0.099999994,
+      "price": 8,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Food_PremiumPorkLuncheonMeat",
+    "name": "Premium Pork Luncheon Meat",
+    "shortName": "LMeat",
+    "description": "Indulge in the exquisite taste of our Premium Pork Luncheon Meat – a culinary delight crafted from the finest, succulent pork. May contain trace amounts of milk, nuts, shellfish, and asbestos.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_PremiumPorkLuncheonMeat.webp",
+    "properties": {
+      "weight": 0.4,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.79999995,
+      "hydrationPerSec": -0.099999994,
+      "price": 25,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Food_ClifBar",
+    "name": "Berg Bar Cookie Chocolate",
+    "shortName": "ChBar",
+    "description": "Transport yourself to a realm of indulgence, as rich chocolate envelops your senses while the cookie's delicate texture offers a satisfying crunch with every bite.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_ClifBar.webp",
+    "properties": {
+      "weight": 0.07,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.25,
+      "hydrationPerSec": 0,
+      "price": 18,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Food_CuredPorkLiverPate",
+    "name": "Lucky Pork Liver Pâté",
+    "shortName": "Pâté",
+    "description": "This spreadable delight is a testament to culinary craftsmanship, offering a luxurious blend that's both savory and satisfying. Now with 5% real pork!",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_CuredPorkLiverPate.webp",
+    "properties": {
+      "weight": 0.13,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.29999998,
+      "hydrationPerSec": -0.049999997,
+      "price": 13,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Prov_Food_Spam",
+    "name": "Sinngua Lunch Meat",
+    "shortName": "LMeat",
+    "description": "Crafted for those who demand bold flavor, this premium lunch meat embodies the perfect balance of rich texture and authentic taste. Whether stacked in a sandwich or savored on its own, Sinngua Lunch Meat elevates your mealtime with its mouthwatering presence. No animals were harmed in the making of this product.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_Spam.webp",
+    "properties": {
+      "weight": 0.34,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.65,
+      "hydrationPerSec": -0.099999994,
+      "price": 19,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Prov_Food_KitKatBar",
+    "name": "SnipSnap Crunchy",
+    "shortName": "ChBar",
+    "description": "Experience an absolute chocolatey bliss with this delectable snack, where smooth, rich chocolate embraces a delicate, crispy wafer interior.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_KitKatBar.webp",
+    "properties": {
+      "weight": 0.038,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.14999999,
+      "hydrationPerSec": -0.049999997,
+      "price": 6,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Food_TivoliChocolateWafers",
+    "name": "Kasem Chocolate Wafers",
+    "shortName": "Wafers",
+    "description": "Delicately layered with luscious chocolate, these exquisite crispy wafers will have you yearning for more after every delicious crunch. Kasem Chocolate wafers are a registered trademark of the Kasem styrofoam company.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_TivoliChocolateWafers.webp",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.14999999,
+      "hydrationPerSec": -0.049999997,
+      "price": 6,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Food_DoubleCoatChocolateBar",
+    "name": "TamTam DoubleChoc",
+    "shortName": "ChBar",
+    "description": "This exclusive candy bar offers double the amount of rich cocoa, providing a satisfying chocolate experience with each bite.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_DoubleCoatChocolateBar.webp",
+    "properties": {
+      "weight": 0.2,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.25,
+      "hydrationPerSec": -0.049999997,
+      "price": 13,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Food_DarkMilkChocolateBar",
+    "name": "Windmill Almond Chocolate Bar",
+    "shortName": "ChBar",
+    "description": "A symphony of silky chocolate and crispy almonds, carefully crafted to provide a delightful combination of tastes and textures, perfect for your sweet cravings.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_DarkMilkChocolateBar.webp",
+    "properties": {
+      "weight": 0.04,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.25,
+      "hydrationPerSec": -0.049999997,
+      "price": 12,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Food_LycheeInSyrup",
+    "name": "Lychee in Syrup",
+    "shortName": "Lychee",
+    "description": "Sweet lychee fruits preserved in a simple, syrupy solution, offering a taste of tropical goodness in every bite.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_LycheeInSyrup.webp",
+    "properties": {
+      "weight": 0.565,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.29999998,
+      "hydrationPerSec": 0.099999994,
+      "price": 13,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Food_CannedTunaChunks",
+    "name": "Canned Tuna Chunks",
+    "shortName": "Tuna",
+    "description": "Dive into a world of ocean-inspired flavors with these exquisite tuna chunks, gently packed in natural coconut water. A unique combination that offers a fresh, wholesome taste. Now with even less mercury!",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_CannedTunaChunks.webp",
+    "properties": {
+      "weight": 0.17,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.29999998,
+      "hydrationPerSec": -0.099999994,
+      "price": 12,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Food_BakedBeans",
+    "name": "Cowboy Baked Beans",
+    "shortName": "Beans",
+    "description": "Savor the zesty kick of these hearty baked beans, simmered in a tangy and spicy tomato sauce. A taste of the Wild West that adds a fiery twist to your meal.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_BakedBeans.webp",
+    "properties": {
+      "weight": 0.425,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.5,
+      "hydrationPerSec": -0.049999997,
+      "price": 18,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Food_SabaFishInTeriakySauce",
+    "name": "Mackerel in Teriyaki Sauce",
+    "shortName": "Mackerel",
+    "description": "Tender mackerel fillets bathed in a delicious teriyaki sauce, presenting a harmonious blend of sweet and savory flavors.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_SabaFishInTeriakySauce.webp",
+    "properties": {
+      "weight": 0.2,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.39999998,
+      "hydrationPerSec": -0.099999994,
+      "price": 17,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Prov_Food_HdrMeal",
+    "name": "HDR Meal",
+    "shortName": "HDR",
+    "description": "Humanitarian Daily Ration. A ration pack designed to provide essential daily sustenance to individuals in need, offering a balanced selection of nourishing food items to support their well-being.",
+    "category": "Provisions",
+    "type": "Meals",
+    "imageName": "T_Icon_Prov_Food_HdrMeal.webp",
+    "properties": {
+      "weight": 0.85,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Food",
+      "duration": 1,
+      "energyPerSec": 0.9,
+      "hydrationPerSec": 0,
+      "price": 23,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  }
+]

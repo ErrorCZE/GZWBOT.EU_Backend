@@ -1,0 +1,139 @@
+[
+  {
+    "internalName": "GasBlock_Akm6P1Sb12GasTube",
+    "name": "AKM Gas Tube",
+    "shortName": "AKM Gas",
+    "description": "A standard gas tube compatible with the AK-74 series of rifles. It channels gas from the fired cartridge to a mechanism that disposes of the spent case and inserts a new cartridge into the chamber.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_GasBlock_Akm6P1Sb12GasTube.webp",
+    "properties": {
+      "weight": 0.085,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "GasBlock",
+      "muzzleEfficiency": 0,
+      "price": 8,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "GasBlock_Ak74GasTube",
+    "name": "AK-74 Gas Tube",
+    "shortName": "AK74 Gas",
+    "description": "The gas tube of the AK-74 rifle is a crucial component that is situated above the barrel. It operates the rifle's gas-operated action by channeling propellant gasses to drive the piston, cycle the action, and aid in the extraction and ejection of spent cartridges.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_GasBlock_Ak74GasTube.webp",
+    "properties": {
+      "weight": 0.085,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "GasBlock",
+      "muzzleEfficiency": 0,
+      "price": 6,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "GasBlock_DdMk12LowProfile",
+    "name": "DD MK12 Low Profile Gas Block",
+    "shortName": "MK12 Low",
+    "description": "Crafted by Daniel Defense, this gas block ensures reliable gas regulation for optimal performance and accuracy. With its low-profile design, it offers a sleek and streamlined appearance, reducing weight and improving overall firearm balance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_GasBlock_DdMk12LowProfile.webp",
+    "properties": {
+      "weight": 0.053,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "GasBlock",
+      "muzzleEfficiency": 5,
+      "price": 81,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "GasBlock_StandardM4A1",
+    "name": "M4A1 Standard Gas Block",
+    "shortName": "M4A1 Gas",
+    "description": "A standard gas block for the M4A1 carbine. As an essential component, it effectively regulates the flow of gas from the fired cartridge to ensure proper cycling of the weapon's mechanism. It also features a front sight post.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_GasBlock_StandardM4A1.webp",
+    "properties": {
+      "weight": 0.13,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "GasBlock",
+      "muzzleEfficiency": 0,
+      "price": 54,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "GasBlock_Jpgs10D",
+    "name": "AR-15 JPGS-10D Gas Block",
+    "shortName": "JPGS-10D",
+    "description": "The JPGS-10D is a small and compact design that can fit under various handguard models available on the market. Its two-part structure allows for easy installation, even on barrels with pin-and-weld muzzle treatments.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_GasBlock_Jpgs10D.webp",
+    "properties": {
+      "weight": 0.068,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "GasBlock",
+      "muzzleEfficiency": 7,
+      "price": 135,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "GasBlock_StandardCQA1",
+    "name": "CQA1 Standard Gas Block",
+    "shortName": "CQA1 Gas",
+    "description": "The standard CQA1 gas block is a component found in the Chinese version of the AR-15 rifle. While it performs the same function as the gas blocks in Western versions, it may be perceived as lower quality due to potential differences in materials, machining, and overall construction.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_GasBlock_StandardCQA1.webp",
+    "properties": {
+      "weight": 0.13,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "GasBlock",
+      "muzzleEfficiency": -2,
+      "price": 54,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  }
+]

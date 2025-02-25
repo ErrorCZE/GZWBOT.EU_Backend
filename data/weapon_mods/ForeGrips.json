@@ -1,0 +1,452 @@
+[
+  {
+    "internalName": "Foregrip_ZenitcoRk0",
+    "name": "RK-0",
+    "shortName": "RK-0",
+    "description": "The RK-0 front grip can be installed on any handguard with a lower Picatinny rail or on the B-9 rail. It provides a convenient way to hold weapons while firing.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_ZenitcoRk0.webp",
+    "properties": {
+      "weight": 0.138,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": -6,
+      "manipulation": -2,
+      "recoilControl": 4,
+      "price": 50,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Foregrip_ZenitcoRk1",
+    "name": "RK-1",
+    "shortName": "RK-1",
+    "description": "The RK-1 front grip is designed to be mounted on any handguard with a lower Picatinny rail or on the B-9 rail and is used to provide a more comfortable grip for the gun when firing.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_ZenitcoRk1.webp",
+    "properties": {
+      "weight": 0.16,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": -6,
+      "manipulation": -10,
+      "recoilControl": 6,
+      "price": 55,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Foregrip_ZenitcoRk2",
+    "name": "RK-2",
+    "shortName": "RK-2",
+    "description": "The RK-2 front grip can be installed on any handguard with a lower Picatinny rail or on a B-9 rail. It provides a convenient way to hold weapons while firing.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_ZenitcoRk2.webp",
+    "properties": {
+      "weight": 0.18,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": 10,
+      "manipulation": -14,
+      "recoilControl": 8,
+      "price": 56,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Foregrip_ZenitcoRk4",
+    "name": "RK-4",
+    "shortName": "RK-4",
+    "description": "The RK-4 front grip can be installed on any handguard with a lower Picatinny rail or on the B-9 rail. It provides a convenient way to hold weapons while firing.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_ZenitcoRk4.webp",
+    "properties": {
+      "weight": 0.127,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": 0,
+      "manipulation": 4,
+      "recoilControl": 2,
+      "price": 50,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Foregrip_ZenitcoRk5",
+    "name": "RK-5",
+    "shortName": "RK-5",
+    "description": "The RK-5 front grip is designed to be installed on handguards with a lower Picatinny rail, or on the B-9 and B-9M rails, and is used to provide a comfortable grip on the weapon when firing.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_ZenitcoRk5.webp",
+    "properties": {
+      "weight": 0.11,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": -6,
+      "manipulation": -2,
+      "recoilControl": 4,
+      "price": 47,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Foregrip_ZenitcoRk6",
+    "name": "RK-6",
+    "shortName": "RK-6",
+    "description": "The RK-6 hand stopper is designed to be installed on any handguard with a lower Picatinny rail or on the B-9 rail and is used to provide a more comfortable grip on the weapon when firing.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_ZenitcoRk6.webp",
+    "properties": {
+      "weight": 0.11,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": 0,
+      "manipulation": 6,
+      "recoilControl": 1,
+      "price": 43,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Foregrip_MagpulMLokAfg",
+    "name": "M-LOK AFG",
+    "shortName": "AFG",
+    "description": "The Magpul M-LOK AFG (Angled Fore Grip) is a refinement of the original AFG and AFG-2. While weighing only 1.2 ounces (34 g), including hardware, the Magpul M-LOK AFG is a surprisingly high-strength grip.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_MagpulMLokAfg.webp",
+    "properties": {
+      "weight": 0.034,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": -16,
+      "manipulation": 6,
+      "recoilControl": 4,
+      "price": 61,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Foregrip_MagpulAfg2",
+    "name": "AFG-2",
+    "shortName": "AFG-2",
+    "description": "The Magpul AFG-2 is a highly ergonomic, angled foregrip designed to enhance weapon control and handling. It features a compact and low-profile design, allowing for a comfortable grip and natural hand placement on the firearm.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_MagpulAfg2.webp",
+    "properties": {
+      "weight": 0.072,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": -16,
+      "manipulation": 6,
+      "recoilControl": 4,
+      "price": 71,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Foregrip_MagpulRvg",
+    "name": "RVG",
+    "shortName": "RVG",
+    "description": "The Magpul RVG (Rail Vertical Grip) is a lightweight and versatile vertical foregrip designed for increased weapon control. It attaches securely to any Picatinny rail system, providing a stable and ergonomic gripping surface. Designed for use with 1913 Picatinny railed hand guards, the RVG is a basic, lightweight, cost-effective vertical fore grip. The shape is ergonomically designed for use as a traditional vertical grip. It has also been optimized for use with the \"thumb break method\" of shooting.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_MagpulRvg.webp",
+    "properties": {
+      "weight": 0.073,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": 0,
+      "manipulation": -10,
+      "recoilControl": 6,
+      "price": 51,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Foregrip_UtgProMLokHandstop",
+    "name": "Pro M-LOK Handstop",
+    "shortName": "UTG HS",
+    "description": "The UTG Pro M-LOK Handstop is a compact accessory designed for M-LOK-compatible handguards. It serves as a hand stop to prevent the shooter's hand from sliding too far forward on the firearm.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_UtgProMLokHandstop.webp",
+    "properties": {
+      "weight": 0.017,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": 0,
+      "manipulation": 10,
+      "recoilControl": 0,
+      "price": 35,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Foregrip_UtgUltraSlimAngeled",
+    "name": "UltraSlim Angeled Foregrip",
+    "shortName": "UTG",
+    "description": "The UTG lightweight front tactical grip for M-lok forends is made from aircraft-grade aluminum, making it both durable and easy to handle.  Its textured surface provides a secure grip in challenging conditions or when wearing gloves, improving weapon control.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_UtgUltraSlimAngeled.webp",
+    "properties": {
+      "weight": 0.039,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": -14,
+      "manipulation": 6,
+      "recoilControl": 3,
+      "price": 56,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Foregrip_UtgUltraSlimMLokMtFgm01X",
+    "name": "Ultra Slim M-LOK MT-FGM01X Foregrip",
+    "shortName": "UTG Slim",
+    "description": "The UTG Ultra Slim M-LOK MT-FGM01X Foregrip is a lightweight and sleek foregrip that is designed for M-LOK-compatible handguards. Its slim profile enhances maneuverability and provides a streamlined appearance.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_UtgUltraSlimMLokMtFgm01X.webp",
+    "properties": {
+      "weight": 0.04,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": -8,
+      "manipulation": 0,
+      "recoilControl": 4,
+      "price": 55,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Foregrip_ShiftVertical",
+    "name": "SHIFT Vertical Foregrip",
+    "shortName": "Shift",
+    "description": "The SHIFT Vertical Foregrip is a versatile accessory that is compatible with Picatinny rail systems and is designed to enhance gun control and stability. Its ergonomic design and textured surface provide a comfortable and secure grip, allowing for improved handling during firearm operation.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_ShiftVertical.webp",
+    "properties": {
+      "weight": 0.096,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": -10,
+      "manipulation": -2,
+      "recoilControl": 5,
+      "price": 61,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Foregrip_DanielDefenceVertical",
+    "name": "DD Vertical Foregrip",
+    "shortName": "DD FG",
+    "description": "Crafted by Daniel Defense, this vertical foregrip is a reliable and durable accessory that optimizes weapon control and handling. It ensures exceptional quality and compatibility with Picatinny rail systems.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_DanielDefenceVertical.webp",
+    "properties": {
+      "weight": 0.068,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": 10,
+      "manipulation": -12,
+      "recoilControl": 10,
+      "price": 71,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Foregrip_MagpulAfg2FDE",
+    "name": "AFG-2 (FDE)",
+    "shortName": "AFG-2",
+    "description": "The Magpul AFG-2 is a highly ergonomic, angled foregrip designed to enhance weapon control and handling. It features a compact and low-profile design, allowing for a comfortable grip and natural hand placement on the firearm.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_MagpulAfg2FDE.webp",
+    "properties": {
+      "weight": 0.072,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": -16,
+      "manipulation": 6,
+      "recoilControl": 4,
+      "price": 71,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Foregrip_MagpulRvgFDE",
+    "name": "RVG (FDE)",
+    "shortName": "RVG",
+    "description": "The Magpul RVG (Rail Vertical Grip) is a lightweight and versatile vertical foregrip designed for increased weapon control. It attaches securely to any Picatinny rail system, providing a stable and ergonomic gripping surface. Designed for use with 1913 Picatinny railed hand guards, the RVG is a basic, lightweight, cost-effective vertical fore grip. The shape is ergonomically designed for use as a traditional vertical grip. It has also been optimized for use with the \"thumb break method\" of shooting.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_MagpulRvgFDE.webp",
+    "properties": {
+      "weight": 0.073,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": 0,
+      "manipulation": -10,
+      "recoilControl": 6,
+      "price": 51,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Foregrip_MagpulMLokAfgFDE",
+    "name": "M-LOK AFG (FDE)",
+    "shortName": "AFG",
+    "description": "The Magpul M-LOK AFG (Angled Fore Grip) is a refinement of the original AFG and AFG-2. While weighing only 1.2 ounces (34 g), including hardware, the Magpul M-LOK AFG is a surprisingly high-strength grip.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_MagpulMLokAfgFDE.webp",
+    "properties": {
+      "weight": 0.034,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": -16,
+      "manipulation": 6,
+      "recoilControl": 4,
+      "price": 61,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Foregrip_DanielDefenceVerticalMilSpec",
+    "name": "DD Vertical Foregrip (MILSPEC)",
+    "shortName": "DD FG",
+    "description": "Crafted by Daniel Defense, this vertical foregrip is a reliable and durable accessory that optimizes weapon control and handling. It ensures exceptional quality and compatibility with Picatinny rail systems.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Foregrip_DanielDefenceVerticalMilSpec.webp",
+    "properties": {
+      "weight": 0.068,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ForeGrip",
+      "armStamina": 10,
+      "manipulation": -12,
+      "recoilControl": 10,
+      "price": 71,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 3
+    }
+  }
+]

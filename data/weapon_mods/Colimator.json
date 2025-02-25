@@ -1,0 +1,494 @@
+[
+  {
+    "internalName": "Sight_AimpointMicroT1",
+    "name": "Micro T-1 Red Dot Sight",
+    "shortName": "T-1",
+    "description": "The Aimpoint Micro T-1 sight is versatile and adaptable, making it suitable for a wide range of firearms, including rifles, carbines, shotguns, submachine guns, and handguns. It features an integral Picatinny-style base for effortless attachment to any rail system, providing a secure and stable mounting solution.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_AimpointMicroT1.webp",
+    "properties": {
+      "weight": 0.086,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 1,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 744,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Sight_AxionKobraEkp1S03RedDotSight",
+    "name": "Kobra EKP-1S-03 Red Dot Sight",
+    "shortName": "EKP-1S-03",
+    "description": "The Kobra EKP-1S-03 red dot sight is a Russian-made device with a 1x power field of view, which allows for comfortable shooting with both eyes open. The sight is lightweight, shockproof, and sealed for durability in harsh conditions. It features 16 levels of digital brightness adjustment and ballistic correction from 100 to 700 meters.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_AxionKobraEkp1S03RedDotSight.webp",
+    "properties": {
+      "weight": 0.41,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 4,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 548,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Sight_BelomoPk01Vs",
+    "name": "PK-01 VS Red Dot Sight",
+    "shortName": "PK-01",
+    "description": "This is a low-profile, co-witness red dot scope with a large view field. It comes with a built-in Russian side rail mount and is filled with dry nitrogen to prevent the weeping of optics due to temperature differences. The aiming mark can be manually adjusted with an 8-position switch for discrete brightness adjustment.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_BelomoPk01Vs.webp",
+    "properties": {
+      "weight": 0.9,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 0,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 304,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Sight_EotechHwsXps2",
+    "name": "HWS EXPS2 Holographic Sight (1-Dot)",
+    "shortName": "EXPS2",
+    "description": "A holographic weapon sight designed for enhanced accuracy. This compact sight offers a wide field of view and unlimited eye relief, making it suitable for various shooting applications.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_EotechHwsXps2.webp",
+    "properties": {
+      "weight": 0.318,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 1,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 685,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_EotechHwsXps3",
+    "name": "HWS XPS3 Holographic Sight (Circle 1-Dot)",
+    "shortName": "XPS3",
+    "description": "The EXPS3 provides a true two-eyes-open shooting experience and ensures fast target acquisition. It includes settings that are compatible with night vision and features a quick-detach base elevated by 7mm, facilitating a lower 1/3 co-witness with iron sights.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_EotechHwsXps3.webp",
+    "properties": {
+      "weight": 0.318,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 1,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 822,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Sight_Holosun503Cu",
+    "name": "503CU Micro Sight",
+    "shortName": "503CU",
+    "description": "A compact red dot sight designed for rapid target acquisition and improved accuracy. This sight features a crisp 2 MOA dot reticle with multiple brightness settings, allowing for easy sighting in various lighting conditions.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_Holosun503Cu.webp",
+    "properties": {
+      "weight": 0.085,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 0,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 759,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_Holosun510C",
+    "name": "510C Reflex Sight",
+    "shortName": "510C",
+    "description": "A versatile open reflex sight designed for quick and accurate target acquisition. The Holosun 510C is built with durability in mind, featuring a rugged construction and IP67-rated waterproofing.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_Holosun510C.webp",
+    "properties": {
+      "weight": 0.14,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 3,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 1055,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_AxionKobraEkp818",
+    "name": "Kobra EKP-8-18 Red Dot Sight",
+    "shortName": "EKP-8-18",
+    "description": "This Russian Axion-made Kobra EKP-8-18 red dot sight is the latest generation of the legendary Kobra red dots. The system provides an unobstructed field of view at 1x power, allowing for comfortable shooting with both eyes open. It features elevation and windage adjustments, ballistic correction limits from 100-700m, a lightweight and shockproof design, a sealed body, and is suitable for use even in severe conditions.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_AxionKobraEkp818.webp",
+    "properties": {
+      "weight": 0.41,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 4,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 464,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Sight_Holosun507cX2",
+    "name": "HS507C X2 Reflex Sight",
+    "shortName": "HS507C X2",
+    "description": "The HS507C X2 sight provides a switchable reticle with either a 2 MOA dot or a 2 MOA dot with a 32 MOA circle. Additionally, it is equipped with a solar panel for automatic reticle adjustment. This sight can be mounted on a Picatinny/Weaver rail or with an RMR plate for pistols.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_Holosun507cX2.webp",
+    "properties": {
+      "weight": 0.045,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 2,
+      "zeroingRanges": [
+        25,
+        50,
+        75,
+        100
+      ],
+      "price": 779,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_VortexViperRedDot",
+    "name": "Viper Red Dot Sight",
+    "shortName": "Viper RD",
+    "description": "A top-tier compact red dot sight primarily designed for handguns with a cutout slide but also versatile as a backup sight for a riflescope. Constructed from durable aluminum alloy, it is waterproof and features highly polished glass, providing a clear and sharp image from edge to edge. With its deliberate reticle design (6 MOA dot), it is especially suitable for short to medium-distance shooting.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_VortexViperRedDot.webp",
+    "properties": {
+      "weight": 0.031,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 0,
+      "zeroingRanges": [
+        25,
+        50,
+        75,
+        100
+      ],
+      "price": 455,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_EotechHwsXps2Circle1Dot",
+    "name": "HWS EXPS2 Holographic Sight (Circle 1-Dot)",
+    "shortName": "EXPS2",
+    "description": "A holographic weapon sight designed for enhanced accuracy. This compact sight offers a wide field of view and unlimited eye relief, making it suitable for various shooting applications.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_EotechHwsXps2Circle2DotFDE.webp",
+    "properties": {
+      "weight": 0.318,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 1,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 685,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_EotechHwsXps3Circle2Dot",
+    "name": "HWS XPS3 Holographic Sight (Circle 2-Dot)",
+    "shortName": "XPS3",
+    "description": "The EXPS3 provides a true two-eyes-open shooting experience and ensures fast target acquisition. It includes settings that are compatible with night vision and features a quick-detach base elevated by 7mm, facilitating a lower 1/3 co-witness with iron sights.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_EotechHwsXps2Circle2DotFDE.webp",
+    "properties": {
+      "weight": 0.318,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 1,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 822,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Sight_EotechHwsXps2Circle2DotFDE",
+    "name": "HWS EXPS2 Holographic Sight (Circle 2-Dot) (FDE)",
+    "shortName": "EXPS2",
+    "description": "A holographic weapon sight designed for enhanced accuracy. This compact sight offers a wide field of view and unlimited eye relief, making it suitable for various shooting applications.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_EotechHwsXps2Circle2DotFDE.webp",
+    "properties": {
+      "weight": 0.318,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 1,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 685,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_PiladP1x42",
+    "name": "Pilad P1x42 Red Dot Sight",
+    "shortName": "Pilad P1X42",
+    "description": "This sight is ideal for hunting and sport shooting and features a 2 MOA dot, nine brightness levels, and easy two-button operation. It has a durable aluminum alloy construction with an integrated Weaver/Picatinny mount.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_PiladP1x42.webp",
+    "properties": {
+      "weight": 0.16,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 3,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 911,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Sight_Okp7Picatinny",
+    "name": "OKP7 Red Dot Sight",
+    "shortName": "OKP7",
+    "description": "This sight allows for the unobstructed use of basic mechanical sights and features a rimless reflector mount that ensures no interference with any field of fire segments. The reflector is protected by a thin and resilient visor that is barely noticeable during firing.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_Okp7Picatinny.webp",
+    "properties": {
+      "weight": 0.34,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 1,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 522,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Sight_AimpointMicroT22Moa",
+    "name": "Micro T-2 Red Dot Sight",
+    "shortName": "T-2",
+    "description": "A high-performance optic with a precise 2 MOA red dot, advanced lenses, and cutting-edge coatings. It features flip-up lens caps for quick response and a rugged body for increased durability in any environment.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_AimpointMicroT22Moa.webp",
+    "properties": {
+      "weight": 0.084,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Colimator",
+      "reticleCount": 1,
+      "zeroingRanges": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300
+      ],
+      "price": 835,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  }
+]

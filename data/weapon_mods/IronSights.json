@@ -1,0 +1,592 @@
+[
+  {
+    "internalName": "Sight_AkRearSight",
+    "name": "AK Rear Iron Sight",
+    "shortName": "AK Rear",
+    "description": "A standard rear sight compatible with the AK weapon platform.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_AkRearSight.webp",
+    "properties": {
+      "weight": 0.06,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        1000
+      ],
+      "price": 21,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_ColtAr15CarryHandle",
+    "name": "AR-15 Carrying Handle",
+    "shortName": "Carry",
+    "description": "A detachable carrying handle for military-grade carbines and rifles, offering compatibility with the AR-15 weapon platform. Additionally, it provides the convenient option to mount an ACOG sight for enhanced aiming capabilities.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_ColtAr15CarryHandle.webp",
+    "properties": {
+      "weight": 0.255,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        300,
+        400,
+        500,
+        600
+      ],
+      "price": 33,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_Glock17FrontSight",
+    "name": "Glock 17 Front Iron Sight",
+    "shortName": "G17 Front",
+    "description": "A front sight designed for Glock 17 pistols. It is a vital component of the pistol's sighting system, assisting with target acquisition and aiming.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_Glock17FrontSight.webp",
+    "properties": {
+      "weight": 0.015,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        25
+      ],
+      "price": 18,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_Glock17RearSight",
+    "name": "Glock 17 Rear Iron Sight",
+    "shortName": "G17 Rear",
+    "description": "A rear sight designed for Glock 17 pistols. It is a vital component of the pistol's sighting system, assisting with target acquisition and aiming.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_Glock17RearSight.webp",
+    "properties": {
+      "weight": 0.021,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        25
+      ],
+      "price": 18,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_KacFrontMicroIronSight",
+    "name": "Folding Micro Front Iron Sight",
+    "shortName": "Micro Front",
+    "description": "A compact and durable front sight designed for the AR-15 and other compatible firearms. It features a low-profile design and is made from high-quality materials to ensure reliable performance in various conditions.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_KacFrontMicroIronSight.webp",
+    "properties": {
+      "weight": 0.07,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        0
+      ],
+      "price": 62,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_KacRearMicroIronSight",
+    "name": "Folding Micro Rear Iron Sight",
+    "shortName": "Micro Rear",
+    "description": "A compact and durable rear sight designed for the AR-15 and other compatible firearms. It features a low-profile design and is made from high-quality materials to ensure reliable performance in various conditions.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_KacRearMicroIronSight.webp",
+    "properties": {
+      "weight": 0.07,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        200,
+        300,
+        400,
+        500,
+        600
+      ],
+      "price": 62,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_M870_IronSight",
+    "name": "M870 Bead",
+    "shortName": "M870 Bead",
+    "description": "This front sight bead is specifically designed to fit the Remington model 870 shotgun.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_M870_IronSight.webp",
+    "properties": {
+      "weight": 0.01,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        25
+      ],
+      "price": 18,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_MagpulBackUp1FrontSight",
+    "name": "Back-Up 3 Front Iron Sight",
+    "shortName": "MBUS Front",
+    "description": "This front sight is compatible with Picatinny rail systems and offers a low-profile design when folded down. Made from high-quality polymer, it provides excellent strength and resistance to impact.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_MagpulBackUp1FrontSight.webp",
+    "properties": {
+      "weight": 0.025,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        200,
+        300,
+        400,
+        500,
+        600
+      ],
+      "price": 39,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_MagpulBackUp1RearSight",
+    "name": "Back-Up 3 Rear Iron Sight",
+    "shortName": "MBUS Rear",
+    "description": "This rear sight is compatible with Picatinny rail systems and offers a low-profile design when folded down. Made from high-quality polymer, it provides excellent strength and resistance to impact.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_MagpulBackUp1RearSight.webp",
+    "properties": {
+      "weight": 0.03,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [],
+      "price": 42,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_MosinFrontSight",
+    "name": "Mosin-Nagant Front Iron Sight",
+    "shortName": "Mosin Front",
+    "description": "A reliable iron sight attachment for the Mosin-Nagant rifle. This adjustable front sight allows for more accuracy when aiming.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_MosinFrontSight.webp",
+    "properties": {
+      "weight": 0.06,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [],
+      "price": 20,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_MosinRearSight",
+    "name": "Mosin-Nagant Rear Iron Sight",
+    "shortName": "Mosin Rear",
+    "description": "A reliable iron sight attachment for the Mosin-Nagant rifle. This adjustable rear sight allows for more accuracy when aiming.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_MosinRearSight.webp",
+    "properties": {
+      "weight": 0.06,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        1000,
+        1100,
+        1200,
+        1300,
+        1400,
+        1500,
+        1600,
+        1700,
+        1800,
+        1900,
+        2000
+      ],
+      "price": 22,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_MossbergGhostringFrontSight",
+    "name": "M590 Front Ghost Ring Sight",
+    "shortName": "GhostR Front",
+    "description": "The Mossberg Ghost Ring Front Sight offers a clear view of the target, allowing for swift and precise aiming. It is suitable for use with sporting rifles and security shotguns and ensures a reliable performance in any shooting scenario.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_MossbergGhostringFrontSight.webp",
+    "properties": {
+      "weight": 0.06,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [],
+      "price": 24,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_MossbergGhostringRearSight",
+    "name": "M590 Rear Ghost Ring Sight",
+    "shortName": "GhostR Rear",
+    "description": "The Mossberg Ghost Rear Sights provide quick and clear target acquisition for sporting rifles and security shotguns. The metallic design guarantees an unobstructed view down-range, which enhances accuracy.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_MossbergGhostringRearSight.webp",
+    "properties": {
+      "weight": 0.06,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        50
+      ],
+      "price": 24,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_SksRearSight",
+    "name": "SKS Rear Iron Sight",
+    "shortName": "SKS Rear",
+    "description": "The SKS rear sight provides accurate aiming for various SKS rifle models, featuring adjustable settings for windage and elevation.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_SksRearSight.webp",
+    "properties": {
+      "weight": 0.09,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        1000
+      ],
+      "price": 20,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_Skorpionvz61RearSight",
+    "name": "Skorpion Vz. 61 Rear Iron Sight",
+    "shortName": "Vz61 Rear",
+    "description": "A rear sight for the Vz. 61 Skorpion.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_Skorpionvz61RearSight.webp",
+    "properties": {
+      "weight": 0.001,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        75,
+        150
+      ],
+      "price": 17,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Sight_Glock17OemTritiumFrontSight",
+    "name": "Glock 17 OEM Front Tritium Sight",
+    "shortName": "OEM Front",
+    "description": "The front sight of the Glock Tritium Iron Sights incorporates a tritium insert to provide reliable illumination in low-light settings. Its vibrant color contrast facilitates swift target acquisition, enhancing accuracy in demanding situations.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_Glock17OemTritiumFrontSight.webp",
+    "properties": {
+      "weight": 0.045,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        25
+      ],
+      "price": 40,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_Glock17OemTritiumRearSight",
+    "name": "Glock 17 OEM Rear Tritium Sight",
+    "shortName": "OEM Rear",
+    "description": "The rear sight of the Glock Tritium Iron Sights features tritium inserts for reliable visibility in low-light conditions. Its serrated surface reduces glare and improves sight alignment, promoting swift target acquisition and shot placement even in demanding environments.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_Glock17OemTritiumRearSight.webp",
+    "properties": {
+      "weight": 0.045,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        25
+      ],
+      "price": 40,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_M16A1UpperReceiver",
+    "name": "M16A1 Upper Receiver Rear Iron Sight",
+    "shortName": "Carry",
+    "description": "-",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Receiver_M16A1UpperReceiver.webp",
+    "properties": {
+      "weight": 0.028,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        300,
+        400,
+        500,
+        600
+      ],
+      "price": 23,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Sight_Type33SlideFrontSight",
+    "name": "TT-33 Front Iron Sight",
+    "shortName": "TT33 Front",
+    "description": "A rugged, fixed-blade sight positioned at the firearm's muzzle for precise aiming and target acquisition.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_SvdFrontSight.webp",
+    "properties": {
+      "weight": 0.015,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        25
+      ],
+      "price": 17,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Sight_Type33SlideRearSight",
+    "name": "TT-33 Rear Iron Sight",
+    "shortName": "TT33 Rear",
+    "description": "A Fixed notch sight at the rear of the firearm designed to align with the front sight for accurate aiming and firing.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_AkRearSight.webp",
+    "properties": {
+      "weight": 0.025,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        25
+      ],
+      "price": 17,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Sight_Type51SlideFrontSight",
+    "name": "Type 51 Front Iron Sight",
+    "shortName": "T51 Front",
+    "description": "A rugged, fixed-blade sight positioned at the firearm's muzzle for precise aiming and target acquisition.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_SvdFrontSight.webp",
+    "properties": {
+      "weight": 0.015,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        25
+      ],
+      "price": 17,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Sight_Type51SlideRearSight",
+    "name": "Type 51 Rear Iron Sight",
+    "shortName": "T51 Rear",
+    "description": "A fixed notch sight at the rear of the firearm designed to align with the front sight for accurate aiming and firing.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_AkRearSight.webp",
+    "properties": {
+      "weight": 0.025,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "IronSight",
+      "zeroingRanges": [
+        25
+      ],
+      "price": 17,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  }
+]

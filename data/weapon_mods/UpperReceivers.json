@@ -1,0 +1,197 @@
+[
+  {
+    "internalName": "Receiver_AkAkmDustCoverLate",
+    "name": "AK/AKM Dust Cover (late)",
+    "shortName": "AK Dust Cover",
+    "description": "A top dust cover for the AK/AKM series of rifles.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Receiver_AkAkmDustCoverLate.webp",
+    "properties": {
+      "weight": 0.104,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "UpperReceiver",
+      "price": 123,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Receiver_Ak100SeriesDustCover",
+    "name": "AK-100 Series Dust Cover",
+    "shortName": "AK-100 Dust Cover",
+    "description": "This is a dust cover for a stamped AK receiver, specifically the original Russian AK-100 model. It is compatible with Saiga and Arsenal rifles.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Receiver_Ak100SeriesDustCover.webp",
+    "properties": {
+      "weight": 0.104,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "UpperReceiver",
+      "price": 84,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Receiver_ColtM4UpperReceiver",
+    "name": "M4 Upper Receiver",
+    "shortName": "M4 Upper",
+    "description": "An upper receiver for the M4 series of rifles. The Picatinny rail allows for the attachment of optics and various additional devices.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Receiver_ColtM4UpperReceiver.webp",
+    "properties": {
+      "weight": 0.24,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "UpperReceiver",
+      "price": 145,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Receiver_DdA4UpperReceiver",
+    "name": "MK18 A4 Upper Receiver",
+    "shortName": "MK18A4 Upper",
+    "description": "The Daniel Defense A4 Upper Receiver Assembly is designed for personalized construction. Crafted with precision in a cutting-edge manufacturing facility and supported by a satisfaction guarantee, this product is ready for any custom build.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Receiver_DdA4UpperReceiver.webp",
+    "properties": {
+      "weight": 0.198,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "UpperReceiver",
+      "price": 242,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Receiver_FabPdc",
+    "name": "Picatinny Dust Cover",
+    "shortName": "PDC",
+    "description": "The PDC is an aluminum dust cover that serves as a replacement for AK/AKM assault rifles. It is equipped with a milled Picatinny scope mount and features a patented retention mechanism that allows for manual adjustment. This ensures a consistent retention of sighting zero and allows for a straightforward and rapid drop-in installation.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Receiver_FabPdc.webp",
+    "properties": {
+      "weight": 0.194,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "UpperReceiver",
+      "price": 251,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Receiver_M16A1UpperReceiver",
+    "name": "M16A1 Upper Receiver",
+    "shortName": "M16A1 Upper",
+    "description": "The M16A1 Upper Receiver is a vital component of the M16A1 rifle, housing the barrel and operating mechanism. It features a fixed carrying handle with an integrated rear sight, providing durability and essential functionality to the firearm.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Receiver_M16A1UpperReceiver.webp",
+    "properties": {
+      "weight": 0.36,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "UpperReceiver",
+      "price": 143,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Receiver_TwsDogLegRail",
+    "name": "Dog Leg Rail",
+    "shortName": "Dog Leg",
+    "description": "A modern dog leg rail dust cover for the AK series of rifles.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Receiver_TwsDogLegRail.webp",
+    "properties": {
+      "weight": 0.175,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "UpperReceiver",
+      "price": 209,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Receiver_ZenitcoB33Rail",
+    "name": "B-33 Rail",
+    "shortName": "B-33",
+    "description": "The B-33 is a dust cover with an integrated Picatinny rail that is compatible with all models of AK assault rifles.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Receiver_ZenitcoB33Rail.webp",
+    "properties": {
+      "weight": 0.215,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "UpperReceiver",
+      "price": 248,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Receiver_NorincoCqA1UpperReceiver",
+    "name": "CQ A1 Upper Receiver",
+    "shortName": "CQ A1 Upper",
+    "description": "This AR-15 receiver shares basic functionality with its Western counterparts. However, it is generally considered to be of lower quality.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Receiver_NorincoCqA1UpperReceiver.webp",
+    "properties": {
+      "weight": 0.24,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "UpperReceiver",
+      "price": 97,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  }
+]

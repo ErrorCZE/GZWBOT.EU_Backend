@@ -1,0 +1,952 @@
+[
+  {
+    "internalName": "Muzzle_Ak100SeriesMuzzleBrake",
+    "name": "AK-100 Series Muzzle Brake",
+    "shortName": "AK100 Muzzle",
+    "description": "AK-74 Muzzle Brake made by Izhmash in the USSR.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_Ak100SeriesMuzzleBrake.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 25,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 54,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_AkArsenalFlashHiderBulgarian",
+    "name": "AK Bulgarian Flash Hider",
+    "shortName": "AK B FH",
+    "description": "This Bulgarian-made 4-piece flash hider is designed for mil-spec standard AK rifles chambered in 7.62x39 and features 14mmx1 left-hand threads.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_AkArsenalFlashHiderBulgarian.webp",
+    "properties": {
+      "weight": 0.157,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 102,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_AkmMuzzleBrake",
+    "name": "AKM Muzzle Brake",
+    "shortName": "AKM Muzzle",
+    "description": "The Arsenal AK-47 7.62x39 muzzle brake reduces recoil and muzzle drift, improving shot recovery. It is ideal for competition and accuracy shooting.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_AkmMuzzleBrake.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 25,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 20,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_AntregVulcanF1",
+    "name": "Vulcan F1",
+    "shortName": "Vulcan F1",
+    "description": "A flash hider designed for 5.56x45mm caliber firearms. Manufactured by ANTREG, a trusted name in firearm accessories, it effectively mitigates muzzle flash, reducing the shooter's visibility and maintaining their position covert while also serving as a platform for attaching a sound suppressor.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_AntregVulcanF1.webp",
+    "properties": {
+      "weight": 0.105,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 20,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 113,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Muzzle_AntregVulcanM1COMP",
+    "name": "Vulcan M1",
+    "shortName": "Vulcan M1",
+    "description": "A device engineered to enhance the performance of 5.56x45mm caliber firearms. Designed by ANTREG with efficiency in mind, this muzzle brake effectively reduces recoil and muzzle rise, allowing for improved accuracy and faster target acquisition. It also serves as a platform for attaching a sound suppressor.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_AntregVulcanM1COMP.webp",
+    "properties": {
+      "weight": 0.105,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 20,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 198,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Muzzle_CarlsonsTacticalMuzzleBrake",
+    "name": "Tactical Muzzle Brake",
+    "shortName": "Carlson MB",
+    "description": "This muzzle device is designed to significantly reduce recoil. It extends about 2.75 inches beyond the barrel's end and has a matte black finish, improving the appearance of any shotgun while also providing better firearm control and faster follow-up shots.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_CarlsonsTacticalMuzzleBrake.webp",
+    "properties": {
+      "weight": 0.107,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 25,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 135,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Muzzle_ColtA2FlashHider",
+    "name": "A2 Flash Hider",
+    "shortName": "A2 FH",
+    "description": "A flash hider for 5.56x45mm caliber weapons. Manufactured by Colt and designed to be compatible with the AR-15 weapon platform. It effectively reduces muzzle flash, providing improved visibility and reducing the potential for visual disruption during rapid-fire or low-light shooting scenarios.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_ColtA2FlashHider.webp",
+    "properties": {
+      "weight": 0.066,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 38,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Muzzle_ColtXm177E2ModeratorFlashHider_556x45",
+    "name": "XM177E2 Moderator Flash Hider",
+    "shortName": "XM177E2 FH",
+    "description": "This early flash hider for 5.56x45mm caliber weapons effectively reduces muzzle flash, improving shooter visibility and reducing the risk of giving away their position in low-light conditions. Originally manufactured by Colt in early 1967, this particular model was consistently utilized on the XM177E2. However, production of the Moderators by Colt ceased in the mid-1970s, following a ruling by the ATF categorizing the device as a sound \"suppressor.\"",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_ColtXm177E2ModeratorFlashHider_556x45.webp",
+    "properties": {
+      "weight": 0.12,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 5,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 57,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Muzzle_CompWeightCompensatorForGlock17",
+    "name": "Glock 17 Comp Weight Compensator",
+    "shortName": "G17 Comp",
+    "description": "This low-profile addition seamlessly integrates with the firearm's design, eliminating the need for a threaded barrel. The Comp Weight enhances aesthetics and functions as an effective compensator, directing pressure downward to reduce recoil and enhance accuracy, minimizing muzzle flip for improved performance.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_CompWeightCompensatorForGlock17.webp",
+    "properties": {
+      "weight": 0.141,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 30,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 124,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_DanielDefenseFlashSuppressorExtended",
+    "name": "DD Extended Flash Suppressor",
+    "shortName": "DD FH Ext.",
+    "description": "The Daniel Defense Flash Suppressor is designed to reduce muzzle flash. Since it’s manufactured from aerospace grade 17-4 stainless steel and finished with a salt bath nitride, there is minimal chance of corrosion.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_DanielDefenseFlashSuppressorExtended.webp",
+    "properties": {
+      "weight": 0.095,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 94,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Muzzle_DbTacMuzzleBreak",
+    "name": "Tactical Muzzle Break",
+    "shortName": "TMB",
+    "description": "This muzzle brake is made of durable aluminum with an anodized black finish and is designed to significantly reduce recoil during competition shooting.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_DbTacMuzzleBreak.webp",
+    "properties": {
+      "weight": 0.233,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 30,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 162,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Muzzle_KacM4QdFlashHider",
+    "name": "M4QD Flash Hider",
+    "shortName": "KAC QD",
+    "description": "A flash hider engineered by Knights Armament Company (KAC). Designed for 5.56x45mm caliber firearms, particularly the M4 and AR-15 platforms, this device effectively mitigates muzzle flash, reducing the shooter's visual signature and enhancing target acquisition. It also serves as a platform for attaching a sound suppressor.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_KacM4QdFlashHider.webp",
+    "properties": {
+      "weight": 0.068,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": true,
+      "price": 268,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_MosinHowlingRavenMuzzleBrake",
+    "name": "Mosin-Nagant Howling Raven Muzzle Brake",
+    "shortName": "Raven",
+    "description": "This muzzle brake is designed specifically for the original Mosin-Nagant 91/30 model and is intended to fit snugly around the front sight post. It is secured in place by three brass set screws. Made in America from steel with a black oxide coating, this muzzle brake significantly reduces recoil.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_MosinHowlingRavenMuzzleBrake.webp",
+    "properties": {
+      "weight": 0.283,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 35,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 60,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_MosinTacfireTankerStyleMuzzleBrake",
+    "name": "Mosin-Nagant Tanker Muzzle Brake",
+    "shortName": "Tanker",
+    "description": "The M44 Tanker-style Bolt-on Muzzle Brake is made of durable steel and has a robust construction with a heat-treated, erosion-resistant black oxide finish. It has side and top ports that minimize muzzle flip, recoil, and barrel whip, enhancing shooting stability and control by efficiently redirecting gases.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_MosinTacfireTankerStyleMuzzleBrake.webp",
+    "properties": {
+      "weight": 0.257,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 40,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 100,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_Pcam472",
+    "name": "PCAM4-72",
+    "shortName": "PCAM4-72",
+    "description": "The PCAM4-72 features a triple baffle design, which significantly reduces recoil. Precision-canted side vents eliminate muzzle climb, ensuring minimal movement and reduced dust signature when prone. Built for durability and impact resistance, it features a lightweight design that can withstand combat conditions without rapid erosion.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_Pcam472.webp",
+    "properties": {
+      "weight": 0.09,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 35,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 96,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_Salvo12Adapter",
+    "name": "Remington Salvo 12 Choke Adapter",
+    "shortName": "Salvo Rem",
+    "description": "The Salvo 12 Choke Adapter functions as both a choke and a suppressor adapter. It enables compatibility between your shotgun and Salvo 12 suppressor, resulting in quieter shooting while also providing customizable choke options for improved performance and versatility.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_Salvo12Adapter.webp",
+    "properties": {
+      "weight": 0.075,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 0,
+      "velocityModifier": 6,
+      "moaModifier": 50,
+      "canAddMuzzleDevice": true,
+      "price": 195,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Muzzle_SigFlashHider3Prong",
+    "name": "3 Prong Flash Hider",
+    "shortName": "3Prong",
+    "description": "Three-pronged flash suppressor designed for 5.56mm SIG SAUER rifles.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_SigFlashHider3Prong.webp",
+    "properties": {
+      "weight": 0.12,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 20,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 94,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_SigMCX-3ProngFlashHider",
+    "name": "MCX 3 Prong Flash Hider",
+    "shortName": "MCX 3Prong",
+    "description": "Crafted from high-quality steel and coated in a sleek black finish, the Sig Sauer MCX 3-Prong Flash Hider is a fast-attach suppressor that minimizes flash and muzzle climb, thus enhancing the firearm’s performance.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_SigMCX-3ProngFlashHider.webp",
+    "properties": {
+      "weight": 0.12,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 15,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 56,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Muzzle_SksAdapterMuzzleBrake",
+    "name": "SKS Muzzle Brake Adapter",
+    "shortName": "SKS adapt",
+    "description": "This SKS adapter with M24 thread allows you to mount various muzzle brakes suitable for the 7.62x39 caliber. Simply mount the adapter on the barrel of the carbine and secure it with two screws behind the front sight.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_SksAdapterMuzzleBrake.webp",
+    "properties": {
+      "weight": 0.055,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 0,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": true,
+      "price": 43,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_SrdQdMuzzleBrake",
+    "name": "SRD762-QD Muzzle Brake",
+    "shortName": "SRD762 MB",
+    "description": "The SRD762-QD Taper-Lok Muzzle Brake self-centers the firearm and suppressor, which reduces group dispersion and improves accuracy.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_SrdQdMuzzleBrake.webp",
+    "properties": {
+      "weight": 0.095,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": true,
+      "price": 116,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_SrdQdTaperLokCqbFlashHider",
+    "name": "SRD762-QD Flash Hider",
+    "shortName": "SRD762 FH",
+    "description": "The SRD762-QD Flash Hider optimizes alignment, improves accuracy, and reduces point of impact shift. It is low-profile yet very effective at reducing muzzle flash.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_SrdQdTaperLokCqbFlashHider.webp",
+    "properties": {
+      "weight": 0.07,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": true,
+      "price": 98,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Muzzle_SrdQdTaperLokMuzzleBrake",
+    "name": "SRD762-QD Taper-Lok Muzzle Brake",
+    "shortName": "SRD Taper",
+    "description": "The SRD762-QD Taper-Lok Muzzle Brake self-centers the firearm and suppressor, which reduces group dispersion and improves accuracy.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_SrdQdTaperLokMuzzleBrake.webp",
+    "properties": {
+      "weight": 0.065,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 5,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": true,
+      "price": 93,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_XFactorChoke",
+    "name": "X-Factor Choke",
+    "shortName": "XF Choke",
+    "description": "This precision-engineered accessory enhances shotgun performance. Its ported design reduces muzzle jump and recoil, allowing for faster follow-up shots and increased accuracy. Featuring an Improved Cylinder constriction pattern, it guarantees an optimal spread tailored for close-range targets, rendering it well-suited for hunting and tactical scenarios demanding swift, precise shooting.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_XFactorChoke.webp",
+    "properties": {
+      "weight": 0.101,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 0,
+      "velocityModifier": 2,
+      "moaModifier": 20,
+      "canAddMuzzleDevice": false,
+      "price": 47,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Muzzle_ZenitcoDtk1MuzzleBrake",
+    "name": "DTK-1 Muzzle Brake",
+    "shortName": "DTK-1",
+    "description": "The DTK-1 muzzle brake is specifically designed for AK rifles with a thread size of 24x1.5. It effectively reduces recoil and compensates for barrel movement. Additionally, the crown is designed to break glass.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_ZenitcoDtk1MuzzleBrake.webp",
+    "properties": {
+      "weight": 0.128,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 45,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 109,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_ZenitcoDtk2MuzzleBrake",
+    "name": "DTK-2 Muzzle Brake",
+    "shortName": "DTK-2",
+    "description": "The DTK-2 muzzle brake compensator is designed for use with 7.62mm and 5.45mm AK carbines, effectively reducing recoil and compensating for muzzle rise.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_ZenitcoDtk2MuzzleBrake.webp",
+    "properties": {
+      "weight": 0.105,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 40,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 90,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_M700ThreadCap",
+    "name": "M700 Thread Cap",
+    "shortName": "700 cap",
+    "description": "The Remington M700 barrel thread protector is a durable steel device that shields the rifle's barrel threads from damage when a muzzle device is not in use. It prevents impacts and debris, ensuring thread integrity. The protector is easy to install and remove, allowing for quick interchangeability with other muzzle devices.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_M700ThreadCap.webp",
+    "properties": {
+      "weight": 0.04,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 0,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 20,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Muzzle_M9ThreadCap",
+    "name": "M9 Thread Cap",
+    "shortName": "M9 cap",
+    "description": "The M9 Thread Cap is a protective accessory designed to cover and secure the M9 barrel thread for added security and to prevent damage when not in use.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_M9ThreadCap.webp",
+    "properties": {
+      "weight": 0.04,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 0,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 10,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 5
+    }
+  },
+  {
+    "internalName": "Muzzle_KiVelocityMuzzleBrakeForGlock17",
+    "name": "Glock 17 Velocity Muzzle Brake",
+    "shortName": "Velocity MB",
+    "description": "This low-profile addition improves aesthetics and significantly reduces recoil and muzzle climb, providing better control and accuracy without requiring a threaded barrel.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_KiVelocityMuzzleBrakeForGlock17.webp",
+    "properties": {
+      "weight": 0.06,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 116,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 7
+    }
+  },
+  {
+    "internalName": "Muzzle_AkmSlantBrake",
+    "name": "AKM Slant Brake",
+    "shortName": "AKM Slant",
+    "description": "A standard muzzle brake for the AKM and other compatible rifles. Its main purpose is to reduce recoil and muzzle rise, which improves overall weapon control and follow-up shot accuracy.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_AkmSlantBrake.webp",
+    "properties": {
+      "weight": 0.03,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 20,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 10,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Muzzle_Ak14-1LH-2415Adapter",
+    "name": "AK Adapter 14-1LH to 24-1.5",
+    "shortName": "AK14-24",
+    "description": "This adapter converts standard 14-1LH threaded AK muzzles to the modern Russian 24mm thread design, allowing for easy installation of AK-74 type muzzle devices with 24mm threads. The adapter includes notches to accommodate a detent locking pin.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_Ak14-1LH-2415Adapter.webp",
+    "properties": {
+      "weight": 0.044,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 0,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": true,
+      "price": 32,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_BarrettStyleTankerMuzzleBreake",
+    "name": "Tanker Muzzle Break",
+    "shortName": "Tanker",
+    "description": "The “Tanker” muzzle brake has six large side ports angled at 45 degrees, which effectively reduce recoil and stabilize the rifle. It also has six smaller vertical ports that reduce muzzle rise, allowing for faster realignment and more precise follow-up shots.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_BarrettStyleTankerMuzzleBreake.webp",
+    "properties": {
+      "weight": 0.162,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 45,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 110,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Muzzle_SurefireSocom3ProngFlashHider",
+    "name": "SOCOM 3 Prong Flash Hider",
+    "shortName": "SF3P",
+    "description": "Designed to minimize muzzle flash and recoil. Manufactured by Surefire, this flash hider is specifically engineered for 5.56x45mm caliber rifles. Its advanced design effectively reduces muzzle rise, providing improved weapon control and faster follow-up shots while also serving as a platform for attaching a sound suppressor.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_SurefireSocom3ProngFlashHider.webp",
+    "properties": {
+      "weight": 0.11,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 15,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": true,
+      "price": 116,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Muzzle_CQA2FlashHider",
+    "name": "CQ A2 Flash Hider",
+    "shortName": "CQA1 FH",
+    "description": "The CQ A2 Flash Hider is a Chinese-made option designed to fit AR-15 rifles, which mimics the design of the classic A2 flash hider but may not meet the same quality standards as its American-made counterpart. It is ideal for budget-conscious shooters or those seeking a basic muzzle device option.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_CQA2FlashHider.webp",
+    "properties": {
+      "weight": 0.066,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "canAddMuzzleDevice": false,
+      "price": 38,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Muzzle_Salvo12AdapterMossberg",
+    "name": "Mossberg Salvo 12 Choke Adapter",
+    "shortName": "Salvo Mos",
+    "description": "The Salvo 12 Choke Adapter serves as both a choke and suppressor adapter. It allows compatibility between the shotgun and the Salvo 12 suppressor, providing quieter shooting and customizable choke options for enhanced performance and versatility.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Muzzle_Salvo12Adapter.webp",
+    "properties": {
+      "weight": 0.075,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "MuzzleDevice",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 0,
+      "velocityModifier": 6,
+      "moaModifier": 50,
+      "canAddMuzzleDevice": true,
+      "price": 195,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  }
+]

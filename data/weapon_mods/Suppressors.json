@@ -1,0 +1,467 @@
+[
+  {
+    "internalName": "Suppressor_BanishSuppressor",
+    "name": "BANISH 45 Suppressor",
+    "shortName": "Banish",
+    "description": "Designed for calibers ranging from .45 ACP to rimfire, the Banish 45 is a versatile and modular handgun/pistol suppressor. It is compatible with various pistons, making it user-serviceable and efficient. Reducing noise by 36db, this suppressor provides a quiet and adaptable shooting experience across multiple calibers.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_BanishSuppressor.webp",
+    "properties": {
+      "weight": 0.272,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -5,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 2,
+      "loudness": -36,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 1188,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Suppressor_KacQdssNt4Suppressor",
+    "name": "QDSS NT4 Suppressor",
+    "shortName": "QDSS NT4",
+    "description": "A high-quality suppressor designed for 5.56mm caliber weapons. Manufactured by Knights Armament Company (KAC), this suppressor offers exceptional noise reduction, enhancing stealth and minimizing muzzle flash.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_KacQdssNt4Suppressor.webp",
+    "properties": {
+      "weight": 0.62,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -4,
+      "recoilControl": 0,
+      "muzzleEfficiency": 5,
+      "velocityModifier": 0,
+      "moaModifier": 4,
+      "loudness": -75,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 1869,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Suppressor_MosinBramitSuppressor",
+    "name": "Mosin-Nagant Bramit Suppressor",
+    "shortName": "Bramit",
+    "description": "This suppressor was created In June 1940 by the Mitin brothers. Named BraMit (short for Brothers Mitin), it was attached to the barrel in the same way as a bayonet, with a length of 147mm and a diameter of 32mm. In December 1940, after successful tests, BraMit was accepted for service, and serial production began in the second half of 1941.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_MosinBramitSuppressor.webp",
+    "properties": {
+      "weight": 0.65,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -4,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": -3,
+      "loudness": -35,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 968,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Suppressor_Pbs01Suppressor",
+    "name": "PBS-01 Suppressor",
+    "shortName": "PBS-01",
+    "description": "Original Soviet suppressor for AK-47, AKM, and M70 rifles chambered in 7.62x39mm, including a sight for shooting with subsonic ammunition.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_Pbs01Suppressor.webp",
+    "properties": {
+      "weight": 0.7,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -4,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 2,
+      "loudness": -68,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 460,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Suppressor_Pbs04Suppressor",
+    "name": "PBS-04 Suppressor",
+    "shortName": "PBS-04",
+    "description": "This is one of the most acknowledged suppressors of the AK family of rifles. Unlike the PBS-1, this suppressor is designed for the 5.45x39mm cartridge.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_Pbs04Suppressor.webp",
+    "properties": {
+      "weight": 0.7,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -5,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 2,
+      "loudness": -68,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 667,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Suppressor_Salvo12",
+    "name": "Salvo 12 Suppressor",
+    "shortName": "Salvo 12",
+    "description": "The SilencerCo Salvo 12 is a shotgun suppressor compatible with most pump-action and semi-automatic shotguns and nearly all commercially available ammunition. Its modular design allows users to adjust sound, weight, and length by adding or removing sections as needed.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_Salvo12.webp",
+    "properties": {
+      "weight": 0.555,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -10,
+      "recoilControl": 0,
+      "muzzleEfficiency": 20,
+      "velocityModifier": 0,
+      "moaModifier": 5,
+      "loudness": 0,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 1839,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Suppressor_SigSlhQdSuppressor",
+    "name": "SLH762-QD Suppressor",
+    "shortName": "SLH762",
+    "description": "The SLH series rifle suppressors feature the latest Clutch-LOK QD mounting system and an internal multi-flow path, which prioritizes sound reduction while reducing up to 50% of toxic fumes venting through the ejection port.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_SigSlhQdSuppressor.webp",
+    "properties": {
+      "weight": 0.598,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -7,
+      "recoilControl": 0,
+      "muzzleEfficiency": 20,
+      "velocityModifier": 0,
+      "moaModifier": 6,
+      "loudness": -75,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 1854,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Suppressor_SuppressorAac",
+    "name": "762-SD Suppressor",
+    "shortName": "762-SD",
+    "description": "The AAC 762-SDN-6 is a fast-attach silencer designed for 7.62x51mm ammo, as well as smaller calibers like .300BLK and 5.56mm. It is compact, versatile, and extremely durable for full-time silencer use on select guns. The silencer provides a 98.9% reduction in muzzle sound pressure, prioritizing the preservation of the shooter's hearing and minimizing the muzzle blast signature.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_SuppressorAac.webp",
+    "properties": {
+      "weight": 0.566,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -6,
+      "recoilControl": 0,
+      "muzzleEfficiency": 20,
+      "velocityModifier": 0,
+      "moaModifier": 5,
+      "loudness": -78,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 1574,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Suppressor_SuppressorDtss",
+    "name": "DTSS Suppressor",
+    "shortName": "DTSS",
+    "description": "The DTSS Suppressor is designed to improve accuracy and reduce impact shift between suppressed and unsuppressed firing. Desert Tech sound suppressors can improve rifle accuracy by 1/4 MOA or better. This is achieved through weldless mono-core designs that efficiently strip away gas, minimizing disturbance and maximizing projectile stability at the muzzle exit.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_SuppressorDtss.webp",
+    "properties": {
+      "weight": 0.45,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -5,
+      "recoilControl": 0,
+      "muzzleEfficiency": 20,
+      "velocityModifier": 0,
+      "moaModifier": 8,
+      "loudness": -75,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 1865,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Suppressor_SurefireSocomRc1Suppressor",
+    "name": "SOCOM556 RC1 Suppressor",
+    "shortName": "RC1",
+    "description": "A military-grade silencer crafted from a durable blend of stainless steel and Inconel 718. The suppressor provides premium sound reduction, eliminates first-round muzzle flash, and minimizes dust signature. It is specifically designed for 5.56mm rifles, ensuring lasting durability that may even outlast the host barrel.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_SurefireSocomRc1Suppressor.webp",
+    "properties": {
+      "weight": 0.453,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -4,
+      "recoilControl": 0,
+      "muzzleEfficiency": 2,
+      "velocityModifier": 0,
+      "moaModifier": 3,
+      "loudness": -72,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 1575,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Suppressor_Type51Suppressor",
+    "name": "Type 51 Suppressor",
+    "shortName": "T51 S",
+    "description": "A muzzle device designed for the Type 51 Tokarev pistol that reduces noise and muzzle flash when firing. The suppressor is typically made of durable materials like steel or aluminum and attaches to the threaded barrel of the Type 51 Tokarev, effectively reducing the sound signature of each shot. This accessory improves the pistol's versatility, making it suitable for applications where reduced noise and flash are desired.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_Type51Suppressor.webp",
+    "properties": {
+      "weight": 0.332,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 0,
+      "loudness": -80,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 263,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Suppressor_UltimaSuppressor",
+    "name": "Ultima Suppressor",
+    "shortName": "Ultima",
+    "description": "This suppressor is designed specifically for 9mm firearms and effectively reduces noise and muzzle signature. It can be mounted directly on threaded barrels.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_UltimaSuppressor.webp",
+    "properties": {
+      "weight": 0.294,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -10,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 3,
+      "loudness": -80,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 674,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Suppressor_Vz61TosSuppressor",
+    "name": "Vz. 61 TOS Suppressor",
+    "shortName": "Vz61 TOS",
+    "description": "The Vz. 61 suppressor is a compact and lightweight accessory that reduces firearm noise. Weighing 360g, it offers substantial noise reduction with a 21dB attenuation. It securely attaches to the barrel via a standard clamp mechanism, ensuring convenient and reliable mounting.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_Vz61TosSuppressor.webp",
+    "properties": {
+      "weight": 0.36,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -10,
+      "recoilControl": 0,
+      "muzzleEfficiency": 10,
+      "velocityModifier": 0,
+      "moaModifier": 4,
+      "loudness": -70,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 323,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Suppressor_KacQdssNt4SuppressorFDE",
+    "name": "QDSS NT4 Suppressor (FDE)",
+    "shortName": "QDSS NT4",
+    "description": "A high-quality suppressor designed for 5.56mm caliber weapons. Manufactured by Knights Armament Company (KAC), this suppressor offers exceptional noise reduction, enhancing stealth and minimizing muzzle flash.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_KacQdssNt4SuppressorFDE.webp",
+    "properties": {
+      "weight": 0.62,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -4,
+      "recoilControl": 0,
+      "muzzleEfficiency": 5,
+      "velocityModifier": 0,
+      "moaModifier": 4,
+      "loudness": -75,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 1869,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Suppressor_SurefireSocomRc1SuppressorFDE",
+    "name": "SOCOM556 RC1 Suppressor (FDE)",
+    "shortName": "RC1",
+    "description": "A military-grade silencer crafted from a durable blend of stainless steel and Inconel 718. The suppressor provides premium sound reduction, eliminates first-round muzzle flash, and minimizes dust signature. It is specifically designed for 5.56mm rifles, ensuring lasting durability that may even outlast the host barrel.",
+    "category": "WeaponParts",
+    "type": "MuzzleDevices",
+    "imageName": "T_Icon_Suppressor_SurefireSocomRc1SuppressorFDE.webp",
+    "properties": {
+      "weight": 0.453,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Suppressor",
+      "manipulation": -4,
+      "recoilControl": 0,
+      "muzzleEfficiency": 2,
+      "velocityModifier": 0,
+      "moaModifier": 3,
+      "loudness": -72,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 1575,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  }
+]

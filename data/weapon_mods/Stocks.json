@@ -1,0 +1,1306 @@
+[
+  {
+    "internalName": "Stock_Ak74MPolymer",
+    "name": "AK-74M Polymer Stock",
+    "shortName": "AK-74M Stock",
+    "description": "The AK-74M Polymer Stock is made of durable synthetic polymer and is compatible with AK-100, AK-105, AK-74M, Saiga, and Yunker rifles.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_Ak74MPolymer.webp",
+    "properties": {
+      "weight": 0.35,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 2,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 64,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Stock_Ak74NWooden",
+    "name": "AK-74N Wooden Stock",
+    "shortName": "AK-74N Wood Stock",
+    "description": "A typical wooden stock for the AK-47, AK-74M and AK-74N.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_Ak74NWooden.webp",
+    "properties": {
+      "weight": 0.45,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 43,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Stock_Ak47AkmWooden",
+    "name": "AK-47/AKM Wooden Stock",
+    "shortName": "AKM Wood Stock",
+    "description": "A wooden stock that is compatible with AK-47 and AKM rifles.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_Ak47AkmWooden.webp",
+    "properties": {
+      "weight": 0.45,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 111,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Stock_AkmsnFoldable",
+    "name": "AKMSN Foldable Stock",
+    "shortName": "AKMSN Folding Stock",
+    "description": "A foldable AKMSN stock designed to be light and compact.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_AkmsnFoldable.webp",
+    "properties": {
+      "weight": 0.372,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 4,
+      "recoilControl": -6,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 70,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Stock_Ar15ArchangelCheekRiser",
+    "name": "CTR Cheek Riser",
+    "shortName": "Cheek Riser",
+    "description": "Raises cheek weld 3/4 inch in height.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_Ar15ArchangelCheekRiser.webp",
+    "properties": {
+      "weight": 0.12,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 4,
+      "price": 93,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Stock_Ar15ArchangelLowProfile",
+    "name": "AR-15 Archangel Low-Profile Buttstock",
+    "shortName": "Arch Low Stock",
+    "description": "The Low-profile design is lightweight and compact but still allows for quick weapon handling/accurate shooting. It includes over-molded quick detach sling swivel cup mounting points and slots for standard web slings. The stock is constructed using high-strength carbon fiber and glass-reinforced black polymer.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_Ar15ArchangelLowProfile.webp",
+    "properties": {
+      "weight": 0.27,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 6,
+      "recoilControl": 0,
+      "price": 102,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Stock_AtiSksStrikeforceTactLite",
+    "name": "SKS Strikeforce TactLite Stock",
+    "shortName": "Strikeforce Stock",
+    "description": "The TactLite Adjustable Stock stands out as one of the lightest six-position adjustable stocks available. Beyond its lightweight design, this innovative stock prioritizes functionality by reducing snag points and providing a secure fit. Crafted from durable DuPont Extreme Temperature Glass Reinforced Polymer, it ensures resilience in diverse environmental conditions.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_AtiSksStrikeforceTactLite.webp",
+    "properties": {
+      "weight": 1.26,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 2,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 220,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_CaaM401NylonStock",
+    "name": "AR-15 M401 Nylon Stock",
+    "shortName": "Nylon Stock",
+    "description": "Constructed from premium nylon, this stock features a comfortable rubber-covered butt plate and rugged construction for extended durability. Its sleek design not only enhances aesthetics but also provides a secure grip in combat scenarios. The stock features a sturdy nylon lever with a metal pin for exceptional strength, along with a built-in ring for convenient sling attachment.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_CaaM401NylonStock.webp",
+    "properties": {
+      "weight": 0.6,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 2,
+      "recoilControl": 2,
+      "price": 61,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_ColtM4StandardButtStock",
+    "name": "M4 Standard Buttstock",
+    "shortName": "M4 Stock",
+    "description": "A standard Colt M4 buttstock compatible with the AR-15 weapon platform.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_ColtM4StandardButtStock.webp",
+    "properties": {
+      "weight": 0.361,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 56,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Stock_DanielDefenseAdjustable",
+    "name": "DD Adjustable Buttstock",
+    "shortName": "DD Buttstock",
+    "description": "The Daniel Defense adjustable buttstock is made of a unique blend of glass-infused polymers and finished with soft-touch rubber in strategic areas. It is precision-formed for Mil-Spec receiver extensions, minimizing forward or lateral play that is often found in other buttstocks. This eliminates the need for a tensioning device or friction lock.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_DanielDefenseAdjustable.webp",
+    "properties": {
+      "weight": 0.227,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 4,
+      "recoilControl": 6,
+      "price": 111,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_ExtendedRubberButtPad",
+    "name": "Extended Rubber Butt-Pad",
+    "shortName": "Butt-Pad",
+    "description": "The Extended Rubber Butt-Pad is crafted with a robust rubber material to provide improved grip on the shoulder and enhance impact/drop mitigation.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_ExtendedRubberButtPad.webp",
+    "properties": {
+      "weight": 0.087,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 4,
+      "price": 93,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_M700HSPrecision2000",
+    "name": "H-S Precision Pro-Series 2000",
+    "shortName": "M700 HS 2000",
+    "description": "The H-S Precision Pro-Series 2000 M24 A1 Tactical Stock is a precision-engineered upgrade for the Remington M700 rifle. It is designed for durability and accuracy, with a classic ergonomic design that offers good grip and maneuverability.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_M700HSPrecision2000.webp",
+    "properties": {
+      "weight": 1.179,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 4,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 582,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Stock_RemingtonM870HogueOdGreen",
+    "name": "M870 Stock (OD Green)",
+    "shortName": "M870 OD",
+    "description": "Made from durable rubber, this stock provides a comfortable and secure grip, improving control with each shot and ensuring reliable performance for extended use.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_RemingtonM870HogueOdGreen.webp",
+    "properties": {
+      "weight": 0.64,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 2,
+      "recoilControl": 2,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 68,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Stock_LmtSopmodStock",
+    "name": "AR-15 SOPMOD Stock",
+    "shortName": "SOPMOD Stock",
+    "description": "A preferred stock among USSOCOM soldiers for the AR-15 weapon platform, offering enhanced comfort and optimal fit for the operator. This stock ensures durability, reliability, and improved weapon handling.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_LmtSopmodStock.webp",
+    "properties": {
+      "weight": 0.352,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 2,
+      "price": 91,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Stock_Rem700MagpulHunter",
+    "name": "M700 Hunter Stock",
+    "shortName": "M700 Hunter",
+    "description": "The Hunter 700L Stock for the Remington M700 rifle is made with a reinforced polymer and an anodized aluminum bedding block. It offers complete adjustability in length of pull, comb height, and improved ergonomics.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_Rem700MagpulHunter.webp",
+    "properties": {
+      "weight": 1.45,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 6,
+      "recoilControl": 8,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 769,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_MagpulCtr",
+    "name": "AR-15 CTR Stock",
+    "shortName": "CTR Stock",
+    "description": "A versatile stock option for the AR-15 platform. With its streamlined design and robust construction, it provides a solid and comfortable shooting experience while shielding the release latch to prevent accidental activation, ensuring optimal control and safety.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_MagpulCtr.webp",
+    "properties": {
+      "weight": 0.249,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 6,
+      "recoilControl": 6,
+      "price": 129,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_AkMagpulMoe",
+    "name": "AK MOE Stock",
+    "shortName": "MOE AK Stock",
+    "description": "The Magpul MOE AK Stock is a fixed stock designed for rifles with stamped receivers. It integrates Magpul's innovative design and construction into the AK platform. The MOE AK Stock features a unique wedge block fit inspired by the Zhukov-S Stock. It includes internal storage, strategically positioned QD sling swivels, and a rubber butt pad for effective recoil absorption and secure positioning.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_AkMagpulMoe.webp",
+    "properties": {
+      "weight": 0.354,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 6,
+      "recoilControl": 2,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 113,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_MagpulMoe",
+    "name": "AR15 MOE Stock",
+    "shortName": "MOE Stock",
+    "description": "The MOE Carbine Stock - Mil-Spec model is a replacement buttstock for AR15/M16 carbines that use Mil-Spec-sized receiver extension tubes. Its streamlined A-frame profile is designed for light, fast action and avoids snagging. The release latch is also shielded to prevent accidental activation.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_MagpulMoe.webp",
+    "properties": {
+      "weight": 0.226,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 6,
+      "recoilControl": 6,
+      "price": 112,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Stock_MagpulSgaMossbergStock",
+    "name": "M590 SGA Stock",
+    "shortName": "M590 SGA",
+    "description": "The SGA Stock is a versatile buttstock designed for Mossberg 500/590/590A1 12-gauge shotguns. It offers enhanced adjustability and ergonomics, with an ambidextrous design that allows for easy customization to suit individual preferences.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_MagpulSgaMossbergStock.webp",
+    "properties": {
+      "weight": 0.68,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 2,
+      "recoilControl": 6,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 72,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_RemingtonM870MagpulSga",
+    "name": "M870 SGA Stock",
+    "shortName": "M870 SGA",
+    "description": "The SGA Stock is a versatile buttstock, offering customizable options to enhance the Remington 870 12 gauge shotgun. The stock is equipped with a spacer system for adjusting the length of pull, enhanced grip ergonomics, a recoil-reducing butt-pad, and the choice of optional cheek risers for compatibility with optics or raised sights.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_RemingtonM870MagpulSga.webp",
+    "properties": {
+      "weight": 0.68,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 6,
+      "recoilControl": 6,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 135,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_SksMatadorArmsSabertoothMkII",
+    "name": "SKS Sabertooth MKII Stock",
+    "shortName": "MKII SKS Stock",
+    "description": "The SABERTOOTH MK-II boasts a robust, aircraft-grade aluminum build, meticulously machined for straightforward installation across a wide range of SKS variants. Its design promotes versatility, allowing users to personalize their rifles with standard AR-15 pistol grips and buttstocks. Equipped with a sturdy aluminum quad rail handguard, it provides limitless possibilities for accessory mounting. Compatible with diverse SKS models and magazine types, it incorporates a removable dust cap block for effortless maintenance. Additionally, the design incorporates a rear recess to accommodate an optional top-rail mount.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_SksMatadorArmsSabertoothMkII.webp",
+    "properties": {
+      "weight": 0.997,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 132,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_RemingtonM870MesaTacticalTelescoping",
+    "name": "M870 Stock Adapter",
+    "shortName": "M870 Stock A",
+    "description": "This stock adapter and pistol grip system allows for attaching AR-style collapsible stocks and pistol grips to the M870 shotgun.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_RemingtonM870MesaTacticalTelescoping.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 113,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_M700ModX",
+    "name": "M700 MOD*X Stock",
+    "shortName": "M700 MOD*X",
+    "description": "The A*B Arms MOD*X GEN III is a lightweight, ergonomically designed stock for the Remington M700, ideal for military, law enforcement, and hunting enthusiasts.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_M700ModX.webp",
+    "properties": {
+      "weight": 1.45,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 923,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_MosinCarbineWooden",
+    "name": "Mosin-Nagant Wooden Stock (Carbine)",
+    "shortName": "Mosin Stock C",
+    "description": "The Mosin Carbine Wooden Stock is a classic accessory for the Mosin-Nagant rifle, which has been used in various military conflicts throughout history. It is crafted from durable wood, enhancing the rifle's aesthetics and providing a comfortable grip for users.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_MosinCarbineWooden.webp",
+    "properties": {
+      "weight": 1.2,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 88,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Stock_MosinFolding",
+    "name": "Mosin-Nagant Folding Stock",
+    "shortName": "Mosin Stock F",
+    "description": "This folding stock allows for improved portability and ease of transportation. The product is made of naturally dried wood and solid steel components, giving it an old-school look.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_MosinFolding.webp",
+    "properties": {
+      "weight": 1.076,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 4,
+      "recoilControl": -8,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 129,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Stock_MosinRifleWooden",
+    "name": "Mosin-Nagant Wooden Stock (Rifle)",
+    "shortName": "Mosin Stock R",
+    "description": "This durable wood stock enhances the firearm's aesthetics and provides a solid, comfortable grip for the shooter. It is known for its historical significance and rugged build.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_MosinRifleWooden.webp",
+    "properties": {
+      "weight": 1.13,
+      "maxStack": 1,
+      "size": {
+        "X": 5,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Left": 3
+      },
+      "price": 128,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Stock_MosinSniperRifleWooden",
+    "name": "Mosin-Nagant Wooden Stock (Sniper)",
+    "shortName": "Mosin Stock S",
+    "description": "This durable wood stock enhances the firearm's aesthetics and provides a solid, comfortable grip for the shooter. It is known for its historical significance and rugged build. The sniper version features slight changes, such as a cheek rest and a longer length of pull, compared to the classic version.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_MosinSniperRifleWooden.webp",
+    "properties": {
+      "weight": 1.13,
+      "maxStack": 1,
+      "size": {
+        "X": 5,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Left": 3
+      },
+      "price": 132,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_MossbergSyntheticStock",
+    "name": "M590 Stock",
+    "shortName": "M590 Stock",
+    "description": "The Synthetic Shotgun Stock is a durable and lightweight option for upgrading or replacing existing stocks on your 12 gauge shotgun.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_MossbergSyntheticStock.webp",
+    "properties": {
+      "weight": 0.64,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 48,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_MosinProMagArchangel",
+    "name": "Mosin-Nagant Archangel Stock",
+    "shortName": "Mosin Archangel",
+    "description": "Engineered to enhance the performance of Mosin-Nagant rifles with its modern and durable design. It is made from rugged polymer material in an olive drab color, and offers a tactical and functional upgrade. The adjustable cheek rest and length of pull provide personalized comfort, while the overall design includes ergonomic enhancements for improved handling.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_MosinProMagArchangel.webp",
+    "properties": {
+      "weight": 1.62,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 4,
+      "recoilControl": 8,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 219,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Stock_RemingtonM870ExpressWood",
+    "name": "M870 Express Stock",
+    "shortName": "M870 Express",
+    "description": "This stock combines classic aesthetics with reliable performance. It is crafted with durable materials, offering a comfortable grip and a timeless look.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_RemingtonM870ExpressWood.webp",
+    "properties": {
+      "weight": 0.476,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 45,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_RussianRecoilReducingPad",
+    "name": "Recoil Reducing Pad",
+    "shortName": "RR Pad",
+    "description": "The Rubber Shock Absorbing Recoil Pad is a deluxe-style pad designed with ergonomic features to reduce recoil. It has a smart slip-on sleeve design with lip reinforcement.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_RussianRecoilReducingPad.webp",
+    "properties": {
+      "weight": 0.164,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 2,
+      "price": 76,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Stock_SksWood",
+    "name": "SKS Stock",
+    "shortName": "SKS Stock",
+    "description": "The SKS wooden stock is a hallmark feature of the Soviet-designed Simonov semi-automatic rifle. Crafted from durable hardwood, it ensures a stable and comfortable grip for the shooter. Its traditional design not only offers an aesthetic appeal but also withstands diverse environmental conditions. Typically boasting a smooth finish, it enhances both appearance and functionality, rendering it a favored option among firearms enthusiasts for its enduring charm and dependable performance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_SksWood.webp",
+    "properties": {
+      "weight": 0.76,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 88,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_Vz61Wire",
+    "name": "Vz. 61 Wire Stock",
+    "shortName": "Vz61 Stock",
+    "description": "A folding stock crafted for the Vz. 61 Skorpion submachine gun. Constructed from durable steel wire, it offers easy storage and deployment. Despite its lightweight design, the stock ensures stability and control during shooting.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_Vz61Wire.webp",
+    "properties": {
+      "weight": 0.25,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 25,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Stock_M700Wood",
+    "name": "M700 Stock",
+    "shortName": "M700 Stock",
+    "description": "Crafted from premium wood, this stock enhances the rifle's aesthetics and provides a comfortable, ergonomic grip.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_M700Wood.webp",
+    "properties": {
+      "weight": 1.171,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 462,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_ZenitcoPt1",
+    "name": "AK PT-1 Stock",
+    "shortName": "PT-1",
+    "description": "The PT-1 telescopic skeleton stock is designed for the AK series of rifles and features a rubber butt pad and cheek. It is positioned in the standard location where AK stocks typically fold to the side, allowing for tailored adjustments to the shooter's tasks and individual physique.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_ZenitcoPt1.webp",
+    "properties": {
+      "weight": 0.48,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 6,
+      "recoilControl": 6,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 227,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_ZenitcoPt3",
+    "name": "AK PT-3 Stock",
+    "shortName": "PT-3",
+    "description": "The telescopic PT-3 stock is designed for use with the AK series of rifles. It is milled and equipped with a rubber back and cheek pad. The stock is installed in the standard location where AK stocks typically fold to the side. It features a length adjustment mechanism with a range of 5 cm and a customizable cheek rest.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_ZenitcoPt3.webp",
+    "properties": {
+      "weight": 0.55,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 6,
+      "recoilControl": 8,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 227,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four"
+    }
+  },
+  {
+    "internalName": "Stock_ZhukovStock",
+    "name": "AK Zhukov Stock",
+    "shortName": "Zhukov Stock",
+    "description": "The Magpul Zhukov-S Stock is a folding stock solution for modern AK rifles. Unlike traditional AK stocks, the Zhukov-S Stock is foldable and collapsible, and includes QD sling mounts, customizable Cheek Risers, and a shock-absorbing rubber butt-pad for improved grip and comfort.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_ZhukovStock.webp",
+    "properties": {
+      "weight": 0.425,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 8,
+      "recoilControl": 4,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 174,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "StockAdapter_AkBufferTube",
+    "name": "AK Buffer Tube Adapter",
+    "shortName": "AK Buf T Ad",
+    "description": "The buffer tube adapter serves as a practical accessory engineered to enable the installation of AR-15 style buffer tubes on AK-type rifles. This facilitates the attachment of various AR-15 compatible stocks, granting users increased flexibility in customizing the length-of-pull and stock preferences to suit their needs.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_StockAdapter_AkBufferTube.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 44,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "StockAdapter_AkmZenitco",
+    "name": "AKM Zenitco Stock Adapter",
+    "shortName": "AK PT Ad",
+    "description": "This adapter is designed for attaching PT-1, PT-1S, PT-3, and PT-3S stocks.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_StockAdapter_AkmZenitco.webp",
+    "properties": {
+      "weight": 0.113,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 38,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "StockAdapter_AkmZhukovAdapter",
+    "name": "AKM Zhukov Adapter",
+    "shortName": "AK Zhuk Ad",
+    "description": "The AKM Zukhov stock adapter is a durable accessory that allows for the installation of Magpul's Zukhov-S stock on AKM rifles. It provides adjustable length-of-pull options and improves firearm handling. The adapter is designed to perform reliably even in harsh conditions, making it a popular choice for AK platform upgrades.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_StockAdapter_AkmZhukovAdapter.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 63,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "StockAdapter_ZenitcoPtAk74M100",
+    "name": "AK-74M/100 PT Stock Adapter",
+    "shortName": "PT 74M/100",
+    "description": "Designed for attaching PT-1, PT-1S, PT-3, and PT-3S stocks.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_StockAdapter_ZenitcoPtAk74M100.webp",
+    "properties": {
+      "weight": 0.088,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 41,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "StockAdapter_ErgoMossberg500590ARStockAdapter",
+    "name": "M590 AR Stock Adapter",
+    "shortName": "M590 AR Ad",
+    "description": "The Ergo Grips Mossberg 500/590 Adapter is a polymer accessory that fits securely onto the grip of the Mossberg 500 or 590 shotgun. Its ergonomic design provides a comfortable grip, which enhances accuracy and reduces fatigue during extended shooting sessions. The adapter enables easy customization with a variety of accessories.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_StockAdapter_ErgoMossberg500590ARStockAdapter.webp",
+    "properties": {
+      "weight": 0.104,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 36,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_NorincoCQA1StandardButtStock",
+    "name": "CQ A1 Buttstock",
+    "shortName": "CQA1 Stock",
+    "description": "A standard Norinco CQ A1 buttstock.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_NorincoCQA1StandardButtStock.webp",
+    "properties": {
+      "weight": 0.361,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": -4,
+      "price": 37,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Stock_DanielDefenseAdjustableBlack",
+    "name": "DD Adjustable Buttstock (Black)",
+    "shortName": "DD Buttstock",
+    "description": "The Daniel Defense adjustable buttstock is made of a unique blend of glass-infused polymers and finished with soft-touch rubber in strategic areas. It is precision-formed for Mil-Spec receiver extensions, minimizing forward or lateral play that is often found in other buttstocks. This eliminates the need for a tensioning device or friction lock.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_DanielDefenseAdjustableBlack.webp",
+    "properties": {
+      "weight": 0.227,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 4,
+      "recoilControl": 6,
+      "price": 111,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_MagpulCtrFDE",
+    "name": "AR-15 CTR Stock (FDE)",
+    "shortName": "CTR Stock",
+    "description": "A versatile stock option for the AR-15 platform. With its streamlined design and robust construction, it provides a solid and comfortable shooting experience while shielding the release latch to prevent accidental activation, ensuring optimal control and safety.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_MagpulCtrFDE.webp",
+    "properties": {
+      "weight": 0.249,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 6,
+      "recoilControl": 6,
+      "price": 129,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "StockAdapter_AkmZhukovAdapterFDE",
+    "name": "AKM Zhukov Adapter (FDE)",
+    "shortName": "AK Zhuk Ad",
+    "description": "The AKM Zukhov stock adapter is a durable accessory that allows for the installation of Magpul's Zukhov-S stock on AKM rifles. It provides adjustable length-of-pull options and improves firearm handling. The adapter is designed to perform reliably even in harsh conditions, making it a popular choice for AK platform upgrades.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_StockAdapter_AkmZhukovAdapterFDE.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 63,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_LmtSopmodStockFDE",
+    "name": "AR-15 SOPMOD Stock (FDE)",
+    "shortName": "SOPMOD Stock",
+    "description": "A preferred stock among USSOCOM soldiers for the AR-15 weapon platform, offering enhanced comfort and optimal fit for the operator. This stock ensures durability, reliability, and improved weapon handling.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_LmtSopmodStockFDE.webp",
+    "properties": {
+      "weight": 0.352,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 0,
+      "recoilControl": 2,
+      "price": 91,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Stock_Rem700MagpulHunterFDE",
+    "name": "M700 Hunter Stock (FDE)",
+    "shortName": "M700 Hunter",
+    "description": "The Hunter 700L Stock for the Remington M700 rifle is made with a reinforced polymer and an anodized aluminum bedding block. It offers complete adjustability in length of pull, comb height, and improved ergonomics.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_Rem700MagpulHunterFDE.webp",
+    "properties": {
+      "weight": 1.45,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 6,
+      "recoilControl": 8,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 769,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_AkMagpulMoeFDE",
+    "name": "AK MOE Stock (FDE)",
+    "shortName": "MOE AK Stock",
+    "description": "The Magpul MOE AK Stock is a fixed stock designed for rifles with stamped receivers. It integrates Magpul's innovative design and construction into the AK platform. The MOE AK Stock features a unique wedge block fit inspired by the Zhukov-S Stock. It includes internal storage, strategically positioned QD sling swivels, and a rubber butt pad for effective recoil absorption and secure positioning.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_AkMagpulMoeFDE.webp",
+    "properties": {
+      "weight": 0.354,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 6,
+      "recoilControl": 2,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 113,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_RemingtonM870MagpulSgaFDE",
+    "name": "M870 SGA Stock (FDE)",
+    "shortName": "M870 SGA",
+    "description": "The SGA Stock is a versatile buttstock, offering customizable options to enhance the Remington 870 12 gauge shotgun. The stock is equipped with a spacer system for adjusting the length of pull, enhanced grip ergonomics, a recoil-reducing butt-pad, and the choice of optional cheek risers for compatibility with optics or raised sights.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_RemingtonM870MagpulSgaFDE.webp",
+    "properties": {
+      "weight": 0.68,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 6,
+      "recoilControl": 6,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 135,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_ZhukovStockFDE",
+    "name": "AK Zhukov Stock  (FDE)",
+    "shortName": "Zhukov Stock",
+    "description": "The Magpul Zhukov-S Stock is a folding stock solution for modern AK rifles. Unlike traditional AK stocks, the Zhukov-S Stock is foldable and collapsible, and includes QD sling mounts, customizable Cheek Risers, and a shock-absorbing rubber butt-pad for improved grip and comfort.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_ZhukovStockFDE.webp",
+    "properties": {
+      "weight": 0.425,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Stock",
+      "manipulation": 8,
+      "recoilControl": 4,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 174,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  }
+]

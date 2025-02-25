@@ -1,0 +1,74 @@
+[
+  {
+    "internalName": "Med_Band_EmergencyTraumaDressing",
+    "name": "ARF Trauma Bandage 4",
+    "shortName": "Bandage",
+    "description": "The Advanced Rescue First-aid bandage is designed for quick and effective hemorrhage control. This compact and sterile dressing provides essential pressure to manage wounds, making it an indispensable addition to medical kits and first aid supplies.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_TraumaDressing.webp",
+    "properties": {
+      "weight": 0.07,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Bandage",
+      "woundCharges": 3,
+      "uses": 4,
+      "price": 16,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Band_OlaesPressureBandage",
+    "name": "SEAL Modular Bandage",
+    "shortName": "SBand",
+    "description": "Versatile and compact, the SEAL Modular Bandage is a multi-purpose trauma bandage that can cover multiple wounds and apply effective pressure.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Band_OlaesPressureBandage.webp",
+    "properties": {
+      "weight": 0.09,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Bandage",
+      "woundCharges": 4,
+      "uses": 6,
+      "price": 20,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Band_CivilianGauze",
+    "name": "Civilian Gauze",
+    "shortName": "Gauze",
+    "description": "A basic medical supply commonly used for wound care and dressing.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Band_CivilGauzeBandage.webp",
+    "properties": {
+      "weight": 0.02,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Bandage",
+      "woundCharges": 2,
+      "uses": 3,
+      "price": 7,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  }
+]

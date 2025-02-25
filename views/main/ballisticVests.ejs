@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Gray Zone Warfare Bot - Ballistic Vests</title>
+  <link rel="canonical" href="https://gzwbot.eu/ballistic-vests" />
+  <link rel="stylesheet" href="/css/main.css?v=<%= cssVersion %>">
+<script src="/js/main.js"></script>
+  <meta name="description" content="Explore a variety of ballistic vests in Gray Zone Warfare. Find essential stats, including material, protection level, and weight. Whether you’re a frontline soldier or a covert operative, choose the right vest to enhance your survivability.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#28B828">
+  <link rel="icon" href="/images/web/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/web/favicon.png" type="image/png">
+  <meta name="keywords" content="gzw, gray, zone, warfare, wiki, ballistic vests, armor, vest, armors">
+  <meta name="subject" content="Gray Zone Warfare Ballistic Vests">
+  <meta name='coverage' content='Worldwide'>
+  <meta name='distribution' content='Global'>
+  <meta name='rating' content='General'>
+  <meta name='target' content='all'>
+  <meta name="audience" content="all" />
+  <meta name="topic" content="Gray Zone Warfare Ballistic Vests">
+  <meta name="summary" content="Explore a variety of ballistic vests in Gray Zone Warfare. Find essential stats, including material, protection level, and weight. Whether you’re a frontline soldier or a covert operative, choose the right vest to enhance your survivability.">
+  <meta property="og:image" content="https://gzwbot.eu/images/web/gzwlogo.webp">
+  <meta property="og:title" content="Gray Zone Warfare Bot - Ballistic Vests">
+  <meta property="og:description" content="Explore a variety of ballistic vests in Gray Zone Warfare. Find essential stats, including material, protection level, and weight. Whether you’re a frontline soldier or a covert operative, choose the right vest to enhance your survivability.">
+  <meta name="twitter:image" content="https://gzwbot.eu/images/web/gzwlogo.webp">
+  <meta name="twitter:title" content="Gray Zone Warfare Tools - Ballistic Vests">
+  <meta name="twitter:description" content="Explore a variety of ballistic vests in Gray Zone Warfare. Find essential stats, including material, protection level, and weight. Whether you’re a frontline soldier or a covert operative, choose the right vest to enhance your survivability.">
+
+  <script src="/js/sort.js"></script>
+  <script src="/js/tableMenu.js"></script>
+</head>
+
+<body>
+  <%- include('./basic/header') -%>
+
+  <div class="container">
+    <h1 class="mainheader">Ballistic Vests</h1>
+
+    <div class="tableContainer" id="ballisticsVestsTable">
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Icon</th>
+            <th scope="col" style="text-align: left;">Name</th>
+            <th scope="col" onclick="sortTable('ballisticsVestsTable', 2)">Weight</th>
+            <th scope="col" onclick="sortTable('ballisticsVestsTable', 3)">Overall Joules</th>
+            <th scope="col" onclick="sortTable('ballisticsVestsTable', 4)">Plates</th>
+            <th scope="col" onclick="sortTable('ballisticsVestsTable', 5)">Class</th>
+            <th scope="col" onclick="sortTable('ballisticsVestsTable', 6)">Material</th>
+            <th scope="col" onclick="sortTable('ballisticsVestsTable', 7)">Size</th>
+            <th scope="col" onclick="sortTable('ballisticsVestsTable', 8)">Buy</th>
+            <th scope="col" onclick="sortTable('ballisticsVestsTable', 9)">Sell</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (var i = 0; i < ballisticsVests.length; i++) { %>
+          <tr>
+            <td><img class="itemIcon" src="/images/items/<%= ballisticsVests[i].imageName || "/notfound.webp"  %>"></td>
+            <td style="text-align: left;"><%= ballisticsVests[i].name %></td>
+            <td><%= JSON.stringify(ballisticsVests[i].properties.weight) %>kg</td>
+            <td><%= JSON.stringify(ballisticsVests[i].properties.overallJoules) || 0 %>J</td>
+            <td><%= ballisticsVests[i].properties.plates.join(', ') %></td>
+            <td><%= ballisticsVests[i].properties.class %></td>
+            <td><%= ballisticsVests[i].properties.material %></td>
+            <td><%= JSON.stringify(ballisticsVests[i].properties.size.X) %>x<%= JSON.stringify(ballisticsVests[i].properties.size.Y) %></td>
+            <td><%= JSON.stringify(ballisticsVests[i].properties.price) %></td>
+            <td><%= Math.round(ballisticsVests[i].properties.price * ballisticsVests[i].properties.sellRate) %></td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <%- include('./basic/footer') -%>
+</body>
+
+</html>

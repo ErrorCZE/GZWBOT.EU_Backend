@@ -1,0 +1,208 @@
+[
+  {
+    "internalName": "Handle_AkRp1",
+    "name": "AK RP-1 Charging Handle",
+    "shortName": "RP1",
+    "description": "The RP-1 is a charging handle made from D16T aluminum alloy that improves the ease of reloading the firearm. It is securely attached to the standard charging handle using the provided screws.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handle_AkRp1.webp",
+    "properties": {
+      "weight": 0.017,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ChargingHandle",
+      "reloadTime": -6,
+      "price": 40,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Handle_AntregAr15",
+    "name": "AR-15 Supreme Charging Handle",
+    "shortName": "Supreme",
+    "description": "The ANTREG AR-15 Charging Handle is manufactured in the Czech Republic and designed to fit the AR-15 platform firearms. The lever is ambidextrous and features stainless steel springs and reinforced hardened steel pins at the pivot points.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handle_AntregAr15.webp",
+    "properties": {
+      "weight": 0.03,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ChargingHandle",
+      "reloadTime": -6,
+      "price": 128,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handle_F1Firearms",
+    "name": "F-1 Charging Handle",
+    "shortName": "F-1",
+    "description": "This ambidextrous charging handle provides a personalized aesthetic and feel, accommodating different shooting preferences and maintaining fast, seamless action from both the dominant and non-dominant sides.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handle_F1Firearms.webp",
+    "properties": {
+      "weight": 0.027,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ChargingHandle",
+      "reloadTime": -2,
+      "price": 64,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handle_GeisseleSch556Ddc",
+    "name": "SCH 5.56 Charging Handle (DDC)",
+    "shortName": "SCH",
+    "description": "The Geissele Super Charging Handle (SCH) offers exceptional reliability and smooth operation. Its Desert Dirt Color (DDC) finish adds a touch of style to any compatible firearm.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handle_GeisseleSch556Ddc.webp",
+    "properties": {
+      "weight": 0.08,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ChargingHandle",
+      "reloadTime": -4,
+      "price": 126,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handle_GripNRipAr15",
+    "name": "AR-15 GRIP-N-RIP Charging Handle",
+    "shortName": "GripNRip",
+    "description": "The GRIP-N-RIP AR-15 Charging Handle is an ergonomic and durable upgrade for the AR-15 rifle and other compatible firearms. With its enhanced grip design, this charging handle provides improved control and ease of use during weapon manipulation.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handle_GripNRipAr15.webp",
+    "properties": {
+      "weight": 0.036,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ChargingHandle",
+      "reloadTime": -4,
+      "price": 106,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handle_StandardGi",
+    "name": "Standard GI Charging Handle",
+    "shortName": "GI M4",
+    "description": "A reliable and versatile charging handle designed for use with the AR-15 weapon platform. Built to industry-standard specifications, this charging handle ensures smooth and efficient operation, allowing for quick and easy manipulation of the bolt carrier group.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handle_StandardGi.webp",
+    "properties": {
+      "weight": 0.028,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ChargingHandle",
+      "reloadTime": 0,
+      "price": 43,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handle_vz61ChargingKnob",
+    "name": "Vz. 61 Charging Knobs",
+    "shortName": "Vz61 Knobs",
+    "description": "The charging knob of the Vz. 61 Skorpion submachine gun is used to retract and release the bolt mechanism, streamlining the process of loading and chambering ammunition.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handle_vz61ChargingKnob.webp",
+    "properties": {
+      "weight": 0.012,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ChargingHandle",
+      "reloadTime": 0,
+      "price": 5,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Handle_StandardcCQA1",
+    "name": "CQ A1 Charging Handle",
+    "shortName": "CQ A1 Ch",
+    "description": "The CQ A1 charging handle is a component specific to the Chinese version of the AR-15 rifle. While it fulfills the same basic function as charging handles in Western versions, it may be perceived as of lesser quality due to potential variations in materials, craftsmanship, and overall construction.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handle_StandardcCQA1.webp",
+    "properties": {
+      "weight": 0.028,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ChargingHandle",
+      "reloadTime": 2,
+      "price": 43,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Handle_GeisseleSch556",
+    "name": "SCH 5.56 Charging Handle",
+    "shortName": "SCH",
+    "description": "The Geissele Super Charging Handle (SCH) offers exceptional reliability and smooth operation.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Handle_GeisseleSch556.webp",
+    "properties": {
+      "weight": 0.08,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "ChargingHandle",
+      "reloadTime": -4,
+      "price": 126,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  }
+]

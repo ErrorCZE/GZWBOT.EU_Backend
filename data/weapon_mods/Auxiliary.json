@@ -1,0 +1,24 @@
+[
+  {
+    "internalName": "Auxiliary_SksCoverPin",
+    "name": "SKS Receiver Cover Retaining Pin",
+    "shortName": "SKS Pin",
+    "description": "A metal pin that secures the SKS optical rail in place.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Auxiliary_SksCoverPin.webp",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Auxiliary",
+      "price": 23,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  }
+]

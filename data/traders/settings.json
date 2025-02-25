@@ -1,0 +1,101 @@
+{
+  "DA_Vendor_Artisan": {
+    "defaultMargin": 0.3,
+    "otherMargins": {
+      "Magazine": 0.25,
+      "Suppressor": 0.15,
+      "Scope": 0.15,
+      "Collimator": 0.15
+    },
+    "sellRules": [
+      "Weapon",
+      "WeaponBody",
+      "WeaponPart",
+      "Ammo",
+      "Magazine",
+      "Suppressor",
+      "Scope",
+      "Collimator"
+    ]
+  },
+  "DA_Vendor_Banshee": {
+    "defaultMargin": 0.3,
+    "otherMargins": {
+      "Magazine": 0.25,
+      "Suppressor": 0.15,
+      "Scope": 0.15,
+      "Collimator": 0.15
+    },
+    "sellRules": [
+      "Weapon",
+      "WeaponBody",
+      "WeaponPart",
+      "Ammo",
+      "Magazine",
+      "Wallet",
+      "KeyRing",
+      "Suppressor",
+      "Scope",
+      "Collimator"
+    ]
+  },
+  "DA_Vendor_Gunny": {
+    "defaultMargin": 0.3,
+    "otherMargins": {
+      "Magazine": 0.25,
+      "Suppressor": 0.15,
+      "Scope": 0.15,
+      "Collimator": 0.15
+    },
+    "sellRules": [
+      "Weapon",
+      "WeaponBody",
+      "WeaponPart",
+      "Ammo",
+      "Magazine",
+      "Suppressor",
+      "Scope",
+      "Collimator"
+    ]
+  },
+  "DA_Vendor_Handshake": {
+    "defaultMargin": 0.3,
+    "otherMargins": {},
+    "sellRules": [
+      "Gear",
+      "Armor",
+      "Container",
+      "KeyRing"
+    ]
+  },
+  "DA_Vendor_LabRat": {
+    "defaultMargin": 0.3,
+    "otherMargins": {},
+    "sellRules": [
+      "Consumable",
+      "Medkit"
+    ]
+  },
+  "DA_Vendor_Turncoat": {
+    "defaultMargin": 0.3,
+    "otherMargins": {
+      "Magazine": 0.25,
+      "Suppressor": 0.15,
+      "Scope": 0.15,
+      "Collimator": 0.15
+    },
+    "sellRules": [
+      "Gear",
+      "Armor",
+      "Weapon",
+      "WeaponBody",
+      "WeaponPart",
+      "Ammo",
+      "Magazine",
+      "Container",
+      "Suppressor",
+      "Scope",
+      "Collimator"
+    ]
+  }
+}

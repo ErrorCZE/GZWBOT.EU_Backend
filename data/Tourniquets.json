@@ -1,0 +1,71 @@
+[
+  {
+    "internalName": "Med_Tour_Cat",
+    "name": "Combat Tourniquet",
+    "shortName": "CT",
+    "description": "The Combat Tourniquet is a battle-tested medical device used by virtually every military organization worldwide. It's easy to use, even with one hand, and incredibly effective.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Tourniquets_Tour_Cat.webp",
+    "properties": {
+      "weight": 0.09,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Tourniquet",
+      "uses": 5,
+      "price": 22,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Tour_Rats",
+    "name": "M.F.A.T Tourniquet",
+    "shortName": "MFAT",
+    "description": "The Multipurpose Fast Application Tourniquet is made of a solid vulcanized rubber core with a nylon sheath and a unique locking mechanism. Fast, easy to use, and works on all limb sizes.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Tour_Rats.webp",
+    "properties": {
+      "weight": 0.08,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Tourniquet",
+      "uses": 3,
+      "price": 22,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Tour_RetractableTourniquet",
+    "name": "Retractable Tourniquet",
+    "shortName": "RT",
+    "description": "A specialized medical device designed to control blood flow in emergency situations, particularly during medical procedures or trauma care.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Tour_RetractableTourniquet.webp",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Tourniquet",
+      "uses": 1,
+      "price": 9,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 2
+    }
+  }
+]

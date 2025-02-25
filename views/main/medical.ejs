@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Gray Zone Warfare Bot - Medical</title>
+  <link rel="canonical" href="https://gzwbot.eu/medical" />
+  <link rel="stylesheet" href="/css/main.css?v=<%= cssVersion %>">
+<script src="/js/main.js"></script>
+  <meta name="description" content="Explore list of medical items in Gray Zone Warfare. Find detailed stats for bandages, stimulants, splints, blood bags, and more. Make informed decisions on the fly and keep your squad patched up in the fight for survival.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#28B828">
+  <link rel="icon" href="/images/web/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/web/favicon.png" type="image/png">
+  <meta name="keywords" content="gzw, gray, zone, warfare, wiki, medical, tutorial, meds, painkiller, bandages, stimulants, splints, blood bags">
+  <meta name="subject" content="Gray Zone Warfare Meds">
+  <meta name='coverage' content='Worldwide'>
+  <meta name='distribution' content='Global'>
+  <meta name='rating' content='General'>
+  <meta name='target' content='all'>
+  <meta name="audience" content="all" />
+  <meta name="topic" content="Gray Zone Warfare Meds">
+  <meta name="summary" content="Explore list of medical items in Gray Zone Warfare. Find detailed stats for bandages, stimulants, splints, blood bags, and more. Make informed decisions on the fly and keep your squad patched up in the fight for survival.">
+  <meta property="og:image" content="https://gzwbot.eu/images/web/gzwlogo.webp">
+  <meta property="og:title" content="Gray Zone Warfare Bot - Meds">
+  <meta property="og:description" content="Explore list of medical items in Gray Zone Warfare. Find detailed stats for bandages, stimulants, splints, blood bags, and more. Make informed decisions on the fly and keep your squad patched up in the fight for survival.">
+  <meta name="twitter:image" content="https://gzwbot.eu/images/web/gzwlogo.webp">
+  <meta name="twitter:title" content="Gray Zone Warfare Tools - Meds">
+  <meta name="twitter:description" content="Explore list of medical items in Gray Zone Warfare. Find detailed stats for bandages, stimulants, splints, blood bags, and more. Make informed decisions on the fly and keep your squad patched up in the fight for survival.">
+
+  <script src="/js/sort.js"></script>
+  <script src="/js/tableMenu.js"></script>
+</head>
+
+<body>
+  <%- include('./basic/header') -%>
+
+  <div class="container">
+    <h1 class="mainheader">Medical Items</h1>
+
+    <div class="tableMenu">
+      <div class="item active" onclick="showTable('bandages')" data-item-id="bandages">Bandages</div>
+      <div class="item" onclick="showTable('blood')" data-item-id="blood">Blood Bags</div>
+      <div class="item" onclick="showTable('painkillers')" data-item-id="painkillers">Painkillers</div>
+      <div class="item" onclick="showTable('splints')" data-item-id="splints">Splints</div>
+      <div class="item" onclick="showTable('stimulators')" data-item-id="stimulators">Stimulators</div>
+      <div class="item" onclick="showTable('surgerykits')" data-item-id="surgerykits">Surgery Kits</div>
+      <div class="item" onclick="showTable('tourniquets')" data-item-id="tourniquets">Tourniquets</div>
+    </div>
+
+
+
+    <div class="tableContainer" id="bandagesTable">
+      <h2>Bandages</h2>
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Icon</th>
+            <th scope="col" style="text-align: left;">Name</th>
+            <th scope="col" onclick="sortTable('bandagesTable', 2)">Weight</th>
+            <th scope="col" onclick="sortTable('bandagesTable', 3)">Size</th>
+            <th scope="col" onclick="sortTable('bandagesTable', 4)">Wound Charges</th>
+            <th scope="col" onclick="sortTable('bandagesTable', 5)">Uses</th>
+            <th scope="col" onclick="sortTable('bandagesTable', 6)">Buy</th>
+            <th scope="col" onclick="sortTable('bandagesTable', 7)">Sell</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (var i = 0; i < bandages.length; i++) { %>
+          <tr>
+            <td><img class="itemIcon" src="/images/items/<%= bandages[i].imageName || "/notfound.webp"  %>"></td>
+            <td style="text-align: left;"><%= bandages[i].name %></td>
+            <td><%= JSON.stringify(bandages[i].properties.weight) %>kg</td>
+            <td><%= JSON.stringify(bandages[i].properties.size.X) %>x<%= JSON.stringify(bandages[i].properties.size.Y) %></td>
+            <td><%= JSON.stringify(bandages[i].properties.woundCharges) %></td>
+            <td><%= JSON.stringify(bandages[i].properties.uses) %></td>
+            <td><%= JSON.stringify(bandages[i].properties.price) %></td>
+            <td><%= Math.round(bandages[i].properties.price * bandages[i].properties.sellRate) %></td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="tableContainer" id="bloodTable" style="display: none;">
+      <h2>Blood</h2>
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Icon</th>
+            <th scope="col" style="text-align: left;">Name</th>
+            <th scope="col" onclick="sortTable('bloodTable', 2)">Weight</th>
+            <th scope="col" onclick="sortTable('bloodTable', 3)">Size</th>
+            <th scope="col" onclick="sortTable('bloodTable', 4)">Blood</th>
+            <th scope="col" onclick="sortTable('bloodTable', 5)">Uses</th>
+            <th scope="col" onclick="sortTable('bloodTable', 6)">Buy</th>
+            <th scope="col" onclick="sortTable('bloodTable', 7)">Sell</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (var i = 0; i < blood.length; i++) { %>
+          <tr>
+            <td><img class="itemIcon" src="/images/items/<%= blood[i].imageName || "/notfound.webp"  %>"></td>
+            <td style="text-align: left;"><%= blood[i].name %></td>
+            <td><%= JSON.stringify(blood[i].properties.weight) %>kg</td>
+            <td><%= JSON.stringify(blood[i].properties.size.X) %>x<%= JSON.stringify(blood[i].properties.size.Y) %></td>
+            <td><%= JSON.stringify(blood[i].properties.blood) %></td>
+            <td><%= JSON.stringify(blood[i].properties.uses) %></td>
+            <td><%= JSON.stringify(blood[i].properties.price) %></td>
+            <td><%= Math.round(blood[i].properties.price * blood[i].properties.sellRate) %></td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="tableContainer" id="painkillersTable" style="display: none;">
+      <h2>Painkillers</h2>
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Icon</th>
+            <th scope="col" style="text-align: left;">Name</th>
+            <th scope="col" onclick="sortTable('painkillersTable', 2)">Weight</th>
+            <th scope="col" onclick="sortTable('painkillersTable', 3)">Size</th>
+            <th scope="col">Effects</th>
+            <th scope="col" onclick="sortTable('painkillersTable', 5)">Duration</th>
+            <th scope="col" onclick="sortTable('painkillersTable', 6)">Uses</th>
+            <th scope="col" onclick="sortTable('painkillersTable', 7)">Buy</th>
+            <th scope="col" onclick="sortTable('painkillersTable', 8)">Sell</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (var i = 0; i < painkillers.length; i++) { %>
+          <tr>
+            <td><img class="itemIcon" src="/images/items/<%= painkillers[i].imageName || "/notfound.webp"  %>"></td>
+            <td style="text-align: left;"><%= painkillers[i].name %></td>
+            <td><%= JSON.stringify(painkillers[i].properties.weight) %>kg</td>
+            <td><%= JSON.stringify(painkillers[i].properties.size.X) %>x<%= JSON.stringify(painkillers[i].properties.size.Y) %></td>
+            <td>
+              <div class="effects">
+                <% if (painkillers[i].properties.radiationRemovedPerSec && painkillers[i].properties.radiationRemovedPerSec > 0) { %>
+                <div class="effect">
+                  <div class="effect">
+                    <div class="effectName">Radiation Cure / sec:</div>
+                    <div class="effectValue"><%= JSON.stringify(painkillers[i].properties.radiationRemovedPerSec) %></div>
+                  </div>
+                  <% } %>
+
+                  <% if (painkillers[i].properties.efficiency && painkillers[i].properties.efficiency > 0) { %>
+                  <div class="effect">
+                    <div class="effectName">Efficiency:</div>
+                    <div class="effectValue"><%= JSON.stringify(painkillers[i].properties.efficiency) %></div>
+                  </div>
+                  <% } %>
+
+                  <% if (painkillers[i].properties.intoxicationRemovedPerSec && painkillers[i].properties.intoxicationRemovedPerSec > 0) { %>
+                  <div class="effect">
+                    <div class="effectName">Intoxication Cure / sec:</div>
+                    <div class="effectValue"><%= JSON.stringify(painkillers[i].properties.intoxicationRemovedPerSec) %></div>
+                  </div>
+                  <% } %>
+                </div>
+            </td>
+            <td><%= JSON.stringify(painkillers[i].properties.duration) %>s</td>
+            <td><%= JSON.stringify(painkillers[i].properties.uses) %></td>
+            <td><%= JSON.stringify(painkillers[i].properties.price) %></td>
+            <td><%= Math.round(painkillers[i].properties.price * painkillers[i].properties.sellRate) %></td>
+
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+
+
+
+    <div class="tableContainer" id="splintsTable" style="display:none">
+      <h2>Splints</h2>
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Icon</th>
+            <th scope="col" style="text-align: left;">Name</th>
+            <th scope="col" onclick="sortTable('splintsTable', 2)">Weight</th>
+            <th scope="col" onclick="sortTable('splintsTable', 3)">Size</th>
+            <th scope="col" onclick="sortTable('splintsTable', 4)">Uses</th>
+            <th scope="col" onclick="sortTable('splintsTable', 5)">Buy</th>
+            <th scope="col" onclick="sortTable('splintsTable', 6)">Sell</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (var i = 0; i < splints.length; i++) { %>
+          <tr>
+            <td><img class="itemIcon" src="/images/items/<%= splints[i].imageName || "/notfound.webp"  %>"></td>
+            <td style="text-align: left;"><%= splints[i].name %></td>
+            <td><%= JSON.stringify(splints[i].properties.weight) %>kg</td>
+            <td><%= JSON.stringify(splints[i].properties.size.X) %>x<%= JSON.stringify(splints[i].properties.size.Y) %></td>
+            <td><%= JSON.stringify(splints[i].properties.uses) %></td>
+            <td><%= JSON.stringify(splints[i].properties.price) %></td>
+            <td><%= Math.round(splints[i].properties.price * splints[i].properties.sellRate) %></td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+
+
+
+    <div class="tableContainer" id="stimulatorsTable" style="display: none;">
+      <h2>Stimulators</h2>
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Icon</th>
+            <th scope="col" style="text-align: left;">Name</th>
+            <th scope="col" onclick="sortTable('stimulatorsTable', 2)">Weight</th>
+            <th scope="col" onclick="sortTable('stimulatorsTable', 3)">Size</th>
+            <th scope="col" colspan="2">Effects</th>
+            <th scope="col" onclick="sortTable('stimulatorsTable', 5)">Uses</th>
+            <th scope="col" onclick="sortTable('stimulatorsTable', 6)">Buy</th>
+            <th scope="col" onclick="sortTable('stimulatorsTable', 7)">Sell</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (var i = 0; i < stimulators.length; i++) { %>
+          <tr>
+            <td><img class="itemIcon" src="/images/items/<%= stimulators[i].imageName || "/notfound.webp"  %>"></td>
+            <td style="text-align: left;"><%= stimulators[i].name %></td>
+            <td><%= JSON.stringify(stimulators[i].properties.weight) %>kg</td>
+            <td><%= JSON.stringify(stimulators[i].properties.size.X) %>x<%= JSON.stringify(stimulators[i].properties.size.Y) %></td>
+            <td colspan="2">
+              <div class="effects">
+                <% for (let effect of Object.values(stimulators[i].properties.effects)) { %>
+                <div class="effect">
+                  <div class="effectName"><%= effect.effect %>:</div>
+                  <div class="effectValue">
+                    <% if (effect.gradualAdd) { %>
+                    <% if (effect.duration > 1) { %>
+                    +<%= effect.gradualAdd %> / sec (<%= effect.duration %>s)
+                    <% } else { %>
+                    +<%= effect.gradualAdd %>
+                    <% } %>
+                    <% } else if (effect.gradualRemove) { %>
+                    <% if (effect.duration > 1) { %>
+                    -<%= effect.gradualRemove %> / sec (<%= effect.duration %>s)
+                    <% } else { %>
+                    -<%= effect.gradualRemove %>
+                    <% } %>
+                    <% } else { %>
+                    <% if (effect.duration > 1) { %>
+                      +<%= effect.instantAdd %> (<%= effect.duration %>s)
+                    <% } else { %>
+                      +<%= effect.instantAdd %>
+                    <% } %>
+                    <% } %>
+                  </div>
+                </div>
+                <% } %>
+              </div>
+            </td>
+            <td><%= JSON.stringify(stimulators[i].properties.uses) %></td>
+            <td><%= JSON.stringify(stimulators[i].properties.price) %></td>
+            <td><%= Math.round(stimulators[i].properties.price * stimulators[i].properties.sellRate) %></td>
+
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+
+
+    <div class="tableContainer" id="surgerykitsTable" style="display:none">
+      <h2>Surgery Kits</h2>
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Icon</th>
+            <th scope="col" style="text-align: left;">Name</th>
+            <th scope="col" onclick="sortTable('surgerykitsTable', 2)">Weight</th>
+            <th scope="col" onclick="sortTable('surgerykitsTable', 3)">Size</th>
+            <th scope="col" onclick="sortTable('surgerykitsTable', 4)">Uses</th>
+            <th scope="col" onclick="sortTable('surgerykitsTable', 5)">Buy</th>
+            <th scope="col" onclick="sortTable('surgerykitsTable', 6)">Sell</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (var i = 0; i < surgerykits.length; i++) { %>
+          <tr>
+            <td><img class="itemIcon" src="/images/items/<%= surgerykits[i].imageName || "/notfound.webp"  %>"></td>
+            <td style="text-align: left;"><%= surgerykits[i].name %></td>
+            <td><%= JSON.stringify(surgerykits[i].properties.weight) %>kg</td>
+            <td><%= JSON.stringify(surgerykits[i].properties.size.X) %>x<%= JSON.stringify(surgerykits[i].properties.size.Y) %></td>
+            <td><%= JSON.stringify(surgerykits[i].properties.uses) %></td>
+            <td><%= JSON.stringify(surgerykits[i].properties.price) %></td>
+            <td><%= Math.round(surgerykits[i].properties.price * surgerykits[i].properties.sellRate) %></td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="tableContainer" id="tourniquetsTable" style="display:none">
+      <h2>Tourniquets</h2>
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Icon</th>
+            <th scope="col" style="text-align: left;">Name</th>
+            <th scope="col" onclick="sortTable('tourniquetsTable', 2)">Weight</th>
+            <th scope="col" onclick="sortTable('tourniquetsTable', 3)">Size</th>
+            <th scope="col" onclick="sortTable('tourniquetsTable', 4)">Uses</th>
+            <th scope="col" onclick="sortTable('tourniquetsTable', 5)">Buy</th>
+            <th scope="col" onclick="sortTable('tourniquetsTable', 6)">Sell</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (var i = 0; i < tourniquets.length; i++) { %>
+          <tr>
+            <td><img class="itemIcon" src="/images/items/<%= tourniquets[i].imageName || "/notfound.webp"  %>"></td>
+            <td style="text-align: left;"><%= tourniquets[i].name %></td>
+            <td><%= JSON.stringify(tourniquets[i].properties.weight) %>kg</td>
+            <td><%= JSON.stringify(tourniquets[i].properties.size.X) %>x<%= JSON.stringify(tourniquets[i].properties.size.Y) %></td>
+            <td><%= JSON.stringify(tourniquets[i].properties.uses) %></td>
+            <td><%= JSON.stringify(tourniquets[i].properties.price) %></td>
+            <td><%= Math.round(tourniquets[i].properties.price * tourniquets[i].properties.sellRate) %></td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+
+
+
+
+  </div>
+
+  <%- include('./basic/footer') -%>
+</body>
+
+</html>

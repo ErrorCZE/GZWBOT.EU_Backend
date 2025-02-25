@@ -1,0 +1,627 @@
+[
+  {
+    "internalName": "PistolGrip_AkBakelite",
+    "name": "AK Bakelite Pistol Grip",
+    "shortName": "AK Bak. Grip",
+    "description": "A bakelite pistol grip for the AK series of rifles and other compatible firearms.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_AkBakelite.webp",
+    "properties": {
+      "weight": 0.065,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 0,
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 21,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "PistolGrip_AkPolymer",
+    "name": "AK Polymer Pistol Grip",
+    "shortName": "AK Poly. Grip",
+    "description": "A polymer pistol grip designed for use with the AK series of rifles and other compatible firearms. It was designed as a replacement for the obsolete bakelite grip.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_AkPolymer.webp",
+    "properties": {
+      "weight": 0.065,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 0,
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 21,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "PistolGrip_MagpulMoeAk",
+    "name": "MOE AK Pistol Grip",
+    "shortName": "MOE AK",
+    "description": "The MOE AK+ Grip features a reinforced polymer body and comfortable, wrap-around rubber overmolding to provide optimal weapon control in challenging environments.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_MagpulMoeAk.webp",
+    "properties": {
+      "weight": 0.088,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 0,
+      "manipulation": 4,
+      "recoilControl": 4,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 32,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "PistolGrip_ColtA2",
+    "name": "A2 Pistol Grip",
+    "shortName": "A2 Grip",
+    "description": "A polymer pistol grip for the AR-15 series of rifles and other compatible firearms.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_ColtA2.webp",
+    "properties": {
+      "weight": 0.093,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 0,
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 23,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "PistolGrip_DanielDefenseEnhancedAr",
+    "name": "DD Enhanced AR Pistol Grip",
+    "shortName": "DD Grip",
+    "description": "The Daniel Defense Pistol Grip is ideal for the AR-15 platform, with an ergonomic design that ensures superior control and ease of use. Its classic 1911 grip angle allows for a comfortable hand position.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_DanielDefenseEnhancedAr.webp",
+    "properties": {
+      "weight": 0.099,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 6,
+      "manipulation": 10,
+      "recoilControl": 10,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 69,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "PistolGrip_MagpulMoe",
+    "name": "MOE Pistol Grip",
+    "shortName": "MOE Grip",
+    "description": "A high-quality polymer grip designed as an upgrade for the AR-15 or M4. Its ergonomic design ensures comfort and improved shooting performance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_MagpulMoe.webp",
+    "properties": {
+      "weight": 0.08,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 2,
+      "manipulation": 2,
+      "recoilControl": 4,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 34,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "PistolGrip_ArchangelAkSeries",
+    "name": "Archangel AK-Series Pistol Grip",
+    "shortName": "Arch AK Grip",
+    "description": "The Archangel AK-series pistol grip is universally compatible with all AK models. Crafted from robust carbon fiber and glass-reinforced polymer in an olive-drab hue, it prioritizes comfort and weapon retention. Boasting a molded front strap and back strap grooves, this grip enhances control and ergonomic feel for improved handling.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_ArchangelAkSeries.webp",
+    "properties": {
+      "weight": 0.08,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 2,
+      "manipulation": 6,
+      "recoilControl": 6,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 54,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "PistolGrip_MagpulMoeGen1",
+    "name": "MAID Pistol Grip",
+    "shortName": "MAID Grip",
+    "description": "A reliable and ergonomic replacement for the standard AR-15 or AR-10 grip. Constructed with durable polymer, this upgrade enhances control and comfort during handling.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_MagpulMoeGen1.webp",
+    "properties": {
+      "weight": 0.08,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 0,
+      "manipulation": 2,
+      "recoilControl": 2,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 56,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "PistolGrip_ZenitcoRk3",
+    "name": "RK-3 Pistol Grip",
+    "shortName": "RK-3 Grip",
+    "description": "The RK-3 anatomical pistol grip is made of D16T alloy with a wear-resistant protective coating.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_ZenitcoRk3.webp",
+    "properties": {
+      "weight": 0.187,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 4,
+      "manipulation": 10,
+      "recoilControl": 10,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 74,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four"
+    }
+  },
+  {
+    "internalName": "PistolGrip_Torque",
+    "name": "Torque Pistol Grip",
+    "shortName": "Torque Grip",
+    "description": "This grip is designed for AR-15 rifles and is both robust and lightweight. Its distinctive skeletal design prioritizes functionality and provides a perfect grip with or without gloves.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_Torque.webp",
+    "properties": {
+      "weight": 0.156,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 4,
+      "manipulation": 6,
+      "recoilControl": 6,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 57,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "PistolGrip_Type51Grips",
+    "name": "Type 51 Grips",
+    "shortName": "T51 Grips",
+    "description": "This grip is typically made of durable polymer or plastic materials, providing users with a reliable and cost-effective solution. The straightforward design offers a comfortable and secure hold on the firearm, improving control and accuracy during shooting. The basic Type 51 grip is simple yet practical, ensuring functionality and reliability without sacrificing performance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_Type51Grips.webp",
+    "properties": {
+      "weight": 0.051,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 0,
+      "manipulation": 2,
+      "recoilControl": 0,
+      "price": 28,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "PistolGrip_Type51WoodenGrip",
+    "name": "Type 51 Wooden Grips",
+    "shortName": "T51 Grips",
+    "description": "This Type 51 Tokarev wooden grip enhances the firearm's aesthetics and functionality. Made from quality hardwood, it provides a comfortable and secure hold, promoting control and accuracy. The grip's timeless design and durable construction add both style and practicality to the pistol.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_Type51WoodenGrip.webp",
+    "properties": {
+      "weight": 0.054,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 0,
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 19,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "PistolGrip_TyrantMod",
+    "name": "MOD Pistol Grip",
+    "shortName": "MOD Grip",
+    "description": "Combining the classic feel of an AR grip with a modern design, this grip features polymer straps on the front and back, housed in an aerospace-grade 7075 aluminum body. With a black anodized finish, the result is a lightweight, durable solution with uncompromising form and function.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_TyrantMod.webp",
+    "properties": {
+      "weight": 0.112,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 4,
+      "manipulation": 6,
+      "recoilControl": 8,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 68,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "PistolGrip_Vz61Polymer",
+    "name": "Vz. 61 Polymer Pistol Grip",
+    "shortName": "Vz61 Grip",
+    "description": "A lightweight and durable grip designed for the Vz. 61 Skorpion submachine gun. It enhances ergonomics and control for the shooter, providing comfortable and stable handling during firing.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_Vz61Polymer.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 0,
+      "manipulation": 2,
+      "recoilControl": 0,
+      "price": 11,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "PistolGrip_Vz61Wooden",
+    "name": "Vz. 61 Wooden Pistol Grip",
+    "shortName": "Vz61 Grip",
+    "description": "The wooden pistol grip for the Vz. 61 Skorpion submachine gun offers a classic aesthetic and ergonomic comfort. Crafted from durable wood, it evokes a traditional feel while enhancing control and handling during use.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_Vz61Wooden.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 0,
+      "manipulation": 0,
+      "recoilControl": 0,
+      "price": 15,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "PistolGrip_ZenitcoRk9",
+    "name": "RK-9 Pistol Grip",
+    "shortName": "RK-9 Grip",
+    "description": "The RK-9 anatomical pistol grip is made of D16T alloy and features a wear-resistant protective coating.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_ZenitcoRk9.webp",
+    "properties": {
+      "weight": 0.14,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 4,
+      "manipulation": 8,
+      "recoilControl": 8,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 73,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "PistolGrip_NorincoCQA1",
+    "name": "Norinco CQA1 Pistol Grip",
+    "shortName": "CQA1 grip",
+    "description": "The Norinco CQA1 pistol grip is intended for use with the Chinese variant of the M4A1 rifle. While it fulfills the same function as pistol grips found in Western versions, some users may perceive it as being of lower quality due to potential differences in materials, ergonomics, and overall construction.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_NorincoCQA1.webp",
+    "properties": {
+      "weight": 0.093,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 0,
+      "manipulation": 0,
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 23,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "PistolGrip_TyrantModFDE",
+    "name": "MOD Pistol Grip (FDE)",
+    "shortName": "MOD Grip",
+    "description": "Combining the classic feel of an AR grip with a modern design, this grip features polymer straps on the front and back, housed in an aerospace-grade 7075 aluminum body. With a black anodized finish, the result is a lightweight, durable solution with uncompromising form and function.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_TyrantModFDE.webp",
+    "properties": {
+      "weight": 0.112,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 4,
+      "manipulation": 6,
+      "recoilControl": 8,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 68,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "PistolGrip_DanielDefenseEnhancedArBlack",
+    "name": "DD Enhanced AR Pistol Grip (Black)",
+    "shortName": "DD Grip",
+    "description": "The Daniel Defense Pistol Grip is ideal for the AR-15 platform, with an ergonomic design that ensures superior control and ease of use. Its classic 1911 grip angle allows for a comfortable hand position.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_DanielDefenseEnhancedArBlack.webp",
+    "properties": {
+      "weight": 0.099,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 6,
+      "manipulation": 10,
+      "recoilControl": 10,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 69,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "PistolGrip_MagpulMoeFDE",
+    "name": "MOE Pistol Grip (FDE)",
+    "shortName": "MOE Grip",
+    "description": "A high-quality polymer grip designed as an upgrade for the AR-15 or M4. Its ergonomic design ensures comfort and improved shooting performance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_MagpulMoeFDE.webp",
+    "properties": {
+      "weight": 0.08,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 2,
+      "manipulation": 2,
+      "recoilControl": 4,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 34,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "PistolGrip_MagpulMoeGRAY",
+    "name": "MOE Pistol Grip (GRAY)",
+    "shortName": "MOE Grip",
+    "description": "A high-quality polymer grip designed as an upgrade for the AR-15 or M4. Its ergonomic design ensures comfort and improved shooting performance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_MagpulMoeGRAY.webp",
+    "properties": {
+      "weight": 0.08,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 2,
+      "manipulation": 2,
+      "recoilControl": 4,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 34,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "PistolGrip_MagpulMoeAkFDE",
+    "name": "MOE AK Pistol Grip (FDE)",
+    "shortName": "MOE AK",
+    "description": "The MOE AK+ Grip features a reinforced polymer body and comfortable, wrap-around rubber overmolding to provide optimal weapon control in challenging environments.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_MagpulMoeAkFDE.webp",
+    "properties": {
+      "weight": 0.088,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 0,
+      "manipulation": 4,
+      "recoilControl": 4,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 32,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "PistolGrip_DanielDefenseEnhancedArMilSpec",
+    "name": "DD Enhanced AR Pistol Grip (MilSpec)",
+    "shortName": "DD Grip",
+    "description": "The Daniel Defense Pistol Grip is ideal for the AR-15 platform, with an ergonomic design that ensures superior control and ease of use. Its classic 1911 grip angle allows for a comfortable hand position.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_PistolGrip_DanielDefenseEnhancedArMilSpec.webp",
+    "properties": {
+      "weight": 0.099,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "PistolGrip",
+      "armStamina": 6,
+      "manipulation": 10,
+      "recoilControl": 10,
+      "sizeExtending": {
+        "Down": 1
+      },
+      "price": 69,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  }
+]

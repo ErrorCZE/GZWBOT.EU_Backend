@@ -1,0 +1,327 @@
+[
+  {
+    "internalName": "Sight_ElcanSpecterDr1x4x",
+    "name": "SpecterDR 1-4x Assault Scope",
+    "shortName": "SpecterDR",
+    "description": "The SpecterDR is a tactical optic with a dual field of view, seamlessly transitioning from a 4x magnification for precise long-range targeting to a 1x view for close-quarters engagements with a simple lever adjustment. Unlike conventional zoom sights, the SpecterDR features an optimized optical pathway, ensuring consistent eye relief in both 4x and 1x modes. This scope mounts directly to the rail.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_ElcanSpecterDr1x4x.webp",
+    "properties": {
+      "weight": 0.45,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Scope",
+      "manipulation": -8,
+      "allowReticleZooming": false,
+      "lensDiameter": 3.3,
+      "zoomMin": 1,
+      "zoomMax": 4,
+      "zoomStep": 3,
+      "reticleCount": 0,
+      "zeroingRanges": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600
+      ],
+      "price": 2021,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_EotechVudu16x24Ffp",
+    "name": "Vudu 1-6x24 FFP Rifle Scope",
+    "shortName": "Vudu 1-6x",
+    "description": "This optic is suitable for use on both the AR platform and bolt action rifles. The EOTECH Speed Ring reticle enables quick target acquisition at low power while providing the necessary resolution and accuracy for longer shots at higher power. This scope is compatible with 30mm rings.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_EotechVudu16x24Ffp.webp",
+    "properties": {
+      "weight": 0.57,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Scope",
+      "manipulation": -8,
+      "allowReticleZooming": true,
+      "lensDiameter": 3.5,
+      "zoomMin": 1,
+      "zoomMax": 6,
+      "zoomStep": 1,
+      "reticleCount": 0,
+      "zeroingRanges": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        1000
+      ],
+      "price": 2425,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Sight_EotechVudu3518x50Ffp",
+    "name": "Vudu 3.5-18x50 FFP Rifle Scope",
+    "shortName": "Vudu 3.5-18x",
+    "description": "This Vudu optic is versatile and can be used on both AR platforms and bolt-action rifles. Its EOTECH Speed Ring reticle allows for quick target engagement at low power while also providing the necessary precision for longer shots at higher magnification. This makes it an ideal choice for short- to medium-range scenarios. This scope is compatible with 34mm rings.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_EotechVudu3518x50Ffp.webp",
+    "properties": {
+      "weight": 0.952,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Scope",
+      "manipulation": -12,
+      "allowReticleZooming": true,
+      "lensDiameter": 3.6,
+      "zoomMin": 3.5,
+      "zoomMax": 18,
+      "zoomStep": 1,
+      "reticleCount": 0,
+      "zeroingRanges": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        1000
+      ],
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 1264,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_Pu3522scopeforMosinNagant",
+    "name": "Mosin-Nagant PU 3.5x22 Scope",
+    "shortName": "PU 3.5x",
+    "description": "The NPZ PU 3.5x22 scope is a modern reproduction designed specifically for the Mosin-Nagant rifle. It is a faithful copy of the WW2 classic and comes with a standard 1-inch tube that is compatible with regular rings. The scope is also practical for use with AK and SKS rifles without the case interfering with SKS models. It features a German post reticle and is constructed with a durable steel casing, providing reliable and precise performance with a straightforward 3.5x magnification. This scope is compatible with Kochetov Mount and PU 3.5x22 Kochetov Rings.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_Pu3522scopeforMosinNagant.webp",
+    "properties": {
+      "weight": 0.6,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Scope",
+      "manipulation": -8,
+      "allowReticleZooming": false,
+      "lensDiameter": 2.35,
+      "zoomMin": 3.5,
+      "zoomMax": 3.5,
+      "zoomStep": 2,
+      "reticleCount": 0,
+      "zeroingRanges": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        1000,
+        1100,
+        1200,
+        1300
+      ],
+      "price": 637,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Sight_TrijiconAcogTa01Nsn4x32",
+    "name": "ACOG TA01NSN 4x32 Assault Scope",
+    "shortName": "ACOG 4x",
+    "description": "A durable and high-performance optic sight. It features a fixed 4x magnification and a 32mm objective lens, providing clear and precise target acquisition. Designed for military and law enforcement use, it offers a versatile reticle pattern with an illuminated aiming point for quick and accurate aiming in various lighting conditions. This scope is compatible with the Trijicon ACOH Mount.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_TrijiconAcogTa01Nsn4x32.webp",
+    "properties": {
+      "weight": 0.424,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Scope",
+      "manipulation": -8,
+      "allowReticleZooming": false,
+      "lensDiameter": 2.231,
+      "zoomMin": 4,
+      "zoomMax": 4,
+      "zoomStep": 2,
+      "reticleCount": 0,
+      "zeroingRanges": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600
+      ],
+      "price": 1940,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Sight_VortexRazor16x",
+    "name": "RAZOR 1-6x Rifle Scope",
+    "shortName": "Razor 1-6x",
+    "description": "The Vortex RAZOR 1-6x is an excellent optical solution for short to medium-range tactical applications. This scope is compatible with 30mm rings.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_VortexRazor16x.webp",
+    "properties": {
+      "weight": 0.61,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Scope",
+      "manipulation": -8,
+      "allowReticleZooming": false,
+      "lensDiameter": 3.76,
+      "zoomMin": 1,
+      "zoomMax": 6,
+      "zoomStep": 1,
+      "reticleCount": 0,
+      "zeroingRanges": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        1000
+      ],
+      "price": 2809,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Sight_VortexViperPST_525x50",
+    "name": "Viper PST Gen II 5-25x50 Rifle Scope",
+    "shortName": "Viper 5x25",
+    "description": "A high-quality rifle scope with a 5-25x magnification range and a 50mm objective lens. It offers clear and bright images, even in low-light conditions. The scope features precise windage and elevation adjustments, an illuminated reticle, and a fast-focus eyepiece. This scope is compatible with 30mm rings.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_VortexViperPST_525x50.webp",
+    "properties": {
+      "weight": 0.885,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Scope",
+      "manipulation": -12,
+      "allowReticleZooming": true,
+      "lensDiameter": 4.16,
+      "zoomMin": 5,
+      "zoomMax": 25,
+      "zoomStep": 2,
+      "reticleCount": 0,
+      "zeroingRanges": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        1000
+      ],
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 1275,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Sight_PiladP25x24lBrevis",
+    "name": "Pilad Р2.5х24L Brevis Assault Scope",
+    "shortName": "Pilad Р2.5х24",
+    "description": "A prismatic sight designed primarily for use on AK rifles. The etched reticle in the glass, known as the LDT reticle, is suitable for both precision shooting and quick target acquisition on the move. This scope mounts directly to the rail.",
+    "category": "WeaponParts",
+    "type": "Sights",
+    "imageName": "T_Icon_Sight_PiladP25x24lBrevis.webp",
+    "properties": {
+      "weight": 0.29,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Scope",
+      "manipulation": 0,
+      "allowReticleZooming": false,
+      "lensDiameter": 2.626,
+      "zoomMin": 2.5,
+      "zoomMax": 2.5,
+      "zoomStep": 2.5,
+      "reticleCount": 0,
+      "zeroingRanges": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600
+      ],
+      "price": 404,
+      "sellRate": 0.15,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  }
+]

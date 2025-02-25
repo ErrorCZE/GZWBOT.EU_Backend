@@ -1,0 +1,679 @@
+[
+  {
+    "internalName": "Barrel_Mossberg500185inch_12Gaug",
+    "name": "M590 Barrel - 18.5\"",
+    "shortName": "M500 18.5''",
+    "description": "The 18.5” security barrel with a bead sight is a versatile solution for 12 gauge Mossberg 500 and Maverick 88 6-shot models. It has a cylinder bore and matte-blued finish, optimizing it for close-range engagements and rapid target acquisition. The bead sight enhances aiming precision, making it ideal for home defense and tactical applications.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Mossberg500185inch_12Gaug.webp",
+    "properties": {
+      "weight": 0.74,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 0,
+      "moa": 42.1,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 99,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_Mossberg50020inch_12Gaug",
+    "name": "M590 Barrel - 20\"",
+    "shortName": "M500 20''",
+    "description": "The 20\" all-purpose barrel with vent rib is compatible with 12 gauge Mossberg 500 series and Maverick 88 6-shot models. It has a bead sight for quick target acquisition, making it suitable for various shooting scenarios. The smoothbore and matte-blued finish provide reliability and durability.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Mossberg50020inch_12Gaug.webp",
+    "properties": {
+      "weight": 0.8,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 4,
+      "moa": 33.7,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 247,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_Mossberg50020inch1ring_12Gaug",
+    "name": "M590 Barrel - 20\" (1 Ring)",
+    "shortName": "M500 20''",
+    "description": "The 20\" all-purpose barrel with vent rib is compatible with 12 Gauge Mossberg 500 series and Maverick 88 6-shot models. It has a bead sight for quick target acquisition, making it suitable for various shooting scenarios. The smoothbore and matte-blued finish provide reliability and durability. This is the one-ring variant.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Mossberg50020inch1ring_12Gaug.webp",
+    "properties": {
+      "weight": 0.8,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 4,
+      "moa": 32.4,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 148,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_RemingtonM870185inch_12Gaug",
+    "name": "M870 Barrel - 18.5\"",
+    "shortName": "M870 18.5''",
+    "description": "Crafted from high-quality steel and finished with a non-glare black coating, this barrel is designed specifically for Remington 870 12 gauge shotguns. It offers enhanced versatility and accuracy with its 18.5\" length, pre-installed front ramp sight, and compatibility with Rem choke tubes.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_RemingtonM870185inch_12Gaug.webp",
+    "properties": {
+      "weight": 0.75,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 0,
+      "moa": 41.6,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 117,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_RemingtonM87023inch_12Gaug",
+    "name": "M870 Barrel - 23\"",
+    "shortName": "M870 23''",
+    "description": "This 23\" barrel is compatible with Remington 870 Wingmaster, 870 SPS (Special Purpose), and 870 Express 12 gauge shotguns. It is finished in matte blue and equipped with a silver front sight bead and ventilated rib to enhance performance and accuracy.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_RemingtonM87023inch_12Gaug.webp",
+    "properties": {
+      "weight": 0.93,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 8,
+      "moa": 29.6,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 176,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_RemingtonM87026inch_12Gaug",
+    "name": "M870 Barrel - 26\"",
+    "shortName": "M870 26''",
+    "description": "This premium ordinance-grade steel barrel has a sleek satin black finish and is tailored for the Remington 870. It features a 26\" length and a pre-installed modified choke tube, providing enhanced versatility and accuracy.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_RemingtonM87026inch_12Gaug.webp",
+    "properties": {
+      "weight": 1.1,
+      "maxStack": 1,
+      "size": {
+        "X": 5,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 12,
+      "moa": 24.5,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 3
+      },
+      "price": 293,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_Ar15105inch_556x45",
+    "name": "AR-15 Barrel - 10.5\"",
+    "shortName": "AR-15 10.5''",
+    "description": "A 266mm barrel designed for the AR-15 weapon platform. It is compatible with 5.56x45mm cartridges.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Ar15105inch_556x45.webp",
+    "properties": {
+      "weight": 0.538,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": -10,
+      "moa": 3.89,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 1
+      },
+      "price": 132,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_Ar15145inch_556x45",
+    "name": "AR-15 Barrel - 14.5\"",
+    "shortName": "AR-15 14.5''",
+    "description": "A 370mm barrel for the AR-15 weapon platform. Compatible with 5.56x45mm cartridges.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Ar15145inch_556x45.webp",
+    "properties": {
+      "weight": 0.725,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 0,
+      "moa": 2.15,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 199,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_Ar1516inch_556x45",
+    "name": "AR-15 Barrel - 16\"",
+    "shortName": "AR-15 16''",
+    "description": "A 406mm barrel, specifically designed for the AR-15 weapon platform. It offers compatibility with various 5.56x45mm cartridges.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Ar1516inch_556x45.webp",
+    "properties": {
+      "weight": 0.793,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 8,
+      "moa": 1.83,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 331,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_Ar1518inch_556x45",
+    "name": "AR-15 Barrel - 18\"",
+    "shortName": "AR-15 18''",
+    "description": "A 457mm barrel, specifically designed for the AR-15 weapon platform. It offers compatibility with various 5.56x45mm cartridges.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Ar1518inch_556x45.webp",
+    "properties": {
+      "weight": 1.27,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 12,
+      "moa": 1.44,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 3
+      },
+      "price": 460,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_Ar1520inch_556x45",
+    "name": "AR-15 Barrel - 20\"",
+    "shortName": "AR-15 20''",
+    "description": "This AR-15 barrel boasts a length of 508mm and is specifically crafted for the AR-15 weapon platform. It offers compatibility with various 5.56x45mm cartridges, providing increased accuracy for your firearm.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Ar1520inch_556x45.webp",
+    "properties": {
+      "weight": 0.97,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 20,
+      "moa": 1.11,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 4
+      },
+      "price": 397,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Barrel_Type51_762x25",
+    "name": "Type 51 Barrel",
+    "shortName": "T51 B",
+    "description": "This barrel is typically made of high-grade steel for durability and resistance to wear. It is designed to handle the pressures generated by the 7.62x25mm Tokarev cartridge and has a rifled bore to stabilize the projectiles.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Type51_762x25.webp",
+    "properties": {
+      "weight": 0.06,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 0,
+      "moa": 12.23,
+      "canAddMuzzleDevice": false,
+      "price": 70,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Barrel_Type51Threaded_762x25",
+    "name": "Type 51 Threaded Barrel",
+    "shortName": "T51 T B",
+    "description": "The Type 51 Tokarev's threaded barrel is made of high-quality steel, providing durability and longevity. This barrel has threading at the muzzle end, allowing for the attachment of muzzle devices like suppressors or compensators. Threaded barrels are designed to withstand the pressures of the 7.62x25mm Tokarev cartridge while maintaining the same precision engineering as standard barrels, providing consistent accuracy and reliability.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Type51Threaded_762x25.webp",
+    "properties": {
+      "weight": 0.062,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 0,
+      "moa": 12.23,
+      "canAddMuzzleDevice": true,
+      "price": 105,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_M70018inchThreaded_762x51",
+    "name": "M700 Threaded Barrel - 18\"",
+    "shortName": "M700 18''",
+    "description": "An 18” threaded barrel for the Remington M700, which is both compact and customizable. The threaded muzzle enables easy attachment of accessories such as suppressors or muzzle brakes, making it a versatile option for those who prioritize maneuverability and personalized firearm setups.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_M70018inchThreaded_762x51.webp",
+    "properties": {
+      "weight": 1.12,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": -8,
+      "moa": 1.02,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 3
+      },
+      "price": 772,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two"
+    }
+  },
+  {
+    "internalName": "Barrel_M70020inchSuppressed_762x51",
+    "name": "M700 Suppressed Barrel - 20\"",
+    "shortName": "M700 Sup 20''",
+    "description": "This 20” barrel for the Remington M700 comes with a built-in suppressor that features a titanium tube and a single-piece monolithic core. The suppressor is available in two caliber options: .308 or 300 Blackout.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_M70020inchSuppressed_762x51.webp",
+    "properties": {
+      "weight": 1.8,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": -4,
+      "moa": 1.1,
+      "canAddMuzzleDevice": false,
+      "sizeExtending": {
+        "Left": 3
+      },
+      "price": 938,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_M70022inchStandart_762x51",
+    "name": "M700 Barrel - 22\"",
+    "shortName": "M700 22''",
+    "description": "This 22” barrel for the Remington M700 is precision-crafted for exceptional accuracy and adaptability. Its threaded design allows for muzzle accessories, striking a balance between maneuverability and bullet velocity. This barrel is ideal for hunting and precision shooting, offering both reliability and performance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_M70022inchStandart_762x51.webp",
+    "properties": {
+      "weight": 1,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 0,
+      "moa": 0.61,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 3
+      },
+      "price": 473,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_M70022inchVTR_762x51",
+    "name": "M700 VTR Barrel -  22\"",
+    "shortName": "M700 VTR 22''",
+    "description": "A 22” barrel for the Remington M700 with a unique triangular profile and built-in muzzle brake. This design delivers both on aesthetics and accuracy, providing a balanced mix of maneuverability and bullet velocity.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_M70022inchVTR_762x51.webp",
+    "properties": {
+      "weight": 1.5,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 2,
+      "moa": 0.55,
+      "canAddMuzzleDevice": false,
+      "sizeExtending": {
+        "Left": 3
+      },
+      "price": 850,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Barrel_M70026inchHeavy_762x51",
+    "name": "M700 Heavy Barrel - 26\"",
+    "shortName": "M700 H 26''",
+    "description": "This 26” barrel is designed for the Remington 700 series rifles and offers easy installation. It has a tapered profile, making it ideal for target shooting. Crafted from high-quality Chromoly steel alloys, each barrel undergoes a meticulous one-at-a-time process to ensure superb accuracy.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_M70026inchHeavy_762x51.webp",
+    "properties": {
+      "weight": 2.05,
+      "maxStack": 1,
+      "size": {
+        "X": 5,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 6,
+      "moa": 0.48,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 4
+      },
+      "price": 946,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Barrel_Mosin514mm_762x54",
+    "name": "Mosin-Nagant Barrel - 514mm",
+    "shortName": "Mosin 514",
+    "description": "This barrel for the Mosin-Nagant bolt-action firearm measures approximately 20.24 inches (514mm), making it a compact and maneuverable option. Its shorter length is ideal for close-quarters engagements and improves handling in confined spaces. Although the 514mm barrel sacrifices some muzzle velocity compared to longer-barreled versions, it still maintains the robustness and reliability characteristic of the Mosin-Nagant design. This variant offers a balance between portability and ballistic performance.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Mosin514mm_762x54.webp",
+    "properties": {
+      "weight": 1,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 0,
+      "moa": 3,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 3
+      },
+      "price": 80,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_Mosin730mm_762x54",
+    "name": "Mosin-Nagant Barrel - 730mm",
+    "shortName": "Mosin 730",
+    "description": "A 730mm (28.74 inch) barrel for the Mosin-Nagant, which contributes to improved muzzle velocity and long-range accuracy. This barrel variant is favored by enthusiasts for its historical significance and ballistic advantages.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Mosin730mm_762x54.webp",
+    "properties": {
+      "weight": 1.45,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 16,
+      "moa": 1.5,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 4
+      },
+      "price": 120,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_Glock17Standard_9x19",
+    "name": "Glock 17 Standard Barrel",
+    "shortName": "G17 B",
+    "description": "A standard, factory-made barrel for the Glock 17.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Glock17Standard_9x19.webp",
+    "properties": {
+      "weight": 0.113,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 0,
+      "moa": 11.7,
+      "canAddMuzzleDevice": false,
+      "price": 105,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_Glock17ZaffiriPrecision_9x19",
+    "name": "Glock 17 Match Grade Barrel",
+    "shortName": "G17 MG B",
+    "description": "A high-quality barrel designed specifically for the Glock 17, engineered with exceptional precision and craftsmanship.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Glock17ZaffiriPrecision_9x19.webp",
+    "properties": {
+      "weight": 0.11,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 4,
+      "moa": 10.82,
+      "canAddMuzzleDevice": false,
+      "price": 157,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_Glock17ZaffiriPrecisionGoldThreaded_9x19",
+    "name": "Glock 17 Match Grade Threaded Barrel (Gold)",
+    "shortName": "G17 MGT B",
+    "description": "A premium barrel designed to elevate the performance of the Glock 17 pistol. With its threaded design and striking gold finish, this barrel offers exceptional precision, durability, and a touch of aesthetic appeal for all firearm enthusiasts.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Glock17ZaffiriPrecisionGoldThreaded_9x19.webp",
+    "properties": {
+      "weight": 0.12,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 6,
+      "moa": 10.94,
+      "canAddMuzzleDevice": true,
+      "price": 314,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four"
+    }
+  },
+  {
+    "internalName": "Barrel_Glock17ZevOptimizedThreaded_9x19",
+    "name": "Optimized Glock 17 Match Grade Threaded Barrel",
+    "shortName": "G17 OMGT B",
+    "description": "Designed specifically for the Glock 17, this threaded barrel variant provides improved performance and reduced recoil.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Glock17ZevOptimizedThreaded_9x19.webp",
+    "properties": {
+      "weight": 0.105,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": 0,
+      "moa": 11.65,
+      "canAddMuzzleDevice": true,
+      "price": 261,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Barrel_Ar15145inch_Norinco_556x45",
+    "name": "AR-15 CQA1 Barrel - 14.5\"",
+    "shortName": "CQA1 14.5''",
+    "description": "The 14.5\" (370mm) AR-15 CQA1 barrel is a Chinese variant of the classic AR-15 design. While it offers the familiar functionality and compatibility of the AR-15 platform, it may have lower quality control standards. However, It still provides a compact and maneuverable option for close to medium-range shooting, making it suitable for certain applications where cost-effectiveness is a priority.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Barrel_Ar15145inch_Norinco_556x45.webp",
+    "properties": {
+      "weight": 0.725,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Barrel",
+      "speed": -4,
+      "moa": 4.18,
+      "canAddMuzzleDevice": true,
+      "sizeExtending": {
+        "Left": 2
+      },
+      "price": 195,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  }
+]

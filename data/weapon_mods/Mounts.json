@@ -1,0 +1,814 @@
+[
+  {
+    "internalName": "Mount_30mmOring",
+    "name": "O-ring - 30mm",
+    "shortName": "30mm Ring",
+    "description": "A simple and reliable mounting solution for attaching a 30mm diameter optic to a compatible firearm.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_30mmOring.webp",
+    "properties": {
+      "weight": 0.199,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 232,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_30mmOringLowProfile",
+    "name": "Low Profile O-ring - 30mm",
+    "shortName": "30mm Low",
+    "description": "A compact and streamlined mounting option designed for attaching a 30mm diameter optic to a compatible firearm. With its low-profile design, it offers a closer alignment with the bore axis, resulting in improved cheek weld and target acquisition.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_30mmOringLowProfile.webp",
+    "properties": {
+      "weight": 0.156,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 209,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_34mmOring",
+    "name": "O-ring - 34mm",
+    "shortName": "34mm Ring",
+    "description": "Designed for attaching optics to modern AR-15 rifles, the Audere Precision Rifle Scope Mount is a top-quality mount specifically crafted for scopes with a 34mm tube diameter, ensuring precision and reliability. The mount is compatible with any 1913 or Picatinny rail, providing versatility and ease of use.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_34mmOring.webp",
+    "properties": {
+      "weight": 0.199,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 232,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_34mmOringLowProfile",
+    "name": "Low Profile O-ring - 34mm",
+    "shortName": "34mm Low",
+    "description": "These scope rings are made of highly durable anodized aluminum, which makes them lightweight and able to withstand harsher treatment. For versatility and ease of use, the mount is compatible with any 1913 or NATO rail.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_34mmOringLowProfile.webp",
+    "properties": {
+      "weight": 0.156,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 209,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_AimpointMicroStandardMount",
+    "name": "Micro Standard Mount",
+    "shortName": "Micro",
+    "description": "A dedicated mounting solution designed for the popular Aimpoint Micro series optics. It provides a secure attachment for the optic to various firearm platforms, ensuring reliable performance.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_AimpointMicroStandardMount.webp",
+    "properties": {
+      "weight": 0.045,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 106,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_AkMountRs",
+    "name": "AK-303M Mount",
+    "shortName": "AK-303M",
+    "description": "The AK-303 side mount has a rail that extends above the receiver, allowing for the installation of optical devices.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_AkMountRs.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 87,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Mount_BlackAcesTacticalPicatinnyQuadRailRemington870",
+    "name": "M870 Picatinny Quad Rail",
+    "shortName": "M870 Quad",
+    "description": "Crafted from solid one-piece T6 6061 aluminum, the Black Aces Tactical Picatinny Quad Rail for Remington 870/1100 offers unmatched durability to withstand even the harshest conditions. This rail is designed to provide a secure and stable platform for mounting various accessories.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_BlackAcesTacticalPicatinnyQuadRailRemington870.webp",
+    "properties": {
+      "weight": 0.453,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 383,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_Glock17L2dCombatStrippedTyton17",
+    "name": "Glock 17 L2 Cover Stripe",
+    "shortName": "L2 Stripe",
+    "description": "The Glock 17 L2 Cover Stripe serves as a practical accessory designed to cover the mounting area for collimators. Its purpose is to provide a clean and streamlined appearance while effectively concealing the unused mounting space on the firearm.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_Glock17L2dCombatStrippedTyton17.webp",
+    "properties": {
+      "weight": 0.033,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 28,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_Glock17SteelCityArsenalP40Warhawk",
+    "name": "Glock 17 P40 Warhawk Cover Stripe",
+    "shortName": "P40W Stripe",
+    "description": "Inspired by World War II, this Glock 17 cover stripe features a captivating design that pays homage to the era. With a star at the top, it perfectly complements the overall P40 design theme. In addition, this striped cover effectively conceals the mounting area for collimators while maintaining the aesthetic integrity of the slide.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_Glock17SteelCityArsenalP40Warhawk.webp",
+    "properties": {
+      "weight": 0.033,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 47,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_Glock17ZevZ17CitadelStrippedSlide",
+    "name": "Z17 Citadel Cover Stripe",
+    "shortName": "Z17 Stripe",
+    "description": "The Glock 17 Zev Z17 Citadel Cover Stripe serves as a covering accessory designed to conceal the mounting area for collimators. It seamlessly complements the aesthetics of the Zev Z17 Citadel slide design.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_Glock17ZevZ17CitadelStrippedSlide.webp",
+    "properties": {
+      "weight": 0.035,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 47,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_GlockMicroMount",
+    "name": "Glock Micro Mount",
+    "shortName": "Glock Micro",
+    "description": "This mount is designed for Glock pistols and connects directly to the slide. It's designed specifically for first-generation Micro Series sights like the Micro T-1/H-1 to ensure a perfect fit.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_GlockMicroMount.webp",
+    "properties": {
+      "weight": 0.025,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 46,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Mount_HolosunHighMount",
+    "name": "High Sight Mount",
+    "shortName": "HS Mount",
+    "description": "A specialized mounting solution designed for Holosun optics. It allows for easy installation and secure attachment of the optic to various firearm platforms. The high-mount design raises the optic's position, providing a more comfortable and ergonomic shooting experience.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_HolosunHighMount.webp",
+    "properties": {
+      "weight": 0.04,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 195,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_HolosunLowMount",
+    "name": "Low Sight Mount",
+    "shortName": "LS Mount",
+    "description": "A specialized mounting solution designed for Holosun optics. It allows for easy installation and secure attachment of the optic to various firearm platforms. With its low-profile design, the mount positions the optic closer to the bore axis, resulting in improved sight alignment and reduced sight-over-bore offset.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_HolosunLowMount.webp",
+    "properties": {
+      "weight": 0.04,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 188,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_KochetovringsforPu3522",
+    "name": "PU 3.5×22 Kochetov Rings",
+    "shortName": "PU Rings",
+    "description": "Steel base rings for the PU 3.5x22.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_KochetovringsforPu3522.webp",
+    "properties": {
+      "weight": 0.25,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 18,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_M700PicatinnyRail",
+    "name": "M700 Picattiny Rail",
+    "shortName": "M700 rail",
+    "description": "These MIL-STD 1913 Picatinny Rails are lightweight and designed to mount directly onto the flattop receiver of short-action firearms.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_M700PicatinnyRail.webp",
+    "properties": {
+      "weight": 0.15,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 47,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_MdtPremiumScopeRings",
+    "name": "Premier Scope Rings - 30mm",
+    "shortName": "PSR 30mm",
+    "description": "The MDT 30mm Premier Scope Rings are high-quality, robust, and lightweight. These rings are designed to withstand harsh conditions with a sturdy construction that ensures the scope remains securely mounted.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_MdtPremiumScopeRings.webp",
+    "properties": {
+      "weight": 0.113,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 209,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Mount_MesaTacticalPicatinnyRailRemington870",
+    "name": "M870 Picatinny Rail",
+    "shortName": "M870 Pic",
+    "description": "This 20” rail allows for mounting a variety of optics, including those commonly used on AR-15 rifles. This setup enables the use of iron sights typically found on AR-15 platforms. Additionally, the Picatinny rail provides flexibility for mounting optics with varying degrees of eye relief, accommodating individual preferences and shooting styles.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_MesaTacticalPicatinnyRailRemington870.webp",
+    "properties": {
+      "weight": 0.65,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 191,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_MLokRail3slot",
+    "name": "M-LOK Rail - 3 slot",
+    "shortName": "M-Lok 3",
+    "description": "Designed to be compatible with all M-LOK-equipped handguards and forearms, the 3-slot M-LOK aluminum rail sections allow for mounting a variety of 1913 Picatinny specification accessories, including lights, vertical grips, and more.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_MLokRail3slot.webp",
+    "properties": {
+      "weight": 0.09,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 16,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_MLokRail5slot",
+    "name": "M-LOK Rail - 5 slot",
+    "shortName": "M-Lok 5",
+    "description": "A lightweight and durable 5-slot rail made from high-quality aluminum. Designed for use with all M-LOK compatible Hand Guards and Forends, this rail allows for easy attachment of various tactical accessories like grips and lights, providing enhanced customization options for your firearm.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_MLokRail5slot.webp",
+    "properties": {
+      "weight": 0.045,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 19,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_MLokRail7slot",
+    "name": "M-LOK Rail - 7 slot",
+    "shortName": "M-Lok 7",
+    "description": "A lightweight and durable 7-slot rail made from high-quality aluminum. Designed for use with all M-LOK compatible Hand Guards and Forends, this rail allows for easy attachment of various tactical accessories like grips and lights, providing enhanced customization options for your firearm.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_MLokRail7slot.webp",
+    "properties": {
+      "weight": 0.08,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 22,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_MLokRail9slot",
+    "name": "M-LOK Rail - 9 slot",
+    "shortName": "M-Lok 9",
+    "description": "Created for compatibility with any M-LOK-equipped hand guards and forends, the 9-slot M-LOK Aluminum Rail Sections enable the mounting of diverse accessories adhering to the 1913 Picatinny-Spec rail standard, including lights, vertical grips, and more.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_MLokRail9slot.webp",
+    "properties": {
+      "weight": 0.09,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 26,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_ModXRail",
+    "name": "M700 MOD*X Rail",
+    "shortName": "MOD*X Rail",
+    "description": "A precision-engineered Scope Rail designed for the AB Arms ModX Chassis. It is made from 6061-T6 aluminum and has been Mil-Spec Type III hard coat anodized for added durability.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_ModXRail.webp",
+    "properties": {
+      "weight": 0.15,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 56,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_MosinKochetovMount",
+    "name": "Kochetov Mount",
+    "shortName": "Kochetov",
+    "description": "This side base is an exact replica of the design used during WW2 for the Mosin-Nagant rifle. It provides a sturdy foundation and remains faithful to the historical design. However, installation requires the expertise of a gunsmith to ensure proper fitting and functionality.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_MosinKochetovMount.webp",
+    "properties": {
+      "weight": 0.25,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 29,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_MosinNagantTriRailScopeMount",
+    "name": "Mosin-Nagant Tri-Rail Scope Mount",
+    "shortName": "Tri-Rail",
+    "description": "The MNT-MNTR01 offers tactical versatility for the Mosin-Nagant, featuring an extended top rail to accommodate various rifle scope positions, allowing seamless adjustment of eye relief.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_MosinNagantTriRailScopeMount.webp",
+    "properties": {
+      "weight": 0.26,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 29,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_MossbergPicatinnyScopeRail",
+    "name": "M590 Picatinny Scope Rail",
+    "shortName": "M590 Pic",
+    "description": "This Picatinny/Scope mount for Mossberg shotguns allows for the attachment of various accessories, optics, and lights, enhancing their versatility and functionality.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_MossbergPicatinnyScopeRail.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 123,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_OriginalBp02AkAkmSideMount",
+    "name": "AK/AKM BP-02 Side Mount",
+    "shortName": "BP-02",
+    "description": "The BP-02 side mount is a quick-release mount with a weaver rail, and its lower part is compatible with AK and Saiga types. This rugged construction is made of aluminum alloy.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_OriginalBp02AkAkmSideMount.webp",
+    "properties": {
+      "weight": 0.181,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 101,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_ScalarworksLeap01",
+    "name": "LEAP/01 Mount",
+    "shortName": "LEAP/01",
+    "description": "A top-tier precision optic mount that delivers stability and repeatability. Constructed from advanced materials, the LEAP/01 is not only robust but also remarkably lightweight, minimizing additional weight on your firearm setup.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_ScalarworksLeap01.webp",
+    "properties": {
+      "weight": 0.045,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 212,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_ShockwaveQuadRailforM590",
+    "name": "M590 Shockwave Quad Rail",
+    "shortName": "Quad Rail",
+    "description": "This quad rail is designed to enhance the Mossberg 590 shotgun. Its durable construction provides a solid platform for attaching various tactical accessories while ensuring stability and accuracy during critical situations.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_ShockwaveQuadRailforM590.webp",
+    "properties": {
+      "weight": 0.284,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 151,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_SksRearSightPicatinnyRail",
+    "name": "SKS Rear Sight Picatinny Rail",
+    "shortName": "SKS Rear Rail",
+    "description": "This mount is compatible with all SKS variants and features a low-profile design and an integral rear sight notch that provides backup iron sight with the optic removed.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_SksRearSightPicatinnyRail.webp",
+    "properties": {
+      "weight": 0.05,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 68,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_TrijiconAcogMount",
+    "name": "ACOG Mount",
+    "shortName": "ACOG Mount",
+    "description": "An intermediate piece used for mounting ACOG sights to Picatinny rails.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_TrijiconAcogMount.webp",
+    "properties": {
+      "weight": 0.113,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 94,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_UtgMtMb590MossbergRail",
+    "name": "MT-MB590 Optic Rail Mount",
+    "shortName": "MT-MB590",
+    "description": "The UTG Mossberg 500/590 Scope Mount with Side Saddle Shell Holder and Picatinny Rail is made from a 6061-T6 matte black hard anodized aluminum construction. It is an ideal choice for quickly mounting optics and accessories on the 12-gauge Mossberg 500 and 590 tactical shotguns.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_UtgMtMb590MossbergRail.webp",
+    "properties": {
+      "weight": 0.12,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 75,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_Vz61TacticalMount",
+    "name": "Vz. 61 Tactical Mount",
+    "shortName": "Vz.61 Tac",
+    "description": "This barrel mount is crafted for the Vz. 61 Skorpion and its civilian models. It includes dual Weaver/Picatinny rails and a threaded adapter for a flash suppressor, with an option for a sound suppressor. Designed for error-free installation, it's made of high-strength duralumin for a lasting performance.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_Vz61TacticalMount.webp",
+    "properties": {
+      "weight": 0.098,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 75,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_ZenitcoB13Rail",
+    "name": "B-13 Rail",
+    "shortName": "B-13",
+    "description": "The B-13 rail can be installed on a regular dovetail joint on the receiver of AK platform rifles. It allows for the installation of sights on the rifle and creates a Picatinny rail over the weapon's receiver.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_ZenitcoB13Rail.webp",
+    "properties": {
+      "weight": 0.175,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 169,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  },
+  {
+    "internalName": "Mount_KeyModRail5slot",
+    "name": "KeyMod Rail - 5 Slot",
+    "shortName": "KeyMod 5",
+    "description": "Constructed from high-quality 6061-T6 aluminum and finished with a Mil-Spec anodized coating, this rail is designed specifically for KeyMod handguard rail systems. It features bottom protrusions for added stability and a built-in 1913 Mil-Spec Picatinny rail for versatile attachment mounting. The curved edge design provides protection against scratches and hand injuries.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_KeyModRail5slot.webp",
+    "properties": {
+      "weight": 0.175,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 293,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_KeyModRail7slot",
+    "name": "KeyMod Rail - 7 Slot",
+    "shortName": "KeyMod 7",
+    "description": "Constructed from high-quality 6061-T6 aluminum and finished with a Mil-Spec anodized coating, this rail is designed specifically for KeyMod handguard rail systems. It features bottom protrusions for added stability and a built-in 1913 Mil-Spec Picatinny rail for versatile attachment mounting. The curved edge design provides protection against scratches and hand injuries.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_KeyModRail7slot.webp",
+    "properties": {
+      "weight": 0.175,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 293,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Mount_Glock17VortexViper",
+    "name": "Glock 17 Vortex Viper Adapter",
+    "shortName": "Viper",
+    "description": "The VORTEX VIPER Red Dot Mount adapter is a high-quality red dot mount plate for Glock pistols.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_Glock17VortexViper.webp",
+    "properties": {
+      "weight": 0.1,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 37,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Mount_SksKodiakDefenceRail",
+    "name": "SKS 101 Advanced Rail System",
+    "shortName": "SKS A Rail",
+    "description": "This Advanced Rail System is machined from a single block of high-quality 6061-T6 aircraft-grade aluminum for durability and reliability. Its Mil-Spec Type III hard black anodized finish enhances resistance to wear and tear. It also includes an integrated shell deflector to prevent malfunctions and protect optics from potential damage.",
+    "category": "WeaponParts",
+    "type": "Attachments",
+    "imageName": "T_Icon_Mount_SksKodiakDefenceRail.webp",
+    "properties": {
+      "weight": 0.22,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 1
+      },
+      "type": "Mount",
+      "price": 113,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three"
+    }
+  }
+]

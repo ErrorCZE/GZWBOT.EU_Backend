@@ -1,0 +1,50 @@
+[
+  {
+    "internalName": "Med_Splint_FlexibleSplint",
+    "name": "Flexible Splint",
+    "shortName": "Splint",
+    "description": "A compact and strong splint crafted to provide support and immobilization for injured limbs. Designed to be lightweight and easy to apply, it will fit almost any fracture.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Splint_FlexibleSplint.webp",
+    "properties": {
+      "weight": 0.13,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Splint",
+      "uses": 5,
+      "efficiency": 1,
+      "price": 13,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Splint_CivilianFlexibleSplint",
+    "name": "Civilian Flexible Splint",
+    "shortName": "Splint",
+    "description": "A lightweight and adaptable medical device used to immobilize and support injured limbs, particularly in emergency situations or in the absence of professional medical care",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Splint_CivilianFlexibleSplint.webp",
+    "properties": {
+      "weight": 0.15,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Splint",
+      "uses": 3,
+      "efficiency": 1,
+      "price": 8,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  }
+]

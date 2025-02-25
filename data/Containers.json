@@ -1,0 +1,184 @@
+[
+  {
+    "internalName": "Case_KeyCase",
+    "name": "Key Case",
+    "shortName": "Key C",
+    "description": "A hardened key case that provides a convenient and safe way to store your keys.",
+    "category": "Containers",
+    "type": "Cases",
+    "imageName": "T_Icon_Case_KeyCase.webp",
+    "properties": {
+      "weight": 0.02,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "Container",
+      "innerSize": {
+        "X": 3,
+        "Y": 3
+      },
+      "price": 2147,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Case_LeatherWallet",
+    "name": "Leather Wallet",
+    "shortName": "Wallet",
+    "description": "A leather wallet for storing your hard-earned money.",
+    "category": "Containers",
+    "type": "Cases",
+    "imageName": "T_Icon_Case_LeatherWallet.webp",
+    "properties": {
+      "weight": 0.06,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Container",
+      "innerSize": {
+        "X": 2,
+        "Y": 2
+      },
+      "price": 1156,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Case_LeatherKeyHolder",
+    "name": "Leather Key Holder",
+    "shortName": "Key H",
+    "description": "A leather key holder to help you organize your keys.",
+    "category": "Containers",
+    "type": "Cases",
+    "imageName": "T_Icon_Case_LeatherKeyHolder.webp",
+    "properties": {
+      "weight": 0.048,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Container",
+      "innerSize": {
+        "X": 2,
+        "Y": 2
+      },
+      "price": 1610,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Kit_MfakMini",
+    "name": "Mini First Aid Kit",
+    "shortName": "M-FAK",
+    "description": "A compact, multi-use first aid kit designed to hold essential equipment for treating traumatic injuries.",
+    "category": "MedicalItems",
+    "type": "Medkits",
+    "imageName": "T_Icon_Med_Kit_MfakMini.webp",
+    "properties": {
+      "weight": 0.4,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Medkit",
+      "innerSize": {
+        "X": 2,
+        "Y": 1
+      },
+      "price": 218,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Kit_RipAwayEmtPouch",
+    "name": "Rip-Away EMT Pouch",
+    "shortName": "EMT",
+    "description": "This pouch is compatible with MOLLE webbing and designed to be easily ripped away from the modular platform when needed. Equipped with organized compartments and elastic loops to secure medical items such as bandages, scissors, tourniquets, and other tools, the Rip-Away EMT Pouch is particularly valuable for first responders, medics, and individuals requiring rapid access to medical gear.",
+    "category": "MedicalItems",
+    "type": "Medkits",
+    "imageName": "T_Icon_Med_Kit_RipAwayEmtPouch.webp",
+    "properties": {
+      "weight": 0.4,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 2
+      },
+      "type": "Medkit",
+      "innerSize": {
+        "X": 3,
+        "Y": 3
+      },
+      "price": 367,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Kit_QuickReleaseFirstAidKit",
+    "name": "Quick Release First Aid Kit",
+    "shortName": "QRKit",
+    "description": "Designed for quick and seamless access to essential medical supplies, this first aid kit incorporates a quick-release mechanism that allows for swift opening and deployment, ensuring immediate access to supplies during critical moments. The Quick Release First Aid Kit is particularly well-suited for situations where time is of the essence, such as emergencies and field operations.",
+    "category": "MedicalItems",
+    "type": "Medkits",
+    "imageName": "T_Icon_Med_Kit_QuickReleaseFirstAidKit.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 2
+      },
+      "type": "Medkit",
+      "innerSize": {
+        "X": 2,
+        "Y": 2
+      },
+      "price": 274,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Kit_HardCaseFirstAidKit",
+    "name": "Hard Case First Aid Kit",
+    "shortName": "HCKit",
+    "description": "A small civilian-grade first aid kit containing essential medical supplies.",
+    "category": "MedicalItems",
+    "type": "Medkits",
+    "imageName": "T_Icon_Med_Kit_HardCaseFirstAidKit.webp",
+    "properties": {
+      "weight": 0.3,
+      "maxStack": 1,
+      "size": {
+        "X": 1,
+        "Y": 1
+      },
+      "type": "Medkit",
+      "innerSize": {
+        "X": 2,
+        "Y": 1
+      },
+      "price": 148,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "internalName": "Med_Surg_BasicSurgicalSutureKit",
+    "name": "Basic Surgical & Suture Kit",
+    "shortName": "SurKit",
+    "description": "A comprehensive medical package containing essential tools for minor surgical procedures to treat organ injury. It includes surgical instruments such as scissors, forceps, and needle holders, along with suture materials.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Surg_BasicSurgicalSutureKit.webp",
+    "properties": {
+      "weight": 0.2,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "SurgeryKit",
+      "uses": 6,
+      "efficiency": 1,
+      "price": 62,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Med_Surg_SmallSutureKit",
+    "name": "Small Suture Kit",
+    "shortName": "SutKit",
+    "description": "A compact and portable medical package designed for suturing purposes. It includes a selection of sutures, needles, and basic instruments required for stabilizing injured organs.",
+    "category": "MedicalItems",
+    "type": "Medicaments",
+    "imageName": "T_Icon_Med_Surg_SmallSutureKit.webp",
+    "properties": {
+      "weight": 0.2,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "SurgeryKit",
+      "uses": 3,
+      "efficiency": 1,
+      "price": 51,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 2
+    }
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "internalName": "Armor_ModularOperatorCarrierGenII",
+    "name": "Modular Operator Carrier Gen II",
+    "shortName": "MOC II",
+    "description": "An advanced and versatile tactical vest designed to provide reliable protection and adaptability for military and law enforcement personnel. With its modular design, it offers customizable load-carrying capabilities to accommodate various mission requirements.",
+    "category": "Gear",
+    "type": "ArmorPlateCarriers",
+    "imageName": "T_Icon_Armor_ModularOperatorCarrierGenII.webp",
+    "properties": {
+      "weight": 3.39,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "ArmorPlateCarrier",
+      "innerSize": {
+        "X": 4,
+        "Y": 2
+      },
+      "overallJoules": 13500,
+      "minimumDamageJoules": 10,
+      "plates": [
+        "Front",
+        "Back",
+        "Side"
+      ],
+      "class": "IIIA",
+      "material": "UHMWPE",
+      "price": 585,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Armor_Lancer",
+    "name": "CZ 4M Lancer",
+    "shortName": "Lancer",
+    "description": "The CZ 4M Lancer offers advanced ballistic protection for high-risk operations. With its unique anatomic design, it ensures optimal weight distribution between the operator's back and torso, reducing shoulder strain during extended wear.",
+    "category": "Gear",
+    "type": "ArmorPlateCarriers",
+    "imageName": "T_Icon_Armor_Lancer.webp",
+    "properties": {
+      "weight": 9.55,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "ArmorPlateCarrier",
+      "innerSize": {
+        "X": 4,
+        "Y": 2
+      },
+      "overallJoules": 22500,
+      "plates": [
+        "Front",
+        "Back"
+      ],
+      "class": "III",
+      "material": "Steel",
+      "price": 834,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Armor_M2",
+    "name": "M2 Plate Carrier",
+    "shortName": "M2",
+    "description": "This versatile plate carrier is used by the National Guard of Russia. Offering excellent protection while remaining compact and lightweight, the M2 features a modular design that allows for easy customization and adjustment to accommodate different mission requirements and gear setups.",
+    "category": "Gear",
+    "type": "ArmorPlateCarriers",
+    "imageName": "T_Icon_Armor_M2.webp",
+    "properties": {
+      "weight": 7.64,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 4
+      },
+      "type": "ArmorPlateCarrier",
+      "innerSize": {
+        "X": 4,
+        "Y": 3
+      },
+      "overallJoules": 18720,
+      "minimumDamageJoules": 150,
+      "plates": [
+        "Front",
+        "Back"
+      ],
+      "class": "III+",
+      "material": "Ceramic",
+      "price": 811,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 6
+    }
+  },
+  {
+    "internalName": "Armor_Specter",
+    "name": "Specter",
+    "shortName": "Specter",
+    "description": "With its streamlined and low-profile design, the Specter plate carrier offers a discreet and efficient platform for carrying plates during surveillance operations.",
+    "category": "Gear",
+    "type": "ArmorPlateCarriers",
+    "imageName": "T_Icon_Armor_Specter.webp",
+    "properties": {
+      "weight": 1.48,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 3
+      },
+      "type": "ArmorPlateCarrier",
+      "innerSize": {
+        "X": 3,
+        "Y": 2
+      },
+      "overallJoules": 10000,
+      "minimumDamageJoules": 10,
+      "plates": [
+        "Front",
+        "Back"
+      ],
+      "class": "IIIA",
+      "material": "Aramid",
+      "price": 491,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  },
+  {
+    "internalName": "Armor_Pantsir20",
+    "name": "Pantsir 2.0",
+    "shortName": "Pantsir 2.0",
+    "description": "The Pantsir 2.0 is a Russian plate carrier compatible with 265x 340mm SAPI, ESAPI, and Granit plates, featuring additional soft armor. It provides ballistic defense against threats in high-risk operational environments and can be fitted with climatic inserts that reduce sweating and increase the wearer's comfort.",
+    "category": "Gear",
+    "type": "ArmorPlateCarriers",
+    "imageName": "T_Icon_Armor_Pantsir20.webp",
+    "properties": {
+      "weight": 8.48,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 4
+      },
+      "type": "ArmorPlateCarrier",
+      "innerSize": {
+        "X": 3,
+        "Y": 3
+      },
+      "overallJoules": 18000,
+      "minimumDamageJoules": 150,
+      "plates": [
+        "Front",
+        "Back"
+      ],
+      "class": "III",
+      "material": "Ceramic",
+      "price": 843,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 7
+    }
+  },
+  {
+    "internalName": "Armor_Cgpc3Tqs",
+    "name": "CGPC3 TQS",
+    "shortName": "CGPC3",
+    "description": "A low-profile, lightweight, and fully modular plate carrier made in the Czech Republic. With its sturdy construction and advanced materials, it offers reliable defense against ballistic threats and fragmentation, while its Tube Quick System allows for comfortable and silent unfastening.",
+    "category": "Gear",
+    "type": "ArmorPlateCarriers",
+    "imageName": "T_Icon_Armor_Cgpc3Tqs.webp",
+    "properties": {
+      "weight": 2.732,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "ArmorPlateCarrier",
+      "innerSize": {
+        "X": 3,
+        "Y": 3
+      },
+      "overallJoules": 13500,
+      "minimumDamageJoules": 10,
+      "plates": [
+        "Front",
+        "Back"
+      ],
+      "class": "IIIA",
+      "material": "UHMWPE",
+      "price": 522,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Armor_Rpc",
+    "name": "Recon Plate Carrier",
+    "shortName": "RPC",
+    "description": "A lightweight and versatile low-profile plate carrier offering enhanced mobility without compromising protection. It is trusted by professionals for its durability and adaptability, making it an ideal choice for those facing dynamic and challenging environments.",
+    "category": "Gear",
+    "type": "ArmorPlateCarriers",
+    "imageName": "T_Icon_Armor_Rpc.webp",
+    "properties": {
+      "weight": 5.6,
+      "maxStack": 1,
+      "size": {
+        "X": 3,
+        "Y": 3
+      },
+      "type": "ArmorPlateCarrier",
+      "innerSize": {
+        "X": 3,
+        "Y": 3
+      },
+      "overallJoules": 21060,
+      "minimumDamageJoules": 30,
+      "plates": [
+        "Front",
+        "Back"
+      ],
+      "class": "III+",
+      "material": "UHMWPE",
+      "price": 879,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Four",
+      "source": 3
+    }
+  },
+  {
+    "internalName": "Armor_ChestRig901Elite4",
+    "name": "Chest Rig 901 Elite 4",
+    "shortName": "Elite 4",
+    "description": "A high-performance and versatile tactical gear designed to provide efficient load-carrying capabilities for military and law enforcement. This version allows for a ballistic plate to be worn in its wider upper section, while still enabling the user to get in and out of the rig at speed and without any assistance.",
+    "category": "Gear",
+    "type": "ArmorPlateCarriers",
+    "imageName": "T_Icon_Armor_ChestRig901Elite4.webp",
+    "properties": {
+      "weight": 6.3,
+      "maxStack": 1,
+      "size": {
+        "X": 4,
+        "Y": 3
+      },
+      "type": "ArmorPlateCarrier",
+      "innerSize": {
+        "X": 4,
+        "Y": 3
+      },
+      "overallJoules": 22500,
+      "plates": [
+        "Front"
+      ],
+      "class": "III",
+      "material": "Steel",
+      "price": 600,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Three",
+      "source": 1
+    }
+  }
+]

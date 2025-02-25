@@ -1,0 +1,79 @@
+[
+  {
+    "internalName": "Stock_ColtM4Buffertube",
+    "name": "M4 Buffer Tube",
+    "shortName": "M4 Buffer Tube",
+    "description": "A receiver extension compatible with the AR-15 platform. It provides a secure mounting point for the stock and aids in mitigating recoil, resulting in enhanced shooting comfort and improved control.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_ColtM4Buffertube.webp",
+    "properties": {
+      "weight": 0.108,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "BufferTube",
+      "recoilControl": 2,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 67,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 1
+    }
+  },
+  {
+    "internalName": "Stock_NorincoQCA1Buffertube",
+    "name": "CQ A1 Buffer Tube",
+    "shortName": "CQA1 BTube",
+    "description": "A receiver extension for the Norinco CQ A1. It provides a secure mounting point for the stock and aids in mitigating recoil, resulting in enhanced shooting comfort and improved control. Similar to other Norinco CQ parts, it may exhibit differences in quality compared to its Western counterparts.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_NorincoQCA1Buffertube.webp",
+    "properties": {
+      "weight": 0.108,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "BufferTube",
+      "recoilControl": 0,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 55,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::One"
+    }
+  },
+  {
+    "internalName": "Stock_ColtM4BuffertubeFDE",
+    "name": "M4 Buffer Tube (FDE)",
+    "shortName": "M4 Buffer Tube",
+    "description": "A receiver extension compatible with the AR-15 platform. It provides a secure mounting point for the stock and aids in mitigating recoil, resulting in enhanced shooting comfort and improved control.",
+    "category": "WeaponParts",
+    "type": "FunctionalParts",
+    "imageName": "T_Icon_Stock_ColtM4BuffertubeFDE.webp",
+    "properties": {
+      "weight": 0.108,
+      "maxStack": 1,
+      "size": {
+        "X": 2,
+        "Y": 1
+      },
+      "type": "BufferTube",
+      "recoilControl": 2,
+      "sizeExtending": {
+        "Right": 1
+      },
+      "price": 67,
+      "sellRate": 0.3,
+      "level": "EMFGItemValueLevel::Two",
+      "source": 2
+    }
+  }
+]
